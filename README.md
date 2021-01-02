@@ -1,45 +1,124 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">General Gielinor Game</h1>
 
-Welcome USER_NAME,
+I have created this project (Milestone project 2) as part of my Full Stack Web Development course with [Code Institute](https://codeinstitute.net/).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [Runescape](https://www.runescape.com). I have been playing this game since 2001 and have such acquired a lot of game knowledge, so I thought what better idea for a interactive game?
 
-## Gitpod Reminders
+---
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Contents
 
-`python3 -m http.server`
+- [**User Experience Design (UXD)**](<#user-experience-design>)
 
-A blue button should appear to click: *Make Public*,
+  - [Project Goals](<#project-goals>)
+  - [Content Requirements](<#content-requirements>)
+  - [Importance and Feasibility chart](<#importance-and-feasibility-chart>)
+  - [User Stories](<#user-stories>)
+  - [What is needed now and in future?](<#what-is-needed-now-and-in-future>)
+  - [Website Structure](<#website-structure>)
+  - [Design Decisions from UXD](<#design-decisions-from-uxd>)
+    - Colour Scheme
+    - Images
+    - Typography
+  - [Wireframes](<#wireframes>)
+  - [Design Changes](<#design-changes>)
 
-Another blue button should appear to click: *Open Browser*.
+- [**Features**](#features)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- [**Technologies**](#technologies)
 
-A blue button should appear to click: *Make Public*,
+- [**Testing**](#testing)
 
-Another blue button should appear to click: *Open Browser*.
+- [**Deployment**](#deployment)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- [**Credits**](#credits)
+  
+  ___
 
-## Updates Since The Instructional Video
+## User Experience Design
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Project Goals
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The idea is to create an interactive general knowledge game about [Runescape](https://www.runescape.com/) an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are present with the reasoning behind the question and why it is correct. There are no wrong answers but you won't be punished for learning. It's a crucial part of understanding any concept, we are all learing everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Content Requirements
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### User stories
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### What is needed now and in future?
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Website Structure
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+###  Design Decisions from UXD
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Colour Scheme
 
---------
+#### Images
 
-Happy coding!
+#### Typography
+
+### Wireframes
+
+### Design changes
+
+#### [Back to top](#contents)
+
+---
+
+## Features
+
+---
+
+## Technologies
+
+---
+
+### Languages
+
+---
+
+### Frameworks, libraries and programs
+
+#### [Back to top](#contents)
+
+---
+
+## Testing
+
+
+#### [Back to top](#contents)
+
+---
+
+## Deployment
+
+### Project Inception
+
+1. This project was created using [GitHub](https://github.com) and Code Institutes project template [here](https://github.com/Code-Institute-Org/gitpod-full-template) by clicking "Use this template".
+2. I named this project "general-gielinor game" as it is the name of the quiz on the website.
+3. Once the repository had been created I clicked the "Gitpod" button which is a Firefox extension ([here](https://addons.mozilla.org/en-GB/firefox/addon/gitpod/)) that creates a workspace within GitPod which is where I coded the project.
+4. Following [Code Institute's](https://codeinstitute.net/) lessons the 4 main commands I used were:
+    + ```git status``` (which allows me to check which files have been modified and if any are ready to be committed)
+    + ```git add .``` (which adds all changed files within my project's directory to be committed)
+    + ```git commit -m "[TYPE] Reason"``` (which commits all changes to my project using a category prefix and a specific reason for that commit)
+    + ```git push``` (this command pushes all committed changes to the live version of my site on Github Pages)
+
+### Deploying to Github pages
+
+### Creating a local clone
+
+#### [Back to top](#contents)
+
+---
+
+## Credits
+
+### Content
+
+### Media
+
+### Acknowledgments
+
+#### [Back to top](#contents)
+
+---
