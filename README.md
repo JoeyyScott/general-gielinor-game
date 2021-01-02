@@ -12,7 +12,6 @@ General Gielinor Game is an interactive quiz designed to help you improve your k
 
   - [Project Goals](<#project-goals>)
   - [Content Requirements](<#content-requirements>)
-  - [Importance and Feasibility chart](<#importance-and-feasibility-chart>)
   - [User Stories](<#user-stories>)
   - [What is needed now and in future?](<#what-is-needed-now-and-in-future>)
   - [Website Structure](<#website-structure>)
@@ -39,7 +38,7 @@ General Gielinor Game is an interactive quiz designed to help you improve your k
 
 ### Project Goals
 
-The idea is to create an interactive general knowledge game about [Runescape](https://www.runescape.com/) an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are present with the reasoning behind the question and why it is correct. There are no wrong answers but you won't be punished for learning. It's a crucial part of understanding any concept, we are all learing everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
+The idea is to create an interactive general knowledge game about [Runescape](https://www.runescape.com/) an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are present with the reasoning behind the question and why it is correct. There are wrong answers but you won't be punished for learning. It's a crucial part of understanding any concept, we are all learing everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
 
 ### Content Requirements
 
