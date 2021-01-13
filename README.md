@@ -12,8 +12,8 @@ General Gielinor Game is an interactive quiz designed to help you improve your k
 
   - [Project Goals](<#project-goals>)
   - [Content Requirements](<#content-requirements>)
+  - [Importance and Feasibility chart](<#importance-and-feasibility-chart>)
   - [User Stories](<#user-stories>)
-  - [What is needed now and in future?](<#what-is-needed-now-and-in-future>)
   - [Website Structure](<#website-structure>)
   - [Design Decisions from UXD](<#design-decisions-from-uxd>)
     - Colour Scheme
@@ -38,25 +38,87 @@ General Gielinor Game is an interactive quiz designed to help you improve your k
 
 ### Project Goals
 
-The idea is to create an interactive general knowledge game about [Runescape](https://www.runescape.com/) an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are present with the reasoning behind the question and why it is correct. There are wrong answers but you won't be punished for learning. It's a crucial part of understanding any concept, we are all learing everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
+The idea is to create an interactive general knowledge game about RuneScape an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are present with the reasoning behind the question and why it is correct. There are wrong answers but you will not be punished for learning. It is a crucial part of understanding any concept, we are all learing everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
 
 ### Content Requirements
 
+The main points I want to achieve with this project are;
+
++ To showcase my skills as a Web Developer using HTML, CSS and JavaScript.
++ To provide users with interactive game to teach them about RuneScape.
++ To create an environment where users feel welcomed and want to learn.
++ To build a game that only provides knowledge but the reasoning behind it.
+
+### Importance and Feasibility chart
+
+Opportunity/Problem | Importance | Viability/Feasibility
+:-------- |:--------:|:--------:
+A. Information on why answers are correct | 5 | 5
+B. Game instructions | 5 | 5
+C. Game start button | 5 | 4
+D. Different themes of questions | 5 | 2
+E. Repeat button after quiz | 5 | 4
+
 ### User stories
 
-### What is needed now and in future?
+- #### User goals
+
+    + As a **user**, I want to understand the website's purpose on my first visit.
+    + As a **user**, I want to easily be able to use the desired function of the site.
+    + As a **user**, I want to expand my RuneScape game knowledge in an intuitve way.
+    + As a **user**, I want to be able to view and use the site on any device.  
+    + As a **user**, I want to see other work the site owner has created.
+    + As a **user**, I want to be able contact the site owner with any queries I have about the site.
+    + As a **user**, I want to be able to navigate through the whole site smoothly.
+    + As a **user**, I want to know if my guess was correct or not and why.
+    + As a **user**, I want a way to initiate the game on my action.
+    + As a **user**, I want to learn more about the game RuneScape.
+    + As a **user**, I want a way to return to the home page after the quiz has ended.
+    + As a **user**, I want to enjoy playing and learning in General Gielinor Game.
+
+- #### Site Owner Goals
+
+	+ As a **site owner**, I want the user to be greeted with brief introduction message and a run down on how to play the game so they can easily understand the whole website.
+	+ As a **site owner**, I want the user to be able to intuitively navigate the entire site on their first visit.
+	+ As a **site owner**, I want to include links to my GitHub and LinkedIn profile so the user can view other projects I have contributed to.
+	+ As a **site owner**, I want to create an engaging, interactive experience through the quiz and site. 
+	+ As a **site owner**, I want to create a site that provides a welcoming atmosphere to learn about RuneScape.
+	+ As a **site owner**, I want to provide the user with feedback about whether their answer is correct or not and the reasoning why after each question.
+	+ As a **site owner**, I want to create a quiz that will help users learn about the MMORPG RuneScape.
+	+ As a **site owner**, I want to include a form within a modal that can be accessed anywhere and allows the user to provide feedback.
 
 ### Website Structure
+
+
++ This project is aimed at either new, returning or veteran RuneScape player's and I wanted to recreate the traditional RuneScape feel with my design. From how you are presented with the area that displays the quiz to the colours throughout the project you get the classic RuneScape vibe.
+
++ I wanted to keep the design of the website simple so as not to distract the user from the main content of the site.
+
++ The site is entirely in **index.html** which includes the welcome screen with quiz instructions and a way to initiate the quiz. There will be a home button on the top left of the site to follow modern conventions.
 
 ###  Design Decisions from UXD
 
 #### Colour Scheme
 
+![Colour Scheme](assets/images/readme/colourscheme.png)
+
+Using a combination of [coolors.co](https://coolors.co/) and [Accessible Color Generator Tool](https://learnui.design/tools/accessible-color-generator.html) I was able to create a colour scheme that fits in with RuneScape's vibe and traditional colours. 
+
 #### Images
+
+![Background image to be tiled](assets/images/background.png)
+
+The quizmaster image comes from the Old School RuneScape Wiki page for [him](https://oldschool.runescape.wiki/w/Quiz_Master). The rest of the image was created in GIMP and will be tiled across the site.
 
 #### Typography
 
+To keep with the intended RuneScape style I've picked a singular font (RuneScape UF).
+
 ### Wireframes
+
+|                                                              Mobile                                                            |                                                             Tablet                                                             |                                                               PC                                                               |
+| :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
+| [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/assets/images/readme/wireframes/index-mobile.png) | [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/assets/images/readme/wireframes/index-mobile.png) | [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/assets/images/readme/wireframes/index-mobile.png) |
 
 ### Design changes
 
