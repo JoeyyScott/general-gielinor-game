@@ -38,16 +38,16 @@ General Gielinor Game is an interactive quiz designed to help you improve your k
 
 ### Project Goals
 
-The idea is to create an interactive general knowledge game about RuneScape an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are present with the reasoning behind the question and why it is correct. There are wrong answers but you will not be punished for learning. It is a crucial part of understanding any concept, we are all learing everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
+The idea is to create an interactive general knowledge game about RuneScape an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are presented with the reasoning behind the question and why it is correct. There are wrong answers but you will not be punished for learning. It is a crucial part of understanding any concept, we are all learing everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
 
 ### Content Requirements
 
-The main points I want to achieve with this project are;
+The main points I want to achieve with this project are:
 
 + To showcase my skills as a Web Developer using HTML, CSS and JavaScript.
-+ To provide users with interactive game to teach them about RuneScape.
++ To provide users with an interactive game to teach them about RuneScape.
 + To create an environment where users feel welcomed and want to learn.
-+ To build a game that only provides knowledge but the reasoning behind it.
++ To build a game that not only provides knowledge but the reasoning behind it.
 
 ### Importance and Feasibility chart
 
@@ -78,7 +78,7 @@ E. Repeat button after quiz | 5 | 4
 
 - #### Site Owner Goals
 
-	+ As a **site owner**, I want the user to be greeted with brief introduction message and a run down on how to play the game so they can easily understand the whole website.
+	+ As a **site owner**, I want the user to be greeted with a brief introduction message and a run down on how to play the game so they can easily understand the whole website.
 	+ As a **site owner**, I want the user to be able to intuitively navigate the entire site on their first visit.
 	+ As a **site owner**, I want to include links to my GitHub and LinkedIn profile so the user can view other projects I have contributed to.
 	+ As a **site owner**, I want to create an engaging, interactive experience through the quiz and site. 
@@ -90,7 +90,7 @@ E. Repeat button after quiz | 5 | 4
 ### Website Structure
 
 
-+ This project is aimed at either new, returning or veteran RuneScape player's and I wanted to recreate the traditional RuneScape feel with my design. From how you are presented with the area that displays the quiz to the colours throughout the project you get the classic RuneScape vibe.
++ This project is aimed at either new, returning or veteran RuneScape players and I wanted to recreate the traditional RuneScape feel with my design. You get the classic RuneScape vibe from how you are presented with the area that displays the quiz to the colours throughout the project.
 
 + I wanted to keep the design of the website simple so as not to distract the user from the main content of the site.
 
@@ -112,7 +112,7 @@ The quizmaster image comes from the Old School RuneScape Wiki page for [him](htt
 
 #### Typography
 
-To keep with the intended RuneScape style I've picked a singular font (RuneScape UF).
+To keep with the intended RuneScape style I have picked a singular font (RuneScape UF).
 
 ### Wireframes
 
