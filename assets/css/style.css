@@ -1,0 +1,46 @@
+/* General rules and background image */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("../images/background.png");
+    background-color: #605436;
+    background-position: center;
+    color: #ffff62;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+}
+
+/* Core Styling */
+.rsStyle {
+    color: #ffff62;
+    background-color: #605436;
+    border: 1px solid #ffff62;
+}
+
+.nav-item {
+    color: #ffff62;
+    font-size: 4vh;
+    padding: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Modal */
+.modal-text {
+    color: #ffff62;
+    position: relative;
+    top: 2.25vh;
+    right: 2vh;
+    padding: 5px;
+    font-size: 3vh;
+}
+.modal-content {
+    border-width: 5px;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
