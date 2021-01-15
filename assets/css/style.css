@@ -19,6 +19,15 @@ body {
     border: 1px solid #ffff62;
 }
 
+h2 {
+    font-size: 7vw;
+}
+
+p {
+    font-size: 5vw;
+}
+
+/* Nav */
 .nav-item {
     color: #ffff62;
     font-size: 4vh;
@@ -35,8 +44,8 @@ a:hover {
     position: relative;
     top: 2.25vh;
     right: 2vh;
-    padding: 5px;
-    font-size: 3vh;
+    padding: 0 10px;
+    font-size: 6vw;
 }
 .modal-content {
     border-width: 5px;
