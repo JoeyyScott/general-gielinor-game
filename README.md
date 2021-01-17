@@ -140,6 +140,11 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 
 ### Frameworks, libraries and programs
 
++ [coolors.co](https://coolors.co) - I used this tool to generate a colour scheme based on the RuneScape theme.
++ [Accessible Color Generator](https://learnui.design/tools/accessible-color-generator.html) - I used this tool in conjunction with coolors.co to provide a better colour contrast for accessibility. 
++ [Transfonter](https://transfonter.org/) - A tool I used to generate the accompanying font files for my custom RuneScape Font.
+
+
 #### [Back to top](#contents)
 
 ---
@@ -175,6 +180,10 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 ## Credits
 
 ### Content
+
+This section includes areas/sections of code and properties I was unaware of. I have also included sources from where I have adapted/changed code used in the projects throughout my course as I figured it was better practice to state as such to avoid any penalizations or copyright violations.
+
++ Custom Font CSS - Entire project uses this font and I used [Transfonter](https://transfonter.org/) to convert my TTF file and provide the other file types. It came with a prebuilt css font-face rule that I modified for my project.
 
 ### Media
 

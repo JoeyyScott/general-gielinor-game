@@ -1,4 +1,4 @@
-/* General rules and background image */
+/* Credit for Custom Font CSS */
 @font-face {
     font-family: 'RuneScape UF';
     src: url('RuneScape-UF.eot');
@@ -10,6 +10,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* End credit for Custom Font CSS */
+
+/* General rules and background image */
 body {
     margin: 0;
     padding: 0;
@@ -19,7 +23,6 @@ body {
     background-position: center;
     color: #ffff62;
     text-align: center;
-    /* font-family: 'Odibee Sans', cursive; */
     font-family: "RuneScape UF", sans-serif;
 }
 
