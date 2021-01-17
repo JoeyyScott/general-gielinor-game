@@ -44,8 +44,8 @@ p {
 /* Nav */
 .nav-item {
     color: #ffff62;
-    font-size: 4vh;
-    padding: 20px;
+    font-size: 1.8rem;
+    padding: 20px 40px;
 }
 
 a:hover {
@@ -73,7 +73,7 @@ a:hover {
 }
 /* Media Queries */ 
 @media only screen and (min-width: 768px) {
-    h2 {
+    h2, .nav-item {
         font-size: 2.4rem;
     }
 
@@ -86,12 +86,18 @@ a:hover {
     .button {
         font-size: 1.6rem;
     }
+    .modal-text {
+        font-size: 1.8rem;
+    }
 }
 @media screen and (min-width: 992px) and (orientation: landscape) {
-    h2 {
+    h2, .nav-item {
         font-size: 3rem;
     }
     p {
         font-size: 1.8rem;
+    }
+    .modal-text {
+        font-size: 2rem;
     }
 }
