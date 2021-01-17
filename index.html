@@ -22,19 +22,33 @@
             </a>
         </nav>
     </header>
+    <!-- About Quiz Modal -->
     <section>
         <div class="modal" id="aboutModal" role="dialog" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content rsStyle">
                     <div class="modal-body">
-                        <h2>What is the General Gielinor Game?</h2>
+                        <h2>What is the <br>General Gielinor Game?</h2>
                         <p>General Gielinor Game is a JavaScript quiz designed to teach you about the MMORPG RuneScape and developed by me, Joeyy Scott.</p>
                         <p>RuneScape was founded in 2001 and coded in the programming language Java, not Javascript as you'll see here! It's an MMORPG (Massively multiplayer online role playing game) that allows you to start a new character and forge your own path within the world of Gielinor. Throughout the questions in this quiz you'll learn about some parts of the game that might help you out and teach you about aspects of the game you didn't know about!</p>
-                        <button type="button" class="button rsStyle" data-dismiss="modal">
+                        <button type="button" class="modal-button rsStyle" data-dismiss="modal">
                             Close <i class="fas fa-times"></i>
                         </button>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quiz Area -->
+    <section>
+        <div class="quiz-container rsStyle">
+            <!-- Landing Content -->
+            <div id="welcome-container">
+                <h1>Welcome to the <br>General Gielinor Game!</h1>
+                <p>Want to test your RuneScape knowledge?</p>
+                <p>Press the "Find out more!" button to read more about the quiz and the origins of RuneScape itself.</p>
+                <p>When you’re ready to play, press the "Start Quiz" button to start the quiz.</p>
+                <button id="quiz-start" class="start-button rsStyle">Start Quiz</button>
             </div>
         </div>
     </section>

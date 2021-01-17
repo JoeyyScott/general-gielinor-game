@@ -68,9 +68,24 @@ a:hover {
     margin: auto;
 }
 
-.button {
+/* Buttons */
+
+.modal-button {
     font-size: 1.3rem;
 }
+
+.start-button {
+    font-size: 2rem;
+}
+
+
+/* Containers */
+.quiz-container {
+    padding: 10px;
+    width: 90%;
+    margin: 250px auto 0;
+}
+
 /* Media Queries */ 
 @media only screen and (min-width: 768px) {
     h2, .nav-item {
@@ -89,6 +104,9 @@ a:hover {
     .modal-text {
         font-size: 1.8rem;
     }
+    .quiz-container {
+        margin-top: 300px;
+    }
 }
 @media screen and (min-width: 992px) and (orientation: landscape) {
     h2, .nav-item {
@@ -99,5 +117,9 @@ a:hover {
     }
     .modal-text {
         font-size: 2rem;
+    }
+    .quiz-container {
+        max-width: 60%;
+        margin-top: 350px;
     }
 }
