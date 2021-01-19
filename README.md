@@ -1,5 +1,7 @@
 <h1 align="center">General Gielinor Game</h1>
 
+[View a live version of the site here.](https://joeyyscott.github.io/general-gielinor-game/)
+
 I have created this project (Milestone project 2) as part of my Full Stack Web Development course with [Code Institute](https://codeinstitute.net/).
 
 General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [Runescape](https://www.runescape.com). I have been playing this game since 2001 and have such acquired a lot of game knowledge, so I thought what better idea for a interactive game?
@@ -127,6 +129,15 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 ---
 
 ## Features
+
++ ### Existing Features
+
+    The header can be accessed and viewed throughout all stages of the quiz.
+
+    Included in the **header** is: 
+
+    + **Home Icon**: Provides a link to the homepage to allow the user to return there.
+    + **'Find out more' button**: Allows the user to initiate a modal which provides information about the quiz and RuneScape in general.
 
 ---
 
