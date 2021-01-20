@@ -19,6 +19,12 @@
     display: none;
 }
 
+.question-mark {
+    font-size: 3rem;
+}
+.question-img {
+    height: 8vh;
+}
 
 /* General rules and background image */
 body {
