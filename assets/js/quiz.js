@@ -1,7 +1,7 @@
 // Constants for areas of quiz content in index.html
 const buttonStart = document.getElementById('quiz-start');
-const containerWelcome = document.getElementById('welcome-container');
-const containerQuiz = document.getElementById('quiz-container')
+const containerWelcome = document.getElementById('container-welcome');
+const containerQuiz = document.getElementById('container-quiz')
 
 //Initiating the quiz on start button being clicked
 buttonStart.addEventListener('click', quizStart);
