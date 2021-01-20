@@ -91,6 +91,12 @@ a:hover {
     font-size: 2rem;
 }
 
+.buttonAnswer {
+    margin: 1vw;
+    width: 125px;
+    height: 75px;
+    font-size: 1.6rem;
+}
 
 /* Containers */
 .container-main {

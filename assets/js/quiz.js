@@ -2,6 +2,7 @@
 const buttonStart = document.getElementById('quiz-start');
 const containerWelcome = document.getElementById('container-welcome');
 const containerQuiz = document.getElementById('container-quiz')
+const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 
 //Variables that'll change throughout
 let currentQuestion = {};
@@ -12,7 +13,6 @@ let questionsRemaining = [];
 buttonStart.addEventListener('click', quizStart);
 
 //The quizStart function will show the questions 
-
 function quizStart() {
     //Hides welcome and displays quiz containers
     containerWelcome.classList.add('contentHidden');
@@ -32,6 +32,8 @@ function questionsLoad() {
     currentQuestion = questionsRemaining[(Math.floor(Math.random() * questionsRemaining.length))];
     //sets the questions HTML for the current question
     question.innerHTML = currentQuestion.question;
+    //credit for for each function - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
+    answers.forEach(answer => { let i = answer.dataset[`number`]; answer.innerText = currentQuestion[`answer${i}`];});
 }
 
 const questions = [{
