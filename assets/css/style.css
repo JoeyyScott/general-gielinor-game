@@ -13,6 +13,13 @@
 
 /* End credit for Custom Font CSS */
 
+/* Quiz */
+
+.contentHidden {
+    display: none;
+}
+
+
 /* General rules and background image */
 body {
     margin: 0;

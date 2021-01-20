@@ -50,10 +50,27 @@
                 <p>When you’re ready to play, press the "Start Quiz" button to start the quiz.</p>
                 <button id="quiz-start" class="start-button rsStyle">Start Quiz</button>
             </div>
+            <!-- Quiz Content -->
+            <div id="quiz-container" class="contentHidden">
+                <!-- Area for Questions -->
+                <div id="question"></div>
+                <!-- Area for Answers -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <button id="answer-1" class="button rsStyle answer-button" data-number="1">Answer</button>
+                        <button id="answer-2" class="button rsStyle answer-button" data-number="2">Answer</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <button id="answer-3" class="button rsStyle answer-button" data-number="3">Answer</button>
+                        <button id="answer-4" class="button rsStyle answer-button" data-number="4">Answer</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="assets/js/quiz.js"></script>
 </body>
 </html>
