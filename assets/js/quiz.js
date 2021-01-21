@@ -1,5 +1,6 @@
 // Constants for areas of quiz content in index.html
 const buttonStart = document.getElementById('quiz-start');
+const buttonNext = document.getElementById('quiz-next');
 const containerWelcome = document.getElementById('container-welcome');
 const containerQuiz = document.getElementById('container-quiz')
 const containerGuess  = document.getElementById('container-post-guess');
@@ -48,15 +49,14 @@ answers.forEach(answer => {
         } else {
             responseGuess.innerHTML = currentQuestion.messageWrong;
         }
-
-
-        // const selectedAnswer = selectedButton.dataset[`number`];
-        // console.log(selectedAnswer);
-        // console.log(selectedButton);
-        // const answerSelected = guess.target;
-        // const answer
     });
 });
+
+buttonNext.addEventListener('click', () => {
+    containerGuess.classList.add('contentHidden');
+    containerQuiz.classList.remove('contentHidden');
+    questionsLoad();
+})
 
 const questions = [{
         //1
