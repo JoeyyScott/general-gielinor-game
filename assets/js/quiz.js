@@ -1,5 +1,6 @@
 // Constants for areas of quiz content in index.html
 const buttonStart = document.getElementById('quiz-start');
+const buttonRepeat = document.getElementById('quiz-repeat');
 const buttonNext = document.getElementById('quiz-next');
 const containerWelcome = document.getElementById('container-welcome');
 const containerQuiz = document.getElementById('container-quiz')
@@ -7,19 +8,21 @@ const containerGuess  = document.getElementById('container-post-guess');
 const responseGuess = document.getElementById('post-guess')
 const containerFinal = document.getElementById('container-final');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 1;
+const questionsMax = 2;
 
 //Variables that'll change throughout
 let currentQuestion = {};
 let questionsCounter;
 let questionsRemaining = [];
 
-//Initiating the quiz on start button being clicked
+//Initiating the quiz on start or repeat button being clicked
 buttonStart.addEventListener('click', quizStart);
+buttonRepeat.addEventListener('click', quizStart);
 
 //The quizStart function will show the questions 
 function quizStart() {
-    //Hides welcome and displays quiz containers
+    //Hides welcome/final and displays quiz containers
+    containerFinal.classList.add('contentHidden');
     containerWelcome.classList.add('contentHidden');
     containerQuiz.classList.remove('contentHidden');
     //Sets the questions remaining to a spread array from questions
