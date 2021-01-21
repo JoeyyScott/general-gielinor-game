@@ -67,10 +67,9 @@ const questions = [{
         answer4: 'mIRC',
         correct: '3', //Java
         messageCorrect: `
-        <img src="assets/images/answers/java.png" class="question-img">
-        <p>Correct! It was Java.</p>
-        <p>The Gower brothers originally created RuneScape classic all the way back in 2001! The game is alive today and is celebrating 20 years of being around, how incredible is that?</p>
-        <p>You can't play classic anymore but you can play OldSchool RuneScape which is an updated version of the game from a save around the 2007 era.</p>`,
+        <h2>GG!</h2>
+        <img src="assets/images/answers/java.png" class="question-img" alt="Java Logo Image">
+        <p>It was Java. The Gower brothers originally created RuneScape classic all the way back in 2001! The game is alive today and is celebrating 20 years of being around, how incredible is that?</p>`,
         messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><p>That is not correct! This information exists on the internet, it might be closer than you think <i class="fas fa-smile-beam"></i></p>`
     },
     {
@@ -82,11 +81,9 @@ const questions = [{
         answer4: '35',
         correct: '4', //35
         messageCorrect: `<h2>GG!</h2>
-        <p>It is level 35 to catch tuna.</p> <img src="assets/images/answers/raw-tuna.png" alt="Raw Tuna Image">
-        <p>You require a harpoon to fish tuna at this fishing level.</p>
-        <p>You can fish them at 55 fishing without a harpoon if you have unlocked the barbarian ways of Barehanded fishing!</p>
-        <p>Regardless of which way you choose to obtain it you will receive 80 fishing experience for doing so.</p>
-        <a href="https://runescape.wiki/w/Raw_tuna" target"_blank">Check out the wiki for this item here!</a>
+        <img src="assets/images/answers/raw-tuna.png" class="question-img" alt="Raw Tuna Image">
+        <p>It is level 35 to catch raw tuna. You can fish them at 55 fishing without a harpoon if you have unlocked the barbarian ways of Barehanded fishing! Either way you'll get 80 Fishing experience!</p>
+        <a href="https://runescape.wiki/w/Raw_tuna" target="_blank"> Check out the wiki for this item here!</a>
         `,
         messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct!<br> The skillguide in game provides all required levels for content within RuneScape <i class="fas fa-smile-beam"></i></p>`
     }

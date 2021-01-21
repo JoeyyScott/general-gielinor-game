@@ -23,7 +23,7 @@
     font-size: 3rem;
 }
 .question-img {
-    height: 8vh;
+    height: 6vh;
 }
 
 /* General rules and background image */
@@ -33,7 +33,7 @@ body {
     height: 100vh;
     background-image: url("../images/background.png");
     background-color: #605436;
-    background-position: center;
+    background-position: top;
     color: #ffff62;
     text-align: center;
     font-family: "RuneScape UF", sans-serif;
@@ -46,8 +46,12 @@ body {
     border: 1px solid #ffff62;
 }
 
+h1 {
+    font-size: 1.8rem;
+}
+
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 p {
@@ -101,10 +105,15 @@ a:hover {
 .container-main {
     padding: 10px;
     width: 90%;
-    margin: 250px auto 0;
+    margin: 125px auto 0;
 }
 
-/* Media Queries */ 
+/* Media Queries */
+/* @media only screen and (min-width: 320px) {
+    h2 {
+        font-size: 2rem;
+    }
+}  */
 @media only screen and (min-width: 768px) {
     h2, .nav-item {
         font-size: 2.4rem;
