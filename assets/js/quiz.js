@@ -8,7 +8,7 @@ const containerGuess  = document.getElementById('container-post-guess');
 const responseGuess = document.getElementById('post-guess')
 const containerFinal = document.getElementById('container-final');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 2;
+const questionsMax = 4;
 
 //Variables that'll change throughout
 let currentQuestion = {};
@@ -81,7 +81,7 @@ const questions = [{
         <h2>GG!</h2>
         <img src="assets/images/answers/java.png" class="question-img" alt="Java Logo Image">
         <p>It was Java. The Gower brothers originally created RuneScape classic all the way back in 2001! The game is alive today and is celebrating 20 years of being around, how incredible is that?</p>`,
-        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><p>That is not correct! This information exists on the internet, it might be closer than you think <i class="fas fa-smile-beam"></i></p>`
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><p>That is not correct! <br> Hint: This information exists on the internet, it might be closer than you think <i class="fas fa-smile-beam"></i></p>`
     },
     {
         //2
@@ -93,9 +93,57 @@ const questions = [{
         correct: '4', //35
         messageCorrect: `<h2>GG!</h2>
         <img src="assets/images/answers/raw-tuna.png" class="question-img" alt="Raw Tuna Image">
-        <p>It is level 35 to catch raw tuna. You can fish them at 55 fishing without a harpoon if you have unlocked the barbarian ways of Barehanded fishing! Either way you'll get 80 Fishing experience!</p>
+        <p>It is level 35 to catch raw tuna. You can fish them at 55 fishing without a harpoon if you have unlocked the Barbarian ways of barehanded Fishing! Either way you'll get 80 Fishing experience!</p>
         <a href="https://runescape.wiki/w/Raw_tuna" target="_blank"> Check out the wiki for this item here!</a>
         `,
-        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct!<br> The skillguide in game provides all required levels for content within RuneScape <i class="fas fa-smile-beam"></i></p>`
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct!<br> Hint: The skillguide in game provides all required levels for content within RuneScape <i class="fas fa-smile-beam"></i></p>`
+    },
+    {
+        //3
+        question: `<h2>What NPC in Draynor Village will sell you rope for either 15 coins or 4 balls of wool?</h2>`,
+        answer1: 'Bob',
+        answer2: 'Gerald',
+        answer3: 'Ned',
+        answer4: 'Aggie',
+        correct: '3', //Ned
+        messageCorrect: `<h2>Congrats!</h2><img src="assets/images/answers/ned.png" class="question-img" alt="Ned Image">
+        <p>It was Ned. He lives in a house on the eastern side of Draynor Village, just north of the bank. You'll interact with him during Dragon Slayer quest but you can also get rope from him!<br> Check out the wiki for him <a href="https://runescape.wiki/w/Ned" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: You talk to this NPC during the Dragon Slayer quest.</p>`
+    },
+    {
+        //4
+        question: `<h2>What NPC in Varrock gives you breathing salts in exchange for an airtight pot during the One Small Favour quest?</h2>`,
+        answer1: 'Stray Dog',
+        answer2: 'King Roald',
+        answer3: 'Horvik',
+        answer4: 'Apothecary',
+        correct: '4', //Apothecary
+        messageCorrect: `<h2>Gratz!</h2><img src="assets/images/answers/apothecary.png" class="question-img" alt="Apothecary Image">
+        <p>It was the Apothecary. He works in a building just south east of Varrock Centre, just north of the bank. You'll interact with him during One Small Favour but also in Dimension of Disaster: Curse of Arrav.<br> Check out the wiki for him <a href="https://runescape.wiki/w/Apothecary" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: This NPC can also make potions for you if brought the correct ingredients.</p>`
+    },
+    {
+        //5
+        question: `<h2>Who do you talk to buy the Trimmed Completionist Cape?</h2>`,
+        answer1: 'Gielinor Guide',
+        answer2: 'Musuem Guard',
+        answer3: 'Elen Anterth',
+        answer4: 'Wizard Sedridor',
+        correct: '2', //Museum Guard
+        messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/trimcomp.png" class="question-img" alt="Trimmed Completionist Image">
+        <p>It was the Museum Guard. He works in Varrock museum, on the top floor. You interact with him and ask about the mysterious cape and he'll give you a description of the capes history. There is a lot of requirements for this cape, making it prestigious.<br> Check out the wiki for the cape <a href="https://runescape.wiki/w/Completionist_cape_(t)" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: They're surrounded by lots of artefacts from time gone by.</p>`
+    },
+    {
+        //6
+        question: `<img src="assets/images/answers/praymelle.png" class="question-img" alt="Pray Melle Image"><h2>What Prayer level do you need to use the Protect from Melle prayer?</h2>`,
+        answer1: '22',
+        answer2: '29',
+        answer3: '37',
+        answer4: '43',
+        correct: '4', //43
+        messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/praymelle.png" class="question-img" alt="Pray Melle Image">
+        <p>It was 43. Back in the days protection prayers granted 100% protection from that style, now they provide a 50% reduction to the hit. Despite this protection prays are still widely used in RuneScape PVM today.<br> Check out the wiki for the prayer <a href="https://runescape.wiki/w/Protect_from_Melee" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: The skill guide ingame provides all required levels for content within RuneScape.</p>`
     }
 ];
