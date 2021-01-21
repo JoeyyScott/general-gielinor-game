@@ -14,7 +14,6 @@
 /* End credit for Custom Font CSS */
 
 /* Quiz */
-
 .contentHidden {
     display: none;
 }
@@ -37,7 +36,6 @@ body {
     color: #ffff62;
     text-align: center;
     font-family: "RuneScape UF", sans-serif;
-    text-shadow: 2.5px 2.5px #1E000E;
 }
 
 /* Core Styling */
@@ -45,6 +43,7 @@ body {
     color: #ffff62;
     background-color: #605436;
     border: 1px solid #ffff62;
+    text-shadow: 2.5px 2.5px #1E000E;
 }
 
 h1 {
@@ -87,7 +86,6 @@ a:hover {
 }
 
 /* Buttons */
-
 .buttonModal {
     font-size: 1.3rem;
 }
@@ -160,6 +158,6 @@ a:hover {
         /* margin-top: 100px; */
     }
     .buttonAnswer {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
