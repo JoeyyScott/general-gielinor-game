@@ -37,6 +37,8 @@ function questionsLoad() {
     question.innerHTML = currentQuestion.question;
     //credit for for each function - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
     answers.forEach(answer => { let i = answer.dataset[`number`]; answer.innerText = currentQuestion[`answer${i}`];});
+    //removes current question from the array of remaining questions
+    questionsRemaining.splice(currentQuestion, 1);
 }
 
 answers.forEach(answer => {
