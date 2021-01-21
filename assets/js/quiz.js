@@ -5,7 +5,9 @@ const containerWelcome = document.getElementById('container-welcome');
 const containerQuiz = document.getElementById('container-quiz')
 const containerGuess  = document.getElementById('container-post-guess');
 const responseGuess = document.getElementById('post-guess')
+const containerFinal = document.getElementById('container-final');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
+const questionsMax = 1;
 
 //Variables that'll change throughout
 let currentQuestion = {};
@@ -29,6 +31,10 @@ function quizStart() {
 }
 
 function questionsLoad() {
+    if (questionsRemaining.length === 0 || questionsCounter === questionsMax) {
+        containerQuiz.classList.add('contentHidden');
+        containerFinal.classList.remove('contentHidden');
+    }
     //increase question count
     questionsCounter++;
     //sets current question to a random number (index) from the array of remaining questions
