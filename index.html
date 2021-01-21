@@ -31,7 +31,7 @@
                         <h2>What is the <br>General Gielinor Game?</h2>
                         <p>General Gielinor Game is a JavaScript quiz designed to teach you about the MMORPG RuneScape and developed by me, Joeyy Scott.</p>
                         <p>RuneScape was founded in 2001 and coded in the programming language Java, not Javascript as you'll see here! It's an MMORPG (Massively multiplayer online role playing game) that allows you to start a new character and forge your own path within the world of Gielinor. Throughout the questions in this quiz you'll learn about some parts of the game that might help you out and teach you about aspects of the game you didn't know about!</p>
-                        <button type="button" class="modal-button rsStyle" data-dismiss="modal">
+                        <button type="button" class="buttonModal rsStyle" data-dismiss="modal">
                             Close <i class="fas fa-times"></i>
                         </button>
                     </div>
@@ -48,7 +48,7 @@
                 <p>Want to test your RuneScape knowledge?</p>
                 <p>Press the "Find out more!" button to read more about the quiz and the origins of RuneScape itself.</p>
                 <p>When you’re ready to play, press the "Start Quiz" button to start the quiz.</p>
-                <button id="quiz-start" class="start-button rsStyle">Start Quiz</button>
+                <button id="quiz-start" class="buttonStart rsStyle">Start Quiz</button>
             </div>
             <!-- Quiz Content -->
             <div id="container-quiz" class="contentHidden">
@@ -56,11 +56,9 @@
                 <div id="question"></div>
                 <!-- Area for Answers -->
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-md-12">
                         <button id="answer-1" class="buttonAnswer rsStyle" data-number="1">Answer</button>
                         <button id="answer-2" class="buttonAnswer rsStyle" data-number="2">Answer</button>
-                    </div>
-                    <div class="col-lg-6">
                         <button id="answer-3" class="buttonAnswer rsStyle" data-number="3">Answer</button>
                         <button id="answer-4" class="buttonAnswer rsStyle" data-number="4">Answer</button>
                     </div>
@@ -71,17 +69,16 @@
                 <h2>We checked your guess and...</h2>
                 <div id="post-guess"></div>
                 <p>To continue, press the button below :)</p>
-                <button id="quiz-next" class="next-button rsStyle">
+                <button id="quiz-next" class="buttonNext rsStyle">
                     Proceed with quiz <i class="fas fa-chevron-circle-right"></i>
                 </button>
             </div>
             <!-- Finished Content -->
             <div id="container-final" class="contentHidden">
-                <h2>Grats!<br>You've completed the General Gielinor Game!</h2>
+                <h2>Grats!  <i class="fas fa-smile-beam"></i><br>You've completed the General Gielinor Game!</h2>
                 <p>I hope you enjoyed yourselves in this adverture and have learnt more about RuneScape!</p>
-                <p>Think you can do better next time round?</p>
-                <p>If that is the case for you, press the button below to try again.</p>
-                <button id="quiz-repeat" class="finish-button rsStyle">Play GGG again!</button>
+                <p>Think you can do better next time round? If that is the case for you, press the button below to try again.</p>
+                <button id="quiz-repeat" class="buttonRepeat rsStyle">Play GGG again!</button>
             </div>
         </div>
     </section>

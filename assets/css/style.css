@@ -87,11 +87,11 @@ a:hover {
 
 /* Buttons */
 
-.modal-button {
+.buttonModal {
     font-size: 1.3rem;
 }
 
-.start-button {
+.buttonStart, .buttonRepeat {
     font-size: 2rem;
 }
 
@@ -101,11 +101,19 @@ a:hover {
     font-size: 1.6rem;
 }
 
+.buttonNext {
+    font-size: 1.4rem;
+}
+
 /* Containers */
 .container-main {
     padding: 10px;
     width: 90%;
     margin: 125px auto 0;
+}
+
+#container-quiz, #container-post-guess {
+    min-height: 250px;
 }
 
 /* Media Queries */
@@ -132,7 +140,13 @@ a:hover {
         font-size: 1.8rem;
     }
     .container-main {
-        margin-top: 300px;
+        margin-top: 100px;
+    }
+    .buttonAnswer {
+        font-size: 3rem;
+    }
+    .buttonNext {
+        font-size: 2.6rem;
     }
 }
 @media screen and (min-width: 992px) and (orientation: landscape) {
@@ -147,6 +161,9 @@ a:hover {
     }
     .container-main {
         max-width: 60%;
-        margin-top: 350px;
+        /* margin-top: 100px; */
+    }
+    .buttonAnswer {
+        font-size: 5rem;
     }
 }
