@@ -8,7 +8,7 @@ const containerGuess  = document.getElementById('container-post-guess');
 const responseGuess = document.getElementById('post-guess')
 const containerFinal = document.getElementById('container-final');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 5;
+const questionsMax = 4;
 
 //Variables that'll change throughout
 let questionCurrent = {};

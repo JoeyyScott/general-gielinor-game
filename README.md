@@ -139,6 +139,16 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
     + **Home Icon**: Provides a link to the homepage to allow the user to return there.
     + **'Find out more' button**: Allows the user to initiate a modal which provides information about the quiz and RuneScape in general.
 
+    Included in the **main quiz** is:
+
+    + **Multiple choice questions** - Contains up to 6 questions of which 4 will shown throughout the quiz.
+        + Each question contains 4 answers.
+        + The question order is randomized so users do not feel repetition.
+
+    + **Guess response** - When the user has a guess at a question they are presented with one of two responses:
+        + If their response is correct the user will have their answer reaffirmed, are presented with some supporting information and given a link to the associated RuneScape Wikipedia page.
+        + If their response is incorrect the user will be notified that their guess was incorrect and a hint as to how they might the answer to the question.
+
 ---
 
 ## Technologies
