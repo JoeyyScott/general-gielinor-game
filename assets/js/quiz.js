@@ -8,10 +8,10 @@ const containerGuess  = document.getElementById('container-post-guess');
 const responseGuess = document.getElementById('post-guess')
 const containerFinal = document.getElementById('container-final');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 4;
+const questionsMax = 5;
 
 //Variables that'll change throughout
-let currentQuestion = {};
+let questionCurrent = {};
 let questionsCounter;
 let questionsRemaining = [];
 
@@ -34,41 +34,53 @@ function quizStart() {
 }
 
 function questionsLoad() {
+    //checks if there are no questions left or the question count is the max amount for this instance of the game
     if (questionsRemaining.length === 0 || questionsCounter === questionsMax) {
+        //displays finishing content
         containerQuiz.classList.add('contentHidden');
         containerFinal.classList.remove('contentHidden');
     }
     //increase question count
     questionsCounter++;
-    //sets current question to a random number (index) from the array of remaining questions
-    currentQuestion = questionsRemaining[(Math.floor(Math.random() * questionsRemaining.length))];
+    //sets the question to be removed to a random number from the array of remaining questions
+    questionToBeRemoved = Math.floor(Math.random() * questionsRemaining.length)
+    //sets the current question to the variable questionToBeRemoved from the away of remaining questions
+    questionCurrent = questionsRemaining[questionToBeRemoved];
     //sets the questions HTML for the current question
-    question.innerHTML = currentQuestion.question;
+    question.innerHTML = questionCurrent.question;
     //credit for for each function - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
-    answers.forEach(answer => { let i = answer.dataset[`number`]; answer.innerText = currentQuestion[`answer${i}`];});
+    answers.forEach(answer => { let i = answer.dataset[`number`]; answer.innerText = questionCurrent[`answer${i}`];});
     //removes current question from the array of remaining questions
-    questionsRemaining.splice(currentQuestion, 1);
+    questionsRemaining.splice(questionToBeRemoved, 1);
 }
 
+//Credit for forEach loop
 answers.forEach(answer => {
+    //checks to see if the user clicks any of the answer buttons
     answer.addEventListener('click', userGuess => {
+        //sets their guess to variable and shows the post guess content
         const selectedAnswer = userGuess.target.dataset[`number`];
         containerGuess.classList.remove('contentHidden'); 
         containerQuiz.classList.add('contentHidden');
-        if (selectedAnswer === currentQuestion.correct) {
-           responseGuess.innerHTML = currentQuestion.messageCorrect;
+        //changes the innerHTML of the post guess message based on whether it was correct
+        if (selectedAnswer === questionCurrent.correct) {
+           responseGuess.innerHTML = questionCurrent.messageCorrect;
         } else {
-            responseGuess.innerHTML = currentQuestion.messageWrong;
+            responseGuess.innerHTML = questionCurrent.messageWrong;
         }
     });
 });
+//End credit - See README.md for more details
 
+//Checks to see if the next button has been clicked
+//Removes the guess content, shows the quiz again and loads the next question
 buttonNext.addEventListener('click', () => {
     containerGuess.classList.add('contentHidden');
     containerQuiz.classList.remove('contentHidden');
     questionsLoad();
 })
 
+//array with each question as an object
 const questions = [{
         //1
         question: `<span class="question-mark">?</span> <br> <h2>What language was the original RuneScape coded in?</h2>`,
