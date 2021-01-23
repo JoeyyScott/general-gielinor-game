@@ -17,8 +17,8 @@
 <body>
     <header>
         <nav class="d-flex justify-content-between">
-            <a href="index.html"><i class="nav-item fas fa-house-user"></i></a>
-            <a data-toggle="modal" data-target="#aboutModal" href=""><div class="nav-item rsStyle modal-text">Find out more <i class="fas fa-list-alt"></i></div>
+            <a href="index.html"><i class="rsStyle navItem navHome fas fa-house-user"></i></a>
+            <a data-toggle="modal" data-target="#aboutModal" href=""><div class="rsStyle navItem modalText">Find out more <i class="fas fa-list-alt"></i></div>
             </a>
         </nav>
     </header>
@@ -26,8 +26,8 @@
     <section>
         <div class="modal" id="aboutModal" role="dialog" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content rsStyle">
-                    <div class="modal-body">
+                <div class="modalContent rsStyle">
+                    <div class="modalBody">
                         <h2>What is the <br>General Gielinor Game?</h2>
                         <p>General Gielinor Game is a JavaScript quiz designed to teach you about the MMORPG RuneScape and developed by me, Joeyy Scott.</p>
                         <p>RuneScape was founded in 2001 and coded in the programming language Java, not Javascript as you'll see here! It's an MMORPG (Massively multiplayer online role playing game) that allows you to start a new character and forge your own path within the world of Gielinor. Throughout the questions in this quiz you'll learn about some parts of the game that might help you out and teach you about aspects of the game you didn't know about!</p>
@@ -82,6 +82,12 @@
             </div>
         </div>
     </section>
+    <footer id="container-footer">
+            <p class="footerText rsStyle">Designed by Joeyy Scott - 2021</p>
+            <a data-toggle="modal" data-target="#suggestModal" href=""><i class="fas fa-question-circle footerIcon"></i></a>
+            <a href="https://github.com/JoeyyScott" target="_blank"><i class="fab fa-github-square footerIcon"></i></a>
+            <a href="https://www.linkedin.com/in/joeyy-scott-b5268a1b0/" target="_blank"><i class="fab fa-linkedin footerIcon"></i></a>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

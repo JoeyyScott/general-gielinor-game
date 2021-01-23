@@ -63,26 +63,45 @@ p {
 }
 
 /* Nav */
-.nav-item {
+.navItem {
     color: #ffff62;
     font-size: 1.8rem;
-    padding: 20px 40px;
+    /* padding: 20px 40px; */
+}
+
+.navHome {
+    padding: 5px;
+    margin: 20px 0 0 10px;
 }
 
 a:hover {
     text-decoration: none;
 }
 
+/* Footer */
+.footerIcon {
+    font-size: 2rem;
+    text-shadow: 2.5px 2.5px #1E000E;
+    color: #ffff62;
+    margin: 5px 10px 0;
+
+}
+
+.footerText {
+    width: max-content;
+    margin: auto;
+    padding: 0 5px;
+}
+
 /* Modal */
-.modal-text {
+.modalText {
     color: #ffff62;
     position: relative;
-    top: 2.25vh;
-    right: 2vh;
-    padding: 0 10px;
+    margin: 20px 10px 0 0;
+    padding: 3px 5px 3px 5px;
     font-size: 1.4rem;
 }
-.modal-content {
+.modalContent {
     border-width: 5px;
     border-radius: 20px;
     width: 80%;
@@ -92,6 +111,7 @@ a:hover {
 /* Buttons */
 .buttonModal {
     font-size: 1.3rem;
+    margin-bottom: 15px;
 }
 
 .buttonStart, .buttonRepeat {
@@ -117,6 +137,15 @@ a:hover {
 
 #container-quiz, #container-post-guess {
     min-height: 250px;
+}
+
+#container-footer {
+    margin: auto;
+    width: 95vw;
+    padding: 5px;
+    position: fixed;
+    bottom: 1vh;
+    left: 3vw;
 }
 
 /* Media Queries */
