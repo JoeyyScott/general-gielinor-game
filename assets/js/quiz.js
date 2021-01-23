@@ -41,7 +41,9 @@ function questionsLoad() {
         //displays finishing content
         containerQuiz.classList.add('contentHidden');
         containerFinal.classList.remove('contentHidden');
-        answersCorrect.innerHTML = `${questionsCorrect} / ${questionsMax}`
+        let answerPercentage = (questionsCorrect / questionsMax)*100;
+        console.log(answerPercentage);
+        answersCorrect.innerHTML = `${questionsCorrect} / ${questionsMax} - ${answerPercentage}%`
     }
     //increase question count
     questionsCounter++;
@@ -69,6 +71,8 @@ answers.forEach(answer => {
         if (selectedAnswer === questionCurrent.correct) {
            responseGuess.innerHTML = questionCurrent.messageCorrect;
            questionsCorrect++;
+           console.log(questionsCorrect);
+           console.log(questionsMax);
         } else {
             responseGuess.innerHTML = questionCurrent.messageWrong;
         }
