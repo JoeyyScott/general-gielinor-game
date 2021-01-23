@@ -7,6 +7,7 @@ const containerQuiz = document.getElementById('container-quiz')
 const containerGuess  = document.getElementById('container-post-guess');
 const responseGuess = document.getElementById('post-guess')
 const containerFinal = document.getElementById('container-final');
+const answersCorrect = document.getElementById('answers-correct');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const questionsMax = 4;
 
@@ -14,6 +15,7 @@ const questionsMax = 4;
 let questionCurrent = {};
 let questionsCounter;
 let questionsRemaining = [];
+let questionsCorrect = [];
 
 //Initiating the quiz on start or repeat button being clicked
 buttonStart.addEventListener('click', quizStart);
@@ -39,6 +41,7 @@ function questionsLoad() {
         //displays finishing content
         containerQuiz.classList.add('contentHidden');
         containerFinal.classList.remove('contentHidden');
+        answersCorrect.innerHTML = `${questionsCorrect} / ${questionsMax}`
     }
     //increase question count
     questionsCounter++;
@@ -65,6 +68,7 @@ answers.forEach(answer => {
         //changes the innerHTML of the post guess message based on whether it was correct
         if (selectedAnswer === questionCurrent.correct) {
            responseGuess.innerHTML = questionCurrent.messageCorrect;
+           questionsCorrect++;
         } else {
             responseGuess.innerHTML = questionCurrent.messageWrong;
         }
