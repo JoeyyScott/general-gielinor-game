@@ -180,7 +180,7 @@ const questions = [{
     },
     {
         //8
-        question: `<img src="assets/images/answers/fairyring.png" class="question-img" alt="GE Image"><h2>What is the fairy ring code for McGrubor's Wood?</h2>`,
+        question: `<img src="assets/images/answers/fairyring.png" class="question-img" alt="Fairy Ring Image"><h2>What is the fairy ring code for McGrubor's Wood?</h2>`,
         answer1: 'AKQ',
         answer2: 'AJR',
         answer3: 'ALS',
@@ -192,7 +192,7 @@ const questions = [{
     },
     {
         //9
-        question: `<img src="assets/images/answers/fairyring.png" class="question-img" alt="GE Image"><h2>What do you need to pay a farmer to look after a patch with a magic tree in it?</h2>`,
+        question: `<img src="assets/images/answers/fairyring.png" class="question-img" alt="Magic Tree Image"><h2>What do you need to pay a farmer to look after a patch with a magic tree in it?</h2>`,
         answer1: '25 Yew logs',
         answer2: '25 Papaya Fruit',
         answer3: '25 Cocunuts',
@@ -204,7 +204,7 @@ const questions = [{
     },
     {
         //10
-        question: `<img src="assets/images/answers/plaguesend.png" class="question-img" alt="GE Image"><h2>What level do you need in 10 different skills for the quest Plagues End?</h2>`,
+        question: `<img src="assets/images/answers/plaguesend.png" class="question-img" alt="Plagues End Image"><h2>What level do you need in 10 different skills for the quest Plagues End?</h2>`,
         answer1: '65',
         answer2: '70',
         answer3: '75',
@@ -216,7 +216,7 @@ const questions = [{
     },
     {
         //11
-        question: `<img src="assets/images/answers/grandseedpod.png" class="question-img" alt="GE Image"><h2>Where can you obtain a Grand seed pod?</h2>`,
+        question: `<img src="assets/images/answers/grandseedpod.png" class="question-img" alt="Grand seed pod Image"><h2>Where can you obtain a Grand seed pod?</h2>`,
         answer1: 'Fishing Trawler',
         answer2: `Sorceress's Garden`,
         answer3: 'Vinesweeper',
@@ -240,7 +240,7 @@ const questions = [{
     },
     {
         //13
-        question: `<img src="assets/images/answers/construction.png" class="question-img" alt="GE Image"><h2>What is the name of the Construction pet?</h2>`,
+        question: `<img src="assets/images/answers/construction.png" class="question-img" alt="Construction Image"><h2>What is the name of the Construction pet?</h2>`,
         answer1: 'Ace',
         answer2: `Baby Yaga's House`,
         answer3: 'Brains',
@@ -252,7 +252,7 @@ const questions = [{
     },
     {
         //14
-        question: `<img src="assets/images/answers/rfd.png" class="question-img" alt=" Image"><h2>What was the 100th quest to be released in RuneScape?</h2>`,
+        question: `<img src="assets/images/answers/100.png" class="question-img" alt="Quest Image"><h2>What was the 100th quest to be released in RuneScape?</h2>`,
         answer1: 'Recipe for Disaster',
         answer2: 'Fremmenik Trials',
         answer3: 'Swan Song',
@@ -324,7 +324,7 @@ const questions = [{
     },
     {
         //20
-        question: `<img src="assets/images/answers/stats.png" class="question-img" alt="Invention Image"><h2></h2>`,
+        question: `<img src="assets/images/answers/stats.png" class="question-img" alt="Stats Image"><h2></h2>`,
         answer1: 'Dungoneering',
         answer2: 'Fishing',
         answer3: 'Invention',
