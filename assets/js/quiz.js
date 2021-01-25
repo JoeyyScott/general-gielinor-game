@@ -10,7 +10,7 @@ const verdictGuess = document.getElementById('post-guess-verdict');
 const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 3;
+const questionsMax = 30;
 
 //Variables that'll change throughout
 let questionCurrent = {};
@@ -60,7 +60,7 @@ function questionsLoad() {
     questionsRemaining.splice(questionToBeRemoved, 1);
 }
 
-//Credit for forEach loop
+//Credit for adapted forEach loop - See README.md for more details
 answers.forEach(answer => {
     //checks to see if the user clicks any of the answer buttons
     answer.addEventListener('click', userGuess => {
@@ -70,18 +70,15 @@ answers.forEach(answer => {
         containerQuiz.classList.add('contentHidden');
         //changes the innerHTML of the post guess message based on whether it was correct
         if (selectedAnswer === questionCurrent.correct) {
-            // correctMsg = correctResponses[1];
+            //changes the innerHTML of the verdict to a random response within an array
             verdictGuess.innerHTML = correctResponses[Math.floor(Math.random() * correctResponses.length)].message;
             responseGuess.innerHTML = questionCurrent.messageCorrect;
             questionsCorrect++;
-            console.log(questionsCorrect);
-            console.log(questionsMax);
         } else {
             responseGuess.innerHTML = questionCurrent.messageWrong;
         }
     });
 });
-//End credit - See README.md for more details
 
 //Checks to see if the next button has been clicked
 //Removes the guess content, shows the quiz again and loads the next question
@@ -114,7 +111,6 @@ const correctResponses = [
     {message:`That rocks!`},
     {message:`!!!!!!11`},
 ]
-
 
 //array with each question as an object
 const questions = [{
