@@ -10,7 +10,7 @@ const verdictGuess = document.getElementById('post-guess-verdict');
 const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 30;
+const questionsMax = 3;
 
 //Variables that'll change throughout
 let questionCurrent = {};
@@ -43,8 +43,7 @@ function questionsLoad() {
         //displays finishing content
         containerQuiz.classList.add('contentHidden');
         containerFinal.classList.remove('contentHidden');
-        let answerPercentage = (questionsCorrect / questionsMax)*100;
-        console.log(answerPercentage);
+        let answerPercentage = Math.trunc((questionsCorrect / questionsMax)*100);
         answersCorrect.innerHTML = `${questionsCorrect} / ${questionsMax} - ${answerPercentage}%`
     }
     //increase question count
