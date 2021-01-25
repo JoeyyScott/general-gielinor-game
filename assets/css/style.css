@@ -149,6 +149,11 @@ a:hover {
 }
 
 /* Media Queries */
+@media only screen and (max-height: 650px) {
+    .container-main {
+        margin-top: 50px;
+    }
+}
 @media only screen and (min-width: 768px) {
     h2, .nav-item {
         font-size: 2.4rem;
