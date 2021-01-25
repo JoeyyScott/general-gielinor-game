@@ -110,11 +110,12 @@ Using a combination of [coolors.co](https://coolors.co/) and [Accessible Color G
 
 ![Background image to be tiled](assets/images/background.png)
 
-The quizmaster image comes from the Old School RuneScape Wiki page for [him](https://oldschool.runescape.wiki/w/Quiz_Master). The rest of the image was created in GIMP and will be tiled across the site.
++ The quizmaster image comes from the Old School RuneScape Wiki page for [him](https://oldschool.runescape.wiki/w/Quiz_Master). The rest of the image was created in GIMP and will be tiled across the site.
++ All other images come from the official [RuneScape wiki](https://runescape.wiki/). 
 
 #### Typography
 
-To keep with the intended RuneScape style I have picked a singular font (RuneScape UF).
+To keep with the intended RuneScape style I have picked a singular font (RuneScape UF). Through the use of Transfonter as mentioned in the Technologies and Credits sections I was able to import this custom font into my site which allows for the user to feel the complete RuneScape experience.
 
 ### Wireframes
 
@@ -130,41 +131,53 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 
 ## Features
 
-+ ### Existing Features
+### Existing Features
 
-    The header can be accessed and viewed throughout all stages of the quiz.
+The header can be accessed and viewed throughout all stages of the quiz.
 
-    Included in the **header** is: 
+Included in the **header** is: 
 
-    + **Home Icon**: Provides a link to the homepage to allow the user to return there.
-    + **'Find out more' button**: Allows the user to initiate a modal which provides information about the quiz and RuneScape in general.
++ **Home Icon**: Provides a link to the homepage to allow the user to return there.
++ **'Find out more' button**: Allows the user to initiate a modal which provides information about the quiz and RuneScape in general.
 
-    Included in the **main quiz** is:
+Included in the **main quiz** is:
 
-    + **Multiple choice questions** - Contains up to 6 questions of which 4 will shown throughout the quiz.
-        + Each question contains 4 answers.
-        + The question order is randomized so users do not feel repetition.
++ **Multiple choice questions** - Contains up to 30 questions of which 10 will be shown throughout the quiz.
+    + Each question contains 4 answers.
+    + The question order is randomized so users do not feel repetition.
 
-    + **Guess response** - When the user has a guess at a question they are presented with one of two responses:
-        + If their response is correct the user will have their answer reaffirmed, are presented with some supporting information and given a link to the associated RuneScape Wikipedia page.
-        + If their response is incorrect the user will be notified that their guess was incorrect and a hint as to how they might the answer to the question.
++ **Guess response** - When the user has a guess at a question they are presented with one of two responses:
+    + If their response is correct the user will have their answer reaffirmed, are presented with some supporting information and given a link to the associated RuneScape Wikipedia page.
+    + If their response is incorrect the user will be notified that their guess was incorrect and a hint as to how they might the answer to the question.
+
++ **Responsive Design** - The quiz is responsive on all screen sizes and has been designed with a mobile first approach.
+    + Media queries for scaling rules across device proportions.
+    + Media query for small height screens to push the main quiz container up as to avoid content overlap.
+
+Included in the **footer** is:
++ **Suggest a question** - Opens a modal which allows user to suggest a question for the quiz and 4 associated answers.
+    + The form functionality is handled by emailJS.
++ **Github icon** - Opens up my Github profile in a new tab for user retention.
++ **LinkedIn icon** - Opens up my LinkedIn profile in a new tab for user retention.
 
 ---
 
 ## Technologies
 
----
-
 ### Languages
 
----
++ [HTML](https://en.wikipedia.org/wiki/HTML) - Used as the main language for structuring the website.
++ [CSS](https://en.wikipedia.org/wiki/CSS) - Used as the main language for styling the website.
 
 ### Frameworks, libraries and programs
-
++ [GIMP](https://www.gimp.org) - I used this program to design the background image and wireframes.
 + [coolors.co](https://coolors.co) - I used this tool to generate a colour scheme based on the RuneScape theme.
 + [Accessible Color Generator](https://learnui.design/tools/accessible-color-generator.html) - I used this tool in conjunction with coolors.co to provide a better colour contrast for accessibility. 
 + [Transfonter](https://transfonter.org/) - A tool I used to generate the accompanying font files for my custom RuneScape Font.
-
++ [Font Awesome](https://fontawesome.com/) - I used the Font Awesome icon library to provide icons for some of my hints, my home button and my footer links. 
++ [Bootstrap](https://getbootstrap.com/) - The Bootstrap framework is being used to organize and position my answers within my quiz container using the grid system. It also handles the JavaScript for the sites modals.
++ [GitPod](https://gitpod.io) - GitPod was the online IDE (Integrated Development Engine) I used to develop this site.
++ [Git](https://git-scm.com) - Git is an open source version control system where you can commit changes to the associated Github repository and push changes to Github pages.
 
 #### [Back to top](#contents)
 
@@ -192,7 +205,23 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 
 ### Deploying to Github pages
 
+To achieve deployment I used this process:
+
+1. After pushing my project to GitHub, I navigated and logged into the GitHub site.
+2. I then went to my repositories and selected the one associated to this project: [General Gielinor Game Repository](https://github.com/JoeyyScott/general-gielinor-game).
+3. On the main repository bar I clicked "Settings" and scrolled to "Github Pages".
+4. Under "Source" dropdown box I selected "Master Branch" and clicked "Save".
+5. After the page refreshed I returned to the "Github Pages" section for the live link to the published site.
+
+The live link for the site is here: [https://joeyyscott.github.io/general-gielinor-game/](https://joeyyscott.github.io/general-gielinor-game/)
+
 ### Creating a local clone
+
+1. Open GitHub and locate the associated GitHub repository [here](https://github.com/JoeyyScott/general-gielinor-game/).
+2. In the section that contains the Go to file, Add File and Code buttons, click the dropdown box on code.
+3. Of the options available the one we want is to copy the link to the repository whilst having "HTTPS" selected.
+4. Open your desired terminal (built in on your computer or in an IDE) and directory.
+5. Type ```git clone``` with the URL after it and press enter to create a local clone at your desired local location.
 
 #### [Back to top](#contents)
 
@@ -210,7 +239,18 @@ This section includes areas/sections of code and properties I was unaware of. I 
 
 ### Media
 
++ The pictures used in this site (in questions and answers) were primarily taken from the official [RuneScape Wiki](https://runescape.wiki/).
++ The Jagex logo was taking from the Wikipedia page for them [here](https://en.wikipedia.org/wiki/Jagex/)
+
 ### Acknowledgments
+
+The [Code Institute](https://codeinstitute.net/) slack community for their ongoing support, help and patience with any issues I had pertaining to all aspects of the project.
+
+My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for all of his help throughout our project calls and feedback on my work.
+
+My family and friends who have helped me test various different versions of the quiz throughout the development process and proof reading my questions/answers along with my README.md / TESTING.md files.
+
+On a final note, I have enjoyed working on this project and am excited for the next stage ahead of me in this [Full Stack Web Development course](https://codeinstitute.net/full-stack-software-development-diploma/). 
 
 #### [Back to top](#contents)
 

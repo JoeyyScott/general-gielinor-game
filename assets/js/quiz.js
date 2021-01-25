@@ -393,5 +393,77 @@ const questions = [{
         messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/soulsplit.png" class="question-img" alt="Soul Split Image">
         <p>It was Temple at Senntisten. <br> Check out the wiki for Soul Split here <a href="https://runescape.wiki/w/Soul_Split" target="_blank">here!</a></p>`,
         messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: The skill guide ingame provides quest requirements for all content within RuneScape. <i class="fas fa-smile-beam"></i></p>`
+    },
+    {
+        //25
+        question: `<img src="assets/images/answers/soulsplit.png" class="question-img" alt="Soul Split Image"><h2>What quest unlocks the ability to use the curse Soul Split at level 92 Prayer?</h2>`,
+        answer1: 'Curse of Arrav',
+        answer2: 'Temple at Senntisten',
+        answer3: 'Lunar Diplomacy',
+        answer4: 'One of a Kind',
+        correct: '2', //Temple at Senntisten
+        messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/soulsplit.png" class="question-img" alt="Soul Split Image">
+        <p>It was Temple at Senntisten. <br> Check out the wiki for Soul Split here <a href="https://runescape.wiki/w/Soul_Split" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: The skill guide ingame provides quest requirements for all content within RuneScape. <i class="fas fa-smile-beam"></i></p>`
+    },
+    {
+        //26
+        question: `<img src="assets/images/answers/map.png" class="question-img" alt="Map Image"><h2>Where are Mizgog, Grayzag, Sedridor and Traiborn located?</h2>`,
+        answer1: `Wizard's Tower`,
+        answer2: 'Magic Guild',
+        answer3: `Sorcerer's Tower`,
+        answer4: `Artisans Workshop`,
+        correct: '1', //Wizard's Tower
+        messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/wizards.png" class="question-img" alt=" Image">
+        <p>It was Wizard's Tower. You speak to these wizards and others in multiple quests including Rune Mysteries, Rune Memories and Imp Catcher. <br> Check out the wiki for the Wizard's Tower here <a href="https://runescape.wiki/w/Wizards%27_Tower" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: Maybe those blue clothed people need your help? <i class="fas fa-smile-beam"></i></p>`
+    },
+    {
+        //27
+        question: `<img src="assets/images/answers/smokecloud.png" class="question-img" alt="Smoke Cloud spell scroll Image"><h2>In which archaeological site can you find the ‘Smoke Cloud’ spell scroll artefact?</h2>`,
+        answer1: 'Everlight',
+        answer2: 'Orthen',
+        answer3: 'Infernal Source',
+        answer4: 'Kharid-Et',
+        correct: '4', //Kharid-Et
+        messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/smokecloud.png" class="question-img" alt="Smoke Cloud spell scroll Image">
+        <p>It was Kharid-Et. It is found whilst excavating Culinarum debris. It can be excavated and restored at level 100 Archaeology. <br> Check out the wiki for the Smoke Cloud spell scroll here <a href="https://runescape.wiki/w/%27Smoke_Cloud%27_spell_scroll_(damaged)" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: Maybe Zaros used this back in the day?</p>`
+    },
+    {
+        //28
+        question: `<img src="assets/images/answers/achievement.png" class="question-img" alt=" Image"><h2>How do you unlock the Port Life achievement?</h2>`,
+        answer1: 'By reaching the first region in Player Owned Ports',
+        answer2: 'By completing the Player Owned Port tutorial',
+        answer3: 'By unlocking your first captain in Player Owned Ports',
+        answer4: 'By reaching the final region in Player Owned Ports',
+        correct: '2', //By completing the Player Owned Ports tutorial
+        messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/pop.png" class="question-img" alt=" Image">
+        <p>It was by completing the Player Owned Ports tutorial. To start, you need level 90 in one of the Ports skills (Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer or thieving). <br> Check out the wiki for the Port Life achievement here <a href="https://runescape.fandom.com/wiki/Port_Life" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: Maybe someone can help show you around?</p>`
+    },
+    {
+        //29
+        question: `<img src="assets/images/answers/jumper.png" class="question-img" alt="Jumper Image"><h2>What is a Jumper?</h2>`,
+        answer1: 'A cosmetic override',
+        answer2: 'A slayer creature',
+        answer3: 'A node in Runespan',
+        answer4: 'A portal to use',
+        correct: '3', //A node in Runespan
+        messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/jumper.png" class="question-img" alt="Jumper Image">
+        <p>It was. <br> Check out the wiki for  here <a href="https://runescape.wiki/w/Jumper" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: You can receive law runes from it.</p>`
+    },
+    {
+        //30
+        question: `<img src="assets/images/answers/impressing.png" class="question-img" alt="Impressing the Locals Image"><h2></h2>`,
+        answer1: 'The Arc',
+        answer2: 'Menaphos',
+        answer3: 'Prifddinas',
+        answer4: 'Darkmeyer',
+        correct: '', //
+        messageCorrect: `<h2>GG!</h2><img src="assets/images/answers/impressing.png" class="question-img" alt="Impressing the Locals Image">
+        <p>It was the Arc. The Arc provides a wide variety of content across Fishing, Hunter, Farming, Divination and Woodcutting with some of the highest level skill nodes being found on uncharted isles. <br> Check out the wiki for the Impressing the Locals miniquest here. <a href="https://runescape.wiki/w/Impressing_the_Locals" target="_blank">here!</a></p>`,
+        messageWrong: `<h2>Oof! <i class="fas fa-frown"></i></h2><br><p>That is not correct! <br> Hint: You end up sailing to the area you unlocked.</p>`
     }
 ];
