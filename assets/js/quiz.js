@@ -140,7 +140,7 @@ const questions = [{
         answer4: 'mIRC',
         correct: '3', //Java
         messageCorrect: `<img src="assets/images/answers/java.png" class="question-img" alt="Java Logo Image"><br>
-        <p>It was Java. The Gower brothers originally created RuneScape classic all the way back in 2001! The game is alive today and is celebrating 20 years of being around, how incredible is that?</p>
+        <p>It was Java. The Gower brothers originally created RuneScape Classic all the way back in 2001! The game is alive today and is celebrating 20 years of being around, how incredible is that?</p>
         <p>You can check out Jagex' website <a href="https://www.jagex.com/en-GB/" target="blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: This information exists on the internet, it might be closer than you think <i class="fas fa-smile-beam"></i></p>`
     },
@@ -149,11 +149,11 @@ const questions = [{
         question: `<img src="assets/images/answers/raw-tuna.png" class="question-img" alt="Raw Tuna Image"> <h2>What fishing level do you need to catch raw tuna with a harpoon?</h2>`,
         answer1: '15',
         answer2: '25',
-        answer3: '40',
-        answer4: '35',
-        correct: '4', //35
+        answer3: '35',
+        answer4: '45',
+        correct: '3', //35
         messageCorrect: `<img src="assets/images/answers/raw-tuna.png" class="question-img" alt="Raw Tuna Image"><br>
-        <p>It is level 35. You can fish them at 55 fishing without a harpoon if you have unlocked the Barbarian ways of barehanded Fishing! Either way you'll get 80 Fishing experience!</p>
+        <p>It is level 35. You can fish them at 55 Fishing without a harpoon if you have unlocked the Barbarian ways of barehanded fishing! Either way you'll get 80 Fishing experience!</p>
         <p>Check out the wiki for Raw tuna <a href="https://runescape.wiki/w/Raw_tuna" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct!<br> Hint: The skillguide in game provides all required levels for content within RuneScape <i class="fas fa-smile-beam"></i></p>`
     },
@@ -179,7 +179,7 @@ const questions = [{
         answer4: 'Apothecary',
         correct: '4', //Apothecary
         messageCorrect: `<img src="assets/images/answers/apothecary.png" class="question-img" alt="Apothecary Image"><br>
-        <p>It was the Apothecary. He works in a building just south east of Varrock Centre, just north of the bank. You'll interact with him during One Small Favour but also in Dimension of Disaster: Curse of Arrav.</p>
+        <p>It was the Apothecary. He works in a building south west of Varrock Centre, just north of the bank. You'll interact with him during One Small Favour but also in Dimension of Disaster: Curse of Arrav.</p>
         <p>Check out the wiki for him <a href="https://runescape.wiki/w/Apothecary" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: This NPC can also make potions for you if brought the correct ingredients.</p>`
     },
@@ -187,31 +187,31 @@ const questions = [{
         //5
         question: `<img src="assets/images/answers/trimcomp.png" class="question-img" alt="Trimmed Completionist Image"><h2>Who do you talk to buy the Trimmed Completionist Cape?</h2>`,
         answer1: 'Gielinor Guide',
-        answer2: 'Musuem Guard',
+        answer2: 'Museum Guard',
         answer3: 'Elen Anterth',
         answer4: 'Wizard Sedridor',
         correct: '2', //Museum Guard
         messageCorrect: `<img src="assets/images/answers/trimcomp.png" class="question-img" alt="Trimmed Completionist Image"><br>
-        <p>It was the Museum Guard. He works in Varrock museum, on the top floor. You interact with him and ask about the mysterious cape and he'll give you a description of the capes history. There is a lot of requirements for this cape, making it prestigious.</p>
+        <p>It was the Museum Guard. He works in Varrock museum, on the top floor. You interact with him and ask about the mysterious cape and he'll give you a description of the cape's history. There are a lot of requirements for this cape, making it prestigious.</p>
         <p>Check out the wiki for the cape <a href="https://runescape.wiki/w/Completionist_cape_(t)" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: They're surrounded by lots of artefacts from time gone by.</p>`
     },
     {
         //6
-        question: `<img src="assets/images/answers/praymelle.png" class="question-img" alt="Pray Melle Image"><h2>What Prayer level do you need to use the Protect from Melle prayer?</h2>`,
+        question: `<img src="assets/images/answers/praymelee.png" class="question-img" alt="Pray Melee Image"><h2>What Prayer level do you need to use the Protect from Melee prayer?</h2>`,
         answer1: '22',
         answer2: '29',
         answer3: '37',
         answer4: '43',
         correct: '4', //43
-        messageCorrect: `<img src="assets/images/answers/praymelle.png" class="question-img" alt="Pray Melle Image"><br>
-        <p>It was 43. Back in the days protection prayers granted 100% protection from that style, now they provide a 50% reduction to the hit. Despite this protection prays are still widely used in RuneScape PVM today.</p>
+        messageCorrect: `<img src="assets/images/answers/praymelee.png" class="question-img" alt="Pray Melee Image"><br>
+        <p>It was 43. Back in the day protection prayers granted 100% protection from that style, now they provide a 50% reduction to the hit. Despite this protection prayers are still widely used in RuneScape PVM today.</p>
         <p>Check out the wiki for the prayer <a href="https://runescape.wiki/w/Protect_from_Melee" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: The skill guide ingame provides all required levels for content within RuneScape.</p>`
     },
     {
         //7
-        question: `<img src="assets/images/answers/grandexchange.png" class="question-img" alt="GE Image"><h2>What year was the Grand Exchange released?</h2>`,
+        question: `<img src="assets/images/answers/grandexchange.png" class="question-img" alt="GE Image"><h2>In what year was the Grand Exchange released?</h2>`,
         answer1: '2006',
         answer2: '2007',
         answer3: '2008',
@@ -240,7 +240,7 @@ const questions = [{
         question: `<img src="assets/images/answers/fairyring.png" class="question-img" alt="Magic Tree Image"><h2>What do you need to pay a farmer to look after a patch with a magic tree in it?</h2>`,
         answer1: '25 Yew logs',
         answer2: '25 Papaya Fruit',
-        answer3: '25 Cocunuts',
+        answer3: '25 Coconuts',
         answer4: '25 Kandarin Hops',
         correct: '3', //25 Coconuts
         messageCorrect: `<img src="assets/images/answers/magictree.png" class="question-img" alt="Magic Tree Image"><br>
@@ -283,7 +283,7 @@ const questions = [{
         answer4: '1 Law 3 Air 1 Earth',
         correct: '1', //2 Law, 2 Fire
         messageCorrect: `<img src="assets/images/answers/trollheimtelly.png" class="question-img" alt="Trollheim Teleport Image"><br>
-        <p>It was 2 Law 2 Fire. You unlock this teleport after completing Eadgar's Ruse quest. It will teleport you to the center of Trollheim and is used for herb runs and questing.</p>
+        <p>It was 2 Law 2 Fire. You unlock this teleport after completing Eadgar's Ruse quest. It will teleport you to the centre of Trollheim and is used for herb runs and questing.</p>
         <p>Check out the wiki for the Trollheim Teleport <a href="https://runescape.wiki/w/Trollheim_Teleport" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: The teleport tab in the Magic abilities interface ingame provides all requirements for Quests within RuneScape. <i class="fas fa-smile-beam"></i></p>`
     },
@@ -309,7 +309,7 @@ const questions = [{
         answer4: 'Cabin Fever',
         correct: '1', //Recipe for Disaster
         messageCorrect: `<img src="assets/images/answers/rfd.png" class="question-img" alt="Recipe for Disaster Image"><br>
-        <p>It was Recipe for Disaster. This quest was released back on the 15th March 2006! It was a sequel to the first quest ever released in RuneScape and a staple in any players beginning experience, Cook's Assistance.</p>
+        <p>It was Recipe for Disaster. This quest was released back on the 15th March 2006! It was a sequel to the first quest ever released in RuneScape and a staple in any players beginning experience, Cook's Assistant.</p>
         <p>Check out the wiki for the quest <a href="https://runescape.wiki/w/Recipe_for_Disaster" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: You make some interesting food in this quest.</p>`
     },
@@ -322,7 +322,7 @@ const questions = [{
         answer4: 'Super antifire (4) and Prayer Renewal (4)',
         correct: '4', //Super antifire (4) and Prayer Renewal (4)
         messageCorrect: `<img src="assets/images/answers/brightfire.png" class="question-img" alt="Brightfire potion Image"><br>
-        <p>It was Super antifire (4) and Prayer Renewal (4). They are one of the combination potions released with Prifddinas and require you to buy a recipe from Lady Meilyr for 600,000gp.</p>
+        <p>It was Super antifire (4) and Prayer Renewal (4). It is one of the combination potions released with Prifddinas and require you to buy a recipe from Lady Meilyr for 600,000gp.</p>
         <p>Check out the wiki for Brightfire potions <a href="https://runescape.wiki/w/Brightfire_potion#(6)" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: The skill guide ingame provides all required levels for content within RuneScape. <i class="fas fa-smile-beam"></i></p>`
     },
@@ -335,7 +335,7 @@ const questions = [{
         answer4: '2010',
         correct: '2', //2006
         messageCorrect: `<img src="assets/images/answers/fallymassacre.jpg" class="question-img" alt="Falador Massacre Image"><br>
-        <p>It was 2006. When Cursed You, the first player to achieve 99 Construction, he hosted a party in his player owned house and people who had engaged in combat activities were booted out of his house and somehow retained the ability to attack players and in turn abused this thus dubbing this event the Falador Massacre.</p>
+        <p>It was 2006. When Cursed You was due to be the first player to achieve 99 Construction, he hosted a party in his player owned house. Upon the level up and due to the amount of messages people were booted out of his house and those who had engaged in combat activities had somehow retained the ability to attack players and in turn abused this thus dubbing this event the Falador Massacre.</p>
         <p>Check out the wiki for the Falador Massacre <a href="https://runescape.fandom.com/wiki/Falador_Massacre" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: 6th June and is known as a triple number glitch.</p>`,
     },
@@ -361,7 +361,7 @@ const questions = [{
         answer4: `Cook's Assisant`,
         correct: '1', //Swan Song
         messageCorrect: `<img src="assets/images/answers/arnold.png" class="question-img" alt="Arnold Lydspor Image"><br>
-        <p>It was Arnold Lydspor. During Swan Song you help the Piscatoris Fishing Colony and it's inhabitants to fight off the sea troll invasion, among which is Arnold Lydspor who ends up being a bank and general store after the quest.</p>
+        <p>It was Arnold Lydspor. During Swan Song you help the Piscatoris Fishing Colony and its inhabitants fight off the sea troll invasion, among which is Arnold Lydspor who ends up being a bank and general store after the quest.</p>
         <p>Check out the wiki for Arnold <a href="https://runescape.wiki/w/Arnold_Lydspor" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: I'm sure the Wise Old Man is thankful for your help fighting those trolls!</p>`
     },
@@ -381,13 +381,13 @@ const questions = [{
     {
         //20
         question: `<img src="assets/images/answers/stats.png" class="question-img" alt="Stats Image"><h2>Which one of these is an elite skill?</h2>`,
-        answer1: 'Dungoneering',
+        answer1: 'Dungeoneering',
         answer2: 'Fishing',
         answer3: 'Invention',
         answer4: 'Farming',
         correct: '3', //Invention
         messageCorrect: `<img src="assets/images/answers/invention.png" class="question-img" alt="Invention Image"><br>
-        <p>It was Invention. To even unlock this skill you require level 80 in Divination, Smithing and Crafting. You can then start the invention tutorial north of Falador in the Invention guild.
+        <p>It was Invention. To even unlock this skill you require level 80 in Divination, Smithing and Crafting. You can then start the Invention tutorial north of Falador in the Invention Guild.
         <p>Check out the wiki for Invention <a href="https://runescape.wiki/w/Invention" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: This skill was released early 2016.</p>`
     },
@@ -459,14 +459,14 @@ const questions = [{
     {
         //26
         question: `<img src="assets/images/answers/map.png" class="question-img" alt="Map Image"><h2>Where are Mizgog, Grayzag, Sedridor and Traiborn located?</h2>`,
-        answer1: `Wizard's Tower`,
+        answer1: `Wizards' Tower`,
         answer2: 'Magic Guild',
         answer3: `Sorcerer's Tower`,
         answer4: `Artisans Workshop`,
-        correct: '1', //Wizard's Tower
-        messageCorrect: `<img src="assets/images/answers/wizardstower.png" class="question-img" alt="Wizard's Tower Image"><br>
-        <p>It was Wizard's Tower. You speak to these wizards and others in multiple quests including Rune Mysteries, Rune Memories and Imp Catcher.</p>
-        <p>Check out the wiki for the Wizard's Tower <a href="https://runescape.wiki/w/Wizards%27_Tower" target="_blank">here!</a></p>`,
+        correct: '1', //Wizards' Tower
+        messageCorrect: `<img src="assets/images/answers/wizardstower.png" class="question-img" alt="Wizards' Tower Image"><br>
+        <p>It was Wizards' Tower. You speak to these wizards and others in multiple quests including Rune Mysteries, Rune Memories and Imp Catcher.</p>
+        <p>Check out the wiki for the Wizards' Tower <a href="https://runescape.wiki/w/Wizards%27_Tower" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: Maybe those blue clothed people need your help? <i class="fas fa-smile-beam"></i></p>`
     },
     {
@@ -491,7 +491,7 @@ const questions = [{
         answer4: 'By reaching the final region in POP',
         correct: '2', //By completing the Player Owned Ports tutorial
         messageCorrect: `<img src="assets/images/answers/pop.png" class="question-img" alt="Player Owned Ports Image"><br>
-        <p>It was by completing the Player Owned Ports tutorial. To start, you need level 90 in one of the Ports skills (Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer or thieving).
+        <p>It was by completing the Player Owned Ports tutorial. To start, you need level 90 in one of the Ports skills (Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer or Thieving).
         <p>Check out the wiki for the Port Life achievement <a href="https://runescape.fandom.com/wiki/Port_Life" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: Maybe someone can help show you around?</p>`
     },
@@ -505,7 +505,7 @@ const questions = [{
         correct: '3', //A node in Runespan
         messageCorrect: `<img src="assets/images/answers/jumper.png" class="question-img" alt="Jumper Image"><br>
         <p>It was a node in Runespan. They require 54 Runecrafting as you receive law runes when siphoning from them. They appear on the upper floor and rarely on the middle floor.</p>
-        <p>Check out the wiki for Jumper's <a href="https://runescape.wiki/w/Jumper" target="_blank">here!</a></p>`,
+        <p>Check out the wiki for Jumpers <a href="https://runescape.wiki/w/Jumper" target="_blank">here!</a></p>`,
         messageWrong: `<p>That is not correct! <br> Hint: You can receive law runes from it.</p>`
     },
     {

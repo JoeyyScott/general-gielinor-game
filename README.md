@@ -92,7 +92,7 @@ E. Repeat button after quiz | 5 | 4
 ### Website Structure
 
 
-+ This project is aimed at either new, returning or veteran RuneScape players and I wanted to recreate the traditional RuneScape feel with my design. You get the classic RuneScape vibe from how you are presented with the area that displays the quiz to the colours throughout the project.
++ This project is aimed at either new, returning or veteran RuneScape players and I wanted to recreate the traditional RuneScape feel with my design. You experience the classic RuneScape vibe from how you are presented with the area that displays the quiz to the colours throughout the project.
 
 + I wanted to keep the design of the website simple so as not to distract the user from the main content of the site.
 
@@ -175,7 +175,7 @@ Included in the **footer** is:
 + [Accessible Color Generator](https://learnui.design/tools/accessible-color-generator.html) - I used this tool in conjunction with coolors.co to provide a better colour contrast for accessibility. 
 + [Transfonter](https://transfonter.org/) - A tool I used to generate the accompanying font files for my custom RuneScape Font.
 + [Font Awesome](https://fontawesome.com/) - I used the Font Awesome icon library to provide icons for some of my hints, my home button and my footer links. 
-+ [Bootstrap](https://getbootstrap.com/) - The Bootstrap framework is being used to organize and position my answers within my quiz container using the grid system. It also handles the JavaScript for the sites modals.
++ [Bootstrap](https://getbootstrap.com/) - The Bootstrap framework is being used to organize and position my answers within my quiz container using the grid system. It also handles the JavaScript for the site's modals.
 + [GitPod](https://gitpod.io) - GitPod was the online IDE (Integrated Development Engine) I used to develop this site.
 + [Git](https://git-scm.com) - Git is an open source version control system where you can commit changes to the associated Github repository and push changes to Github pages.
 
@@ -194,8 +194,8 @@ Included in the **footer** is:
 
 ### Project Inception
 
-1. This project was created using [GitHub](https://github.com) and Code Institutes project template [here](https://github.com/Code-Institute-Org/gitpod-full-template) by clicking "Use this template".
-2. I named this project "general-gielinor game" as it is the name of the quiz on the website.
+1. This project was created using [GitHub](https://github.com) and Code Institute's project template [here](https://github.com/Code-Institute-Org/gitpod-full-template) by clicking "Use this template".
+2. I named this project "general-gielinor-game" as it is the name of the quiz on the website.
 3. Once the repository had been created I clicked the "Gitpod" button which is a Firefox extension ([here](https://addons.mozilla.org/en-GB/firefox/addon/gitpod/)) that creates a workspace within GitPod which is where I coded the project.
 4. Following [Code Institute's](https://codeinstitute.net/) lessons the 4 main commands I used were:
     + ```git status``` (which allows me to check which files have been modified and if any are ready to be committed)
@@ -219,7 +219,7 @@ The live link for the site is here: [https://joeyyscott.github.io/general-gielin
 
 1. Open GitHub and locate the associated GitHub repository [here](https://github.com/JoeyyScott/general-gielinor-game/).
 2. In the section that contains the Go to file, Add File and Code buttons, click the dropdown box on code.
-3. Of the options available the one we want is to copy the link to the repository whilst having "HTTPS" selected.
+3. Of the options available the one I chose is to copy the link to the repository whilst having "HTTPS" selected.
 4. Open your desired terminal (built in on your computer or in an IDE) and directory.
 5. Type ```git clone``` with the URL after it and press enter to create a local clone at your desired local location.
 
@@ -240,7 +240,7 @@ This section includes areas/sections of code and properties I was unaware of. I 
 ### Media
 
 + The pictures used in this site (in questions and answers) were primarily taken from the official [RuneScape Wiki](https://runescape.wiki/).
-+ The Jagex logo was taking from the Wikipedia page for them [here](https://en.wikipedia.org/wiki/Jagex/)
++ The Jagex logo was taking from the Wikipedia page for them [here](https://en.wikipedia.org/wiki/Jagex/).
 
 ### Acknowledgments
 
