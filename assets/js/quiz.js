@@ -73,7 +73,7 @@ answers.forEach(answer => {
         //changes the innerHTML of the post guess message based on whether it was correct
         if (selectedAnswer === questionCurrent.correct) {
             //changes the innerHTML of the verdict to a random response within an array
-            verdictGuess.innerHTML = correctResponses[Math.floor(Math.random() * correctResponses.length)].message;
+            verdictGuess.innerHTML = `<h2>${correctResponses[Math.floor(Math.random() * correctResponses.length)].message} <i class="fas fa-smile-beam"></i></h2>`;
             responseGuess.innerHTML = questionCurrent.messageCorrect;
             questionsCorrect++;
         } else {
