@@ -9,6 +9,7 @@ const responseGuess = document.getElementById('post-guess-content');
 const verdictGuess = document.getElementById('post-guess-verdict');
 const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
+const remainingCount = document.getElementById('remaining-questions');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const questionsMax = 30;
 
@@ -53,13 +54,15 @@ function questionsLoad() {
     questionCurrent = questionsRemaining[questionToBeRemoved];
     //sets the questions HTML for the current question
     question.innerHTML = questionCurrent.question;
-    //credit for for each function - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
+    //sets the remainingCount innerHTML to display to the user how many questions they have left
+    remainingCount.innerHTML = `<p>Questions remaining: ${questionsMax - questionsCounter}</p>`;
+    //credit for adapted forEach loop (See README.md for details) - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
     answers.forEach(answer => { let i = answer.dataset[`number`]; answer.innerText = questionCurrent[`answer${i}`];});
     //removes current question from the array of remaining questions
     questionsRemaining.splice(questionToBeRemoved, 1);
 }
 
-//Credit for adapted forEach loop - See README.md for more details
+//Credit for forEach loop functionality - See README.md for more details
 answers.forEach(answer => {
     //checks to see if the user clicks any of the answer buttons
     answer.addEventListener('click', userGuess => {
