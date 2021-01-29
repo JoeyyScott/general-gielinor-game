@@ -1,7 +1,9 @@
 { 
     "questions":[
     {
-        "question": "What language was the original RuneScape coded in?1",
+        "question": "What language was the original RuneScape coded in?",
+        "image": "coding.png",
+        "alt": "Coding",
         "answers":[
             {"answer": "HTML"},
             {"answer": "Python"},
