@@ -4,7 +4,7 @@
 
 I have created this project (Milestone project 2) as part of my Full Stack Web Development course with [Code Institute](https://codeinstitute.net/).
 
-General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [Runescape](https://www.runescape.com). I have been playing this game since 2001 and have such acquired a lot of game knowledge, so I thought what better idea for a interactive game?
+General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [RuneScape](https://www.runescape.com). I have been playing this game since 2001 and have such acquired a lot of game knowledge, so I thought what better idea for a interactive game?
 
 ---
 

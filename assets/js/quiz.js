@@ -304,7 +304,7 @@ const questions = [{
         //14
         question: `<img src="assets/images/answers/100.png" class="question-img" alt="Quest Image"><h2>What was the 100th quest to be released in RuneScape?</h2>`,
         answer1: 'Recipe for Disaster',
-        answer2: 'Fremmenik Trials',
+        answer2: 'Fremennik Trials',
         answer3: 'Swan Song',
         answer4: 'Cabin Fever',
         correct: '1', //Recipe for Disaster
@@ -462,7 +462,7 @@ const questions = [{
         answer1: `Wizards' Tower`,
         answer2: 'Magic Guild',
         answer3: `Sorcerer's Tower`,
-        answer4: `Artisans Workshop`,
+        answer4: `Artisans' Workshop`,
         correct: '1', //Wizards' Tower
         messageCorrect: `<img src="assets/images/answers/wizardstower.png" class="question-img" alt="Wizards' Tower Image"><br>
         <p>It was Wizards' Tower. You speak to these wizards and others in multiple quests including Rune Mysteries, Rune Memories and Imp Catcher.</p>
