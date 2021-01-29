@@ -1,0 +1,48 @@
+{ 
+    "questions":[
+    {
+        "question": "What language was the original RuneScape coded in?1",
+        "answers":[
+            {"answer": "HTML"},
+            {"answer": "Python"},
+            {"answer": "Java"},
+            {"answer": "mIRC"}      
+        ],
+        "correct": "3",
+        "msgCorrect": "Correct",
+        "msgWrong": "Wrong"
+    },{
+        "question": "Question 2",
+        "answers":[
+            {"answer": "A"},
+            {"answer": "B"},
+            {"answer": "C"},
+            {"answer": "D"}      
+        ],
+        "correct": "2",
+        "msgCorrect": "Correct",
+        "msgWrong": "Wrong"
+    },{
+        "question": "Question 3",
+        "answers":[
+            {"answer": "A"},
+            {"answer": "B"},
+            {"answer": "C"},
+            {"answer": "D"}      
+        ],
+        "correct": "3",
+        "msgCorrect": "Correct",
+        "msgWrong": "Wrong"
+    },{
+        "question": "Question 4",
+        "answers":[
+            {"answer": "A"},
+            {"answer": "B"},
+            {"answer": "C"},
+            {"answer": "D"}      
+        ],
+        "correct": "4",
+        "msgCorrect": "Correct",
+        "msgWrong": "Wrong"
+    }]
+}

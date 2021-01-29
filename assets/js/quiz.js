@@ -11,17 +11,24 @@ const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const remainingCount = document.getElementById('remaining-questions');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 30;
+const questionsMax = 2;
 
 //Variables that'll change throughout
+let questions = [];
 let questionCurrent = {};
 let questionsCounter;
 let questionsRemaining = [];
 let questionsCorrect = [];
 
 //Initiating the quiz on start or repeat button being clicked
-buttonStart.addEventListener('click', quizStart);
-buttonRepeat.addEventListener('click', quizStart);
+buttonStart.addEventListener('click', quizLoad);
+buttonRepeat.addEventListener('click', quizLoad);
+
+//The quizLoad function will load the questions from the json file and store them in an array "questions"
+function quizLoad() { $.getJSON('/assets/js/questions.json', function (data) { questions = data.questions; console.log("questions: " + questions); })
+    //Credit for .then function to wait for json file to be loaded before executing quiz
+    .then(function() { quizStart(); });
+}
 
 //The quizStart function will show the questions 
 function quizStart() {
@@ -57,7 +64,6 @@ function questionsLoad() {
     //sets the remainingCount innerHTML to display to the user how many questions they have left
     remainingCount.innerHTML = `<p>Questions remaining: ${questionsMax - questionsCounter}</p>`;
     //credit for adapted forEach loop (See README.md for details) - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
-    // answers.forEach(answer => { let i = answer.dataset[`number`]; answer.innerText = questionCurrent[`answer${i}`];});
     answers.forEach(answer => { let i = (answer.dataset[`number`] - 1); answer.innerText = questionCurrent.answers[i].answer; });
     //removes current question from the array of remaining questions
     questionsRemaining.splice(questionToBeRemoved, 1);
@@ -130,18 +136,3 @@ const incorrectResponses = [
     {message:`Aww!`},
     {message:`Not a great effort!`}
 ]
-
-//array with each question as an object
-const questions = [{
-    question: `What language was the original RuneScape coded in?`,
-    answers: [
-        {"answer": `HTML`},
-        {"answer": `Python`},
-        {"answer": `Java`},
-        {"answer": `mIRC`}      
-        ],
-        correct: "3", //Java
-        msgCorrect: "Correct",
-        msgWrong: "Wrong"
-    }
-];
