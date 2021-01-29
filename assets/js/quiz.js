@@ -91,7 +91,7 @@ answers.forEach(answer => {
         } else {
             //changes the innerHTML of the verdict to a random response within an array
             verdictGuess.innerHTML = `<h2>${incorrectResponses[Math.floor(Math.random() * incorrectResponses.length)].message} <i class="fas fa-frown"></i></h2>`;
-            responseGuess.innerHTML = questionCurrent.messageWrong;
+            responseGuess.innerHTML = `<p>That is not correct! <br> Hint: ${questionCurrent.msgWrong} <i class="fas fa-smile-beam"></i></p>`;
         }
     });
 });
