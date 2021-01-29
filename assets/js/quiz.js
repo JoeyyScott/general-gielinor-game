@@ -52,6 +52,7 @@ function questionsLoad() {
         containerFinal.classList.remove('contentHidden');
         let answerPercentage = Math.trunc((questionsCorrect / questionsMax)*100);
         answersCorrect.innerHTML = `${questionsCorrect} / ${questionsMax} - ${answerPercentage}%`
+        questionsCorrect = 0;
     }
     //increase question count
     questionsCounter++;
