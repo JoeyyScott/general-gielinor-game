@@ -25,7 +25,7 @@ buttonStart.addEventListener('click', quizLoad);
 buttonRepeat.addEventListener('click', quizLoad);
 
 //The quizLoad function will load the questions from the json file and store them in an array "questions"
-function quizLoad() { $.getJSON('/assets/js/questions.json', function (data) { questions = data.questions; console.log("questions: " + questions); })
+function quizLoad() { $.getJSON('https://joeyyscott.github.io/general-gielinor-game/assets/js/questions.json', function (data) { questions = data.questions; console.log("questions: " + questions); })
     //Credit for .then function to wait for json file to be loaded before executing quiz
     .then(function() { quizStart(); });
 }
