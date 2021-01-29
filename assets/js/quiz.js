@@ -11,7 +11,7 @@ const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const remainingCount = document.getElementById('remaining-questions');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 2;
+const questionsMax = 5;
 
 //Variables that'll change throughout
 let questions = [];
@@ -61,7 +61,7 @@ function questionsLoad() {
     //sets the current question to the variable questionToBeRemoved from the away of remaining questions
     questionCurrent = questionsRemaining[questionToBeRemoved];
     //sets the questions HTML for the current question
-    question.innerHTML = `<img src="assets/images/questions/${questionCurrent.imageQ}" class="question-img" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`
+    question.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageQ}" class="question-img" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`
     // question.innerHTML += questionCurrent.question;
     //sets the remainingCount innerHTML to display to the user how many questions they have left
     remainingCount.innerHTML = `<p>Questions remaining: ${questionsMax - questionsCounter}</p>`;
@@ -84,9 +84,9 @@ answers.forEach(answer => {
             //changes the innerHTML of the verdict to a random response within an array
             verdictGuess.innerHTML = `<h2>${correctResponses[Math.floor(Math.random() * correctResponses.length)].message} <i class="fas fa-smile-beam"></i></h2>`;
             responseGuess.innerHTML = `
-                <img src="assets/images/answers/${questionCurrent.imageA}" class="question-img" alt="${questionCurrent.altA} Image"> <br>
+                <img src="assets/images/quiz/${questionCurrent.imageA}" class="question-img" alt="${questionCurrent.altA} Image"> <br>
                 <p>${questionCurrent.msgCorrect}<p>
-                <p>You can check out the Wiki for ${questionCurrent.linkText} <a href="${questionCurrent.linkURL}" target=_"blank">here!</a></p>`
+                <p>You can check out the Wiki for ${questionCurrent.linkText} <a href="${questionCurrent.linkURL}" target=_"blank">here</a>!</p>`
             questionsCorrect++;
         } else {
             //changes the innerHTML of the verdict to a random response within an array

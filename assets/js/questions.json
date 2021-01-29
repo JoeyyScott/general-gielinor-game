@@ -14,41 +14,76 @@
         "imageA": "java.png",
         "altA": "Java",
         "msgCorrect": "It was Java. The Gower brothers originally created RuneScape Classic all the way back in 2001! The game is alive today and is celebrating 20 years of being around, how incredible is that?",
-        "linkURL": "https://www.jagex.com/en-GB/",      
+        "linkURL": "https://en.wikipedia.org/wiki/Java_(programming_language)",      
         "linkText": "Java",
         "msgWrong": "This information exists on the internet, it might be closer than you think"
     },{
-        "question": "Question 2",
+        "question": "What fishing level do you need to catch raw tuna with a harpoon?",
+        "imageQ": "raw-tuna.png",
+        "altQ": "Raw Tuna",
         "answers":[
-            {"answer": "A"},
-            {"answer": "B"},
-            {"answer": "C"},
-            {"answer": "D"}      
-        ],
-        "correct": "2",
-        "msgCorrect": "Correct",
-        "msgWrong": "Wrong"
-    },{
-        "question": "Question 3",
-        "answers":[
-            {"answer": "A"},
-            {"answer": "B"},
-            {"answer": "C"},
-            {"answer": "D"}      
+            {"answer": "15"},
+            {"answer": "25"},
+            {"answer": "35"},
+            {"answer": "45"}      
         ],
         "correct": "3",
-        "msgCorrect": "Correct",
-        "msgWrong": "Wrong"
+        "imageA": "raw-tuna.png",
+        "altA": "Raw Tuna",
+        "msgCorrect": "It is level 35. You can fish them at 55 Fishing without a harpoon if you have unlocked the Barbarian ways of barehanded fishing! Either way you'll get 80 Fishing experience!",
+        "linkURL": "https://runescape.wiki/w/Raw_tuna",      
+        "linkText": "Raw Tuna",
+        "msgWrong": "The skillguide in game provides all required levels for content within RuneScape"
     },{
-        "question": "Question 4",
+        "question": "What NPC in Draynor Village will sell you rope for either 15 coins or 4 balls of wool?",
+        "imageQ": "rope.png",
+        "altQ": "Rope",
         "answers":[
-            {"answer": "A"},
-            {"answer": "B"},
-            {"answer": "C"},
-            {"answer": "D"}      
+            {"answer": "Bob"},
+            {"answer": "Gerald"},
+            {"answer": "Ned"},
+            {"answer": "Aggie"}      
+        ],
+        "correct": "3",
+        "imageA": "ned.png",
+        "altA": "Ned",
+        "msgCorrect": "It was Ned. He lives in a house on the eastern side of Draynor Village, just north of the bank. You'll interact with him during Dragon Slayer quest but you can also get rope from him!",
+        "linkURL": "https://runescape.wiki/w/Ned",      
+        "linkText": "Ned",
+        "msgWrong": "You talk to this NPC during the Dragon Slayer quest"
+    },{
+        "question": "What NPC in Varrock gives you breathing salts in exchange for an airtight pot during the One Small Favour quest?",
+        "imageQ": "breathingsalts.png",
+        "altQ": "Breathing Salts",
+        "answers":[
+            {"answer": "Stray Dog"},
+            {"answer": "King Roald"},
+            {"answer": "Horvik"},
+            {"answer": "Apothecary"}      
         ],
         "correct": "4",
-        "msgCorrect": "Correct",
-        "msgWrong": "Wrong"
+        "imageA": "apothecary.png",
+        "altA": "Apothecary",
+        "msgCorrect": "It was the Apothecary. He works in a building south west of Varrock Centre, just north of the bank. You'll interact with him during One Small Favour but also in Dimension of Disaster: Curse of Arrav.",
+        "linkURL": "https://runescape.wiki/w/Apothecary",      
+        "linkText": "Apothecary",
+        "msgWrong": "This NPC can also make potions for you if brought the correct ingredidents"
+    },{
+        "question": "Who do you talk to buy the Trimmed Completionist Cape?",
+        "imageQ": "trimcomp.png",
+        "altQ": "Trimmed Completionist Cape",
+        "answers":[
+            {"answer": "Gielinor Guide"},
+            {"answer": "Museum Guard"},
+            {"answer": "Elen Anterth"},
+            {"answer": "Wizard Sedridor"}      
+        ],
+        "correct": "2",
+        "imageA": "trimcomp.png",
+        "altA": "Trimmed Completionist Cape",
+        "msgCorrect": "It was the Museum Guard. He works in Varrock museum, on the top floor. You interact with him and ask about the mysterious cape and he'll give you a description of the cape's history. There are a lot of requirements for this cape, making it prestigious.",
+        "linkURL": "https://runescape.wiki/w/Completionist_cape_(t)",      
+        "linkText": "Cape",
+        "msgWrong": "Hint: They're surrounded by lots of artefacts from time gone by"
     }]
 }
