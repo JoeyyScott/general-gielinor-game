@@ -60,7 +60,7 @@ function questionsLoad() {
     //sets the current question to the variable questionToBeRemoved from the away of remaining questions
     questionCurrent = questionsRemaining[questionToBeRemoved];
     //sets the questions HTML for the current question
-    question.innerHTML = `<img src="assets/images/questions/${questionCurrent.image}" class="question-img" alt="${questionCurrent.alt} Image"> <br> <h2>${questionCurrent.question}</h2>`
+    question.innerHTML = `<img src="assets/images/questions/${questionCurrent.imageQ}" class="question-img" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`
     // question.innerHTML += questionCurrent.question;
     //sets the remainingCount innerHTML to display to the user how many questions they have left
     remainingCount.innerHTML = `<p>Questions remaining: ${questionsMax - questionsCounter}</p>`;
@@ -82,7 +82,9 @@ answers.forEach(answer => {
         if (selectedAnswer === questionCurrent.correct) {
             //changes the innerHTML of the verdict to a random response within an array
             verdictGuess.innerHTML = `<h2>${correctResponses[Math.floor(Math.random() * correctResponses.length)].message} <i class="fas fa-smile-beam"></i></h2>`;
-            responseGuess.innerHTML = questionCurrent.messageCorrect;
+            responseGuess.innerHTML = `
+                <img src="assets/images/answers/${questionCurrent.imageA}" class="question-img" alt="${questionCurrent.altA} Image"> <br>
+                <p>${questionCurrent.msgCorrect}<p>`
             questionsCorrect++;
         } else {
             //changes the innerHTML of the verdict to a random response within an array
