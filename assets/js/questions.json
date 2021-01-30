@@ -85,5 +85,175 @@
         "linkURL": "https://runescape.wiki/w/Completionist_cape_(t)",      
         "linkText": "Cape",
         "msgWrong": "Hint: They're surrounded by lots of artefacts from time gone by"
+    },{
+        "question": "What Prayer level do you need to use the Protect from Melee prayer?",
+        "imageQ": "praymelee.png",
+        "altQ": "Pray Melee",
+        "answers":[
+            {"answer": "22"},
+            {"answer": "29"},
+            {"answer": "37"},
+            {"answer": "43"}      
+        ],
+        "correct": "4",
+        "imageA": "praymelee.png",
+        "altA": "Pray Melee",
+        "msgCorrect": "It was 43. Back in the day protection prayers granted 100% protection from that style, now they provide a 50% reduction to the hit. Despite this protection prayers are still widely used in RuneScape PVM today.",
+        "linkURL": "https://runescape.wiki/w/Protect_from_Melee",      
+        "linkText": "Prayer",
+        "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
+    },{
+        "question": "In what year was the Grand Exchange released?",
+        "imageQ": "grandexchange.png",
+        "altQ": "Grand Exchange",
+        "answers":[
+            {"answer": "2006"},
+            {"answer": "2007"},
+            {"answer": "2008"},
+            {"answer": "2009"}      
+        ],
+        "correct": "2",
+        "imageA": "grandexchange",
+        "altA": "Grand Exchange",
+        "msgCorrect": "It was 2007. Prior to this update the only trades that existed were player to player either through ingame or the forums. It provided a way for players to acquire items they required in an easier fashion.",
+        "linkURL": "https://runescape.wiki/w/Grand_Exchange",      
+        "linkText": "GE",
+        "msgWrong": "It was released the same year as the God Wars Dungeon"
+    },{ 
+        "question": "What is the Fairy ring code for McGrubor's Wood?",
+        "imageQ": "fairyring.png",
+        "altQ": "Fairy ring",
+        "answers":[
+            {"answer": "AKQ"},
+            {"answer": "AJR"},
+            {"answer": "ALS"},
+            {"answer": "AKS"}      
+        ],
+        "correct": "3",
+        "imageA": "fairyring.png",
+        "altA": "Fairy ring",
+        "msgCorrect": "It was ALS. To access the Fairy ring network you must start A Fairy Tale II - Cure A Queen and it provides a fantastic way of getting around the RuneScape map",
+        "linkURL": "https://runescape.wiki/w/Fairy_ring",      
+        "linkText": "Fairy rings",
+        "msgWrong": "Once you travel to a Fairy ring location, the information is shown next time you use the Fairy ring"
+    },{ 
+        "question": "What do you need to pay a farmer to look after a patch with a magic tree in it?",
+        "imageQ": "magictree.png",
+        "altQ": "Magic Tree",
+        "answers":[
+            {"answer": "25 Yew Logs"},
+            {"answer": "25 Papaya Fruit"},
+            {"answer": "25 Coconuts"},
+            {"answer": "25 Kandarin Hops"}      
+        ],
+        "correct": "3",
+        "imageA": "magictree.png",
+        "altA": "Magic Tree",
+        "msgCorrect": "It was 25 coconuts. When you plant something in a farming patch, you can pay the farmer to look after your crops so they will not get diseased. There are exceptions to this but it is true for the majority",
+        "linkURL": "magictree.png",      
+        "linkText": "Magic Tree (Farming)",
+        "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
+    },{ 
+        "question": "What level do you need in 10 different skills for the quest Plagues End?",
+        "imageQ": "plaguesend.png",
+        "altQ": "Plagues End",
+        "answers":[
+            {"answer": "65"},
+            {"answer": "70"},
+            {"answer": "75"},
+            {"answer": "80"}      
+        ],
+        "correct": "3",
+        "imageA": "plaguesend.png",
+        "altA": "Plagues End",
+        "msgCorrect": "It was 75. The skills you need are: Agility, Construction, Crafting, Dungeoneering, Herblore, Mining, Prayer, Ranged, Summoning and Woodcutting. Completion of this quest grants access to Prifddinas, which is one of the most useful unlocks in RuneScape today.",
+        "linkURL": "https://runescape.wiki/w/Plague%27s_End",      
+        "linkText": "Plagues End",
+        "msgWrong": "The Quest guide ingame provides all requirements for Quests within RuneScape"
+    },{ 
+        "question": "Where can you obtain a Grand seed pod?",
+        "imageQ": "grandseedpod.png",
+        "altQ": "Grand seed pod",
+        "answers":[
+            {"answer": "Fishing Trawler"},
+            {"answer": "Sorceress's Garden"},
+            {"answer": "Vinesweeper"},
+            {"answer": "Gnome Restaurant"}      
+        ],
+        "correct": "4",
+        "imageA": "grandseedpod.png",
+        "altA": "Grand seed pod",
+        "msgCorrect": "It was Gnome Restaurant. You can talk to Aluft Gianne Junior on the 1st floor (UK) on the western side to start this minigame. You learn about gnome cooking and deliver food to gnomes throughout RuneScape for various rewards including the Grand seed pod and the Gnome Scarf.",
+        "linkURL": "https://runescape.wiki/w/Grand_seed_pod",      
+        "linkText": "Grand seed pod",
+        "msgWrong": "Those gnomes have big stomachs don't they?"
+    },{ 
+        "question": "What runes are required to teleport to Trollheim?",
+        "imageQ": "trollheimtelly.png",
+        "altQ": "Trollheim Teleport",
+        "answers":[
+            {"answer": "2 Law 2 Fire"},
+            {"answer": "2 Law 2 Earth"},
+            {"answer": "1 Law 1 Air 1 Water"},
+            {"answer": "1 Law 3 Air 1 Earth"}      
+        ],
+        "correct": "1",
+        "imageA": "trollheimtelly.png",
+        "altA": "Trollheim Teleport",
+        "msgCorrect": "It was 2 Law 2 Fire. You unlock this teleport after completing Eadgar's Ruse quest. It will teleport you to the centre of Trollheim and is used for herb runs and questing.",
+        "linkURL": "https://runescape.wiki/w/Trollheim_Teleport",      
+        "linkText": "Teleport",
+        "msgWrong": "The teleport tab in the Magic abilities interface ingame provides all requirements for Quests within RuneScape"
+    },{ 
+        "question": "What is the name of the Construction pet?",
+        "imageQ": "construction.png",
+        "altQ": "Construction",
+        "answers":[
+            {"answer": "Ace"},
+            {"answer": "Baby Yaga's House"},
+            {"answer": "Brains"},
+            {"answer": "Sifu"}      
+        ],
+        "correct": "2",
+        "imageA": "babyyagashouse.png",
+        "altA": "Baby Yaga's House",
+        "msgCorrect": "It was Baby Yaga's House. You unlock this skilling pet whilst training Construction. Some activities do not award the chance to roll for the pet such as protean planks and Royal Battleship kits.",
+        "linkURL": "https://runescape.wiki/w/Baby_Yaga%27s_House",      
+        "linkText": "Baby Yaga's House",
+        "msgWrong": "The pet interface ingame has a filter to show all pets within RuneScape and how to obtain them"
+    },{ 
+        "question": "What was the 100th quest to be released in RuneScape?",
+        "imageQ": "100.png",
+        "altQ": "Quest Image",
+        "answers":[
+            {"answer": "Recipe for Disaster"},
+            {"answer": "Fremmenik Trials"},
+            {"answer": "Swan Song"},
+            {"answer": "Cabin Fever"}      
+        ],
+        "correct": "1",
+        "imageA": "rfd.png",
+        "altA": "Recipe for Disaster",
+        "msgCorrect": "It was Recipe for Disaster. This quest was released back on the 15th March 2006! It was a sequel to the first quest ever released in RuneScape and a staple in any players beginning experience, Cook's Assistant.",
+        "linkURL": "https://runescape.wiki/w/Recipe_for_Disaster",      
+        "linkText": "Recipe for Disaster",
+        "msgWrong": "You make some interesting food in this quest"
+    },{
+        "question": "What ingredients do you need to make a Brightfire potion?",
+        "imageQ": "brightfire.png",
+        "altQ": "Brightfire potion",
+        "answers":[
+            {"answer": "Super antifire (4) and Super Restore (4)"},
+            {"answer": "Super antifire (4) and Bright potion (4)"},
+            {"answer": "Super antifire (4) and Prayer potion (4)"},
+            {"answer": "Super antifire (4) and Prayer Renewal (4)"}      
+        ],
+        "correct": "4",
+        "imageA": "brightfire.png",
+        "altA": "Brightfire potion",
+        "msgCorrect": "It was Super antifire (4) and Prayer Renewal (4). It is one of the combination potions released with Prifddinas and require you to buy a recipe from Lady Meilyr for 600,000gp.",
+        "linkURL": "https://runescape.wiki/w/Brightfire_potion#(6)",      
+        "linkText": "potion",
+        "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
     }]
 }
