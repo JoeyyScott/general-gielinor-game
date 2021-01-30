@@ -11,7 +11,7 @@ const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const remainingCount = document.getElementById('remaining-questions');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
-const questionsMax = 15;
+const questionsMax = 30;
 
 //Variables that'll change throughout
 let questions = [];

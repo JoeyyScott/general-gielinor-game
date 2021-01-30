@@ -255,5 +255,260 @@
         "linkURL": "https://runescape.wiki/w/Brightfire_potion#(6)",      
         "linkText": "potion",
         "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
+    },{
+        "question": "In what year was the 'Falador Massacre'?",
+        "imageQ": "fallymassacre.jpg",
+        "altQ": "Falador Massacre",
+        "answers":[
+            {"answer": "2004"},
+            {"answer": "2006"},
+            {"answer": "2008"},
+            {"answer": "2010"}      
+        ],
+        "correct": "2",
+        "imageA": "fallymassacre",
+        "altA": "Falador Massacre",
+        "msgCorrect": "It was 2006. When Cursed You was due to be the first player to achieve 99 Construction, he hosted a party in his player owned house. Upon the level up and due to the amount of messages people were booted out of his house and those who had engaged in combat activities had somehow retained the ability to attack players and in turn abused this thus dubbing this event the Falador Massacre.",
+        "linkURL": "https://runescape.fandom.com/wiki/Falador_Massacre",      
+        "linkText": "Falador Massacre",
+        "msgWrong": "It was on the 6th June and is known as a triple number glitch"
+    },{
+        "question": "In which city is Jagex based?",
+        "imageQ": "jagex.png",
+        "altQ": "Jagex",
+        "answers":[
+            {"answer": "Oxford"},
+            {"answer": "Manchester"},
+            {"answer": "Cambridge"},
+            {"answer": "London"}      
+        ],
+        "correct": "3",
+        "imageA": "jagex.png",
+        "altA": "Jagex",
+        "msgCorrect": "It was Cambridge. Founded in 1999, that was 22 years ago! They came up with Jagex as they wanted to be a company of **Ja**va **G**aming **Ex**perts specialzing in browser based Java games. They released RuneScape in January 2001 and it has only grown since.",
+        "linkURL": "https://en.wikipedia.org/wiki/Jagex",      
+        "linkText": "Jagex",
+        "msgWrong": "Maybe their website has this information?"
+    },{
+        "question": "In what quest do you meet Arnold Lydspor?",
+        "imageQ": "arnold.png",
+        "altQ": "Arnold Lydspor",
+        "answers":[
+            {"answer": "Swan Song"},
+            {"answer": "Meeting History"},
+            {"answer": "A Tail of Two Cats"},
+            {"answer": "Cook's Assistant"}      
+        ],
+        "correct": "1",
+        "imageA": "arnold.png",
+        "altA": "Arnold",
+        "msgCorrect": "It was Arnold Lydspor. During Swan Song you help the Piscatoris Fishing Colony and its inhabitants fight off the sea troll invasion, among which is Arnold Lydspor who ends up being a bank and general store after the quest.",
+        "linkURL": "https://runescape.wiki/w/Arnold_Lydspor",      
+        "linkText": "Arnold",
+        "msgWrong": "I'm sure the Wise Old Man is thankful for your help fighting those trolls!"
+    },{
+        "question": "In what quest do help Bob find items for Neite?",
+        "imageQ": "quest.png",
+        "altQ": "Quest",
+        "answers":[
+            {"answer": "A Soul's Bane"},
+            {"answer": "Desert Treasure"},
+            {"answer": "Gertrude's Cat"},
+            {"answer": "A Tail of Two Cats"}      
+        ],
+        "correct": "4",
+        "imageA": "tailoftwocats.png",
+        "altA": "Tail of Two Cats",
+        "msgCorrect": "It was a Tail of Two Cats. During this quest you learn about the life of Bob the cat. Neite is his lover and you must find him items so he can woo her, you also complete tasks to help out Bob's owner, Unferth.",
+        "linkURL": "https://runescape.wiki/w/A_Tail_of_Two_Cats",      
+        "linkText": "Tail of Two Cats",
+        "msgWrong": "You help two NPCs find love, it's furry fun!"
+    },{
+        "question": "Which one of these is an elite skill?",
+        "imageQ": "stats.png",
+        "altQ": "Stats",
+        "answers":[
+            {"answer": "Dungeoneering"},
+            {"answer": "Fishing"},
+            {"answer": "Invention"},
+            {"answer": "Farming"}      
+        ],
+        "correct": "3",
+        "imageA": "invention.png",
+        "altA": "Invention",
+        "msgCorrect": "It was Invention. To even unlock this skill you require level 80 in Divination, Smithing and Crafting. You can then start the Invention tutorial north of Falador in the Invention Guild.",
+        "linkURL": "https://runescape.wiki/w/Invention",      
+        "linkText": "Invention",
+        "msgWrong": "This skill was released early 2016"
+    },{
+        "question": "What Fishing level do you require to enter the Fishing Guild?",
+        "imageQ": "fishingguild.png",
+        "altQ": "Fishing Guild",
+        "answers":[
+            {"answer": "40"},
+            {"answer": "53"},
+            {"answer": "68"},
+            {"answer": "81"}      
+        ],
+        "correct": "3",
+        "imageA": "fishingguild.png",
+        "altA": "Fishing Guild",
+        "msgCorrect": "It was 68. Once you have this Fishing level you can enter the guild north of the Ardougne lodestone. It provides a multitude of Fishing locations and access to the Deep Sea Fishing platform.",
+        "linkURL": "https://runescape.wiki/w/Fishing_Guild",      
+        "linkText": "Fishing Guild",
+        "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
+    },{
+        "question": "What Woodcutting level do you need to chop down a Yew tree?",
+        "imageQ": "yewtree.png",
+        "altQ": "Yew Tree",
+        "answers":[
+            {"answer": "50"},
+            {"answer": "60"},
+            {"answer": "70"},
+            {"answer": "80"}      
+        ],
+        "correct": "2",
+        "imageA": "yewtree.png",
+        "altA": "Yew Tree",
+        "msgCorrect": "It was 60. Yews can be found in multiple locations around the world of Gielinor, most notably west of Catherby bank, south of Edgeville bank and in the Crwys district of Prifddinas.",
+        "linkURL": "https://runescape.wiki/w/Yew",      
+        "linkText": "Yew Trees",
+        "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
+    },{
+        "question": "What quest must you get a portion of the way through to acquire the sword Excalibur?",
+        "imageQ": "excalibur.png",
+        "altQ": "Excalibur",
+        "answers":[
+            {"answer": "Merlin's Crystal"},
+            {"answer": "Holy Grail"},
+            {"answer": "King's Ransom"},
+            {"answer": "Defender of Varrock"}      
+        ],
+        "correct": "1",
+        "imageA": "excalibur.png",
+        "altA": "Excalibur",
+        "msgCorrect": "It was Merlin's Crystal. This is a quest in which you work with King Arthur to help free Merlin who, like all amazing magicians is stuck inside a crystal.",
+        "linkURL": "https://runescape.wiki/w/Excalibur",      
+        "linkText": "Excalibur",
+        "msgWrong": "This quest is one of the early quests in the Camelot series"
+    },{
+        "question": "What Kingdom is Darkmeyer located in?",
+        "imageQ": "darkmeyer.png",
+        "altQ": "Darkmeyer",
+        "answers":[
+            {"answer": "Misthalin"},
+            {"answer": "Kandarin"},
+            {"answer": "Desert"},
+            {"answer": "Morytania"}      
+        ],
+        "correct": "4",
+        "imageA": "darkmeyer.png",
+        "altA": "Darkmeyer",
+        "msgCorrect": "It was Morytania. After the Branches of Darkmeyer, you have access to this city and have access to the Blisterwood tree which can be used to create weapons which can damage vampyres.",
+        "linkURL": "https://runescape.wiki/w/Darkmeyer",      
+        "linkText": "Darkmeyer",
+        "msgWrong": "Vampyres love this place!"
+    },{
+        "question": "What quest unlocks the ability to use the curse Soul Split at level 92 Prayer?",
+        "imageQ": "soulsplit.png",
+        "altQ": "Soul Split",
+        "answers":[
+            {"answer": "Curse of Arrav"},
+            {"answer": "Temple at Senntisten"},
+            {"answer": "Lunar Diplomacy"},
+            {"answer": "One of a Kind"}      
+        ],
+        "correct": "2",
+        "imageA": "soulsplit.png",
+        "altA": "Soulsplit",
+        "msgCorrect": "It was Temple at Senntisten. After completing this quest you can access to the ancient curses prayer book which contains many useful curses that are widely used in today's RuneScape, most notably the deflect prayers and superheat/light form.",
+        "linkURL": "https://runescape.wiki/w/Soul_Split",      
+        "linkText": "Soul Split",
+        "msgWrong": "The skill guide ingame provides quest requirements for all content within RuneScape"
+    },{
+        "question": "Where are Mizgog, Grayzag, Sedridor and Traiborn located?",
+        "imageQ": "map.png",
+        "altQ": "Map",
+        "answers":[
+            {"answer": "Wizards' Tower"},
+            {"answer": "Magic Guild"},
+            {"answer": "Sorcerer's Tower"},
+            {"answer": "Artisans' Workshop"}      
+        ],
+        "correct": "1",
+        "imageA": "wizardstower.png",
+        "altA": "Wizards' Tower",
+        "msgCorrect": "It was Wizards' Tower. You speak to these wizards and others in multiple quests including Rune Mysteries, Rune Memories and Imp Catcher.",
+        "linkURL": "https://runescape.wiki/w/Wizards%27_Tower",      
+        "linkText": "Wizards' Tower",
+        "msgWrong": "Maybe those blue clothed people need your help?"
+    },{
+        "question": "In which archaeological site can you find the ‘Smoke Cloud’ spell scroll artefact?",
+        "imageQ": "smokecloud.png",
+        "altQ": "Smoke Cloud spell scroll",
+        "answers":[
+            {"answer": "Everlight"},
+            {"answer": "Orthen"},
+            {"answer": "Infernal Source"},
+            {"answer": "Kharid-Et"}      
+        ],
+        "correct": "4",
+        "imageA": "smokecloud.png",
+        "altA": "Smoke Cloud spell scroll",
+        "msgCorrect": "It was Kharid-Et. It is found whilst excavating Culinarum debris. It can be excavated and restored at level 100 Archaeology.",
+        "linkURL": "https://runescape.wiki/w/%27Smoke_Cloud%27_spell_scroll_(damaged)",      
+        "linkText": "Smoke Cloud spell scroll",
+        "msgWrong": "Maybe Zaros used this back in the day?"
+    },{
+        "question": "How do you unlock the Port Life achievement? (POP = Player Owned Ports)",
+        "imageQ": "achievement.png",
+        "altQ": "Achievement",
+        "answers":[
+            {"answer": "By reaching the first region in POP"},
+            {"answer": "By completing the POP tutorial"},
+            {"answer": "By unlocking your first captain in POP"},
+            {"answer": "By reaching the final region in POP"}      
+        ],
+        "correct": "2",
+        "imageA": "pop.png",
+        "altA": "Player Owned Ports",
+        "msgCorrect": "It was by completing the Player Owned Ports tutorial. To start, you need level 90 in one of the Ports skills (Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer or Thieving).",
+        "linkURL": "https://runescape.fandom.com/wiki/Port_Life",      
+        "linkText": "Port Life achievement",
+        "msgWrong": "Maybe someone can help show you around?"
+    },{
+        "question": "What is a Jumper?",
+        "imageQ": "jumper.png",
+        "altQ": "Jumper",
+        "answers":[
+            {"answer": "A cosmetic override"},
+            {"answer": "A slayer creature"},
+            {"answer": "A node in Runespan"},
+            {"answer": "A Portal to use"}      
+        ],
+        "correct": "3",
+        "imageA": "jumper.png",
+        "altA": "Jumper",
+        "msgCorrect": "It was a node in Runespan. They require 54 Runecrafting as you receive law runes when siphoning from them. They appear on the upper floor and rarely on the middle floor.",
+        "linkURL": "https://runescape.wiki/w/Jumper",      
+        "linkText": "Jumpers",
+        "msgWrong": "You can receive law runes from it"
+    },{
+        "question": "What region does completing 'Impressing the Locals' quest grant you access to?",
+        "imageQ": "impressing.png",
+        "altQ": "Impressing the Locals",
+        "answers":[
+            {"answer": "The Arc"},
+            {"answer": "Menaphos"},
+            {"answer": "Prifddinas"},
+            {"answer": "Darkmeyer"}      
+        ],
+        "correct": "1",
+        "imageA": "impressing.png",
+        "altA": "Impressing the Locals",
+        "msgCorrect": "It was the Arc. The Arc provides a wide variety of content across Fishing, Hunter, Farming, Divination and Woodcutting with some of the highest level skill nodes being found on uncharted isles.",
+        "linkURL": "https://runescape.wiki/w/Impressing_the_Locals",      
+        "linkText": "Impressing the Locals miniquest",
+        "msgWrong": "You end up sailing to the area you unlocked"
     }]
 }
