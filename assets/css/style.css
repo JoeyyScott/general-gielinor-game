@@ -93,20 +93,33 @@ a:hover {
     padding: 0 5px;
 }
 
-/* Modal */
-.modalText {
+/* About Modal */
+.aboutModalText {
     color: #ffff62;
     position: relative;
     margin: 20px 10px 0 0;
     padding: 3px 5px 3px 5px;
     font-size: 1.4rem;
 }
-.modalContent {
+.aboutModalContent {
     border-width: 5px;
     border-radius: 20px;
     width: 80%;
     margin: auto;
     padding: 0 20px;
+}
+
+/* Suggest Modal */
+.suggestModalContent {
+    width: 80%;
+    margin: auto;
+}
+.suggestModalHeader {
+    border: 0px;
+}
+
+.suggestModalBody {
+    padding: 0;
 }
 
 /* Buttons */
