@@ -11,12 +11,17 @@ const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const remainingCount = document.getElementById('remaining-questions');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
+const questionsMax = 30;
+
+// Audio constants
 const guessCorrect = new Audio('assets/sounds/correct.ogg');
 const guessIncorrect = new Audio('assets/sounds/incorrect.mp3');
 const quizCompleted = new Audio('assets/sounds/complete.ogg');
-const questionsMax = 30;
+const music = new Audio('assets/sounds/music.ogg'); music.volume = 0.2;
 
-// inspiration imagination innovation
+//Plays and loops background music on page load
+document.onload = music.play();
+music.loop = true;
 
 //Variables that'll change throughout
 let questions = [];
