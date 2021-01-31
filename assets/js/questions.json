@@ -64,10 +64,10 @@
         "correct": "4",
         "imageA": "apothecary.png",
         "altA": "Apothecary",
-        "msgCorrect": "It was the Apothecary. He works in a building south west of Varrock Centre, just north of the bank. You'll interact with him during One Small Favour but also in Dimension of Disaster: Curse of Arrav.",
+        "msgCorrect": "It was the Apothecary. He works in a building south west of Varrock Centre, just south of the bank. You'll interact with him during One Small Favour but also in Dimension of Disaster: Curse of Arrav.",
         "linkURL": "https://runescape.wiki/w/Apothecary",      
         "linkText": "Apothecary",
-        "msgWrong": "This NPC can also make potions for you if brought the correct ingredidents"
+        "msgWrong": "This NPC can also make potions for you if brought the correct ingredients"
     },{
         "question": "Who do you talk to buy the Trimmed Completionist Cape?",
         "imageQ": "trimcomp.png",
@@ -151,7 +151,7 @@
         "altA": "Magic Tree",
         "msgCorrect": "It was 25 coconuts. When you plant something in a farming patch, you can pay the farmer to look after your crops so they will not get diseased. There are exceptions to this but it is true for the majority",
         "linkURL": "magictree.png",      
-        "linkText": "Magic Tree (Farming)",
+        "linkText": "https://runescape.wiki/w/Magic_Tree_(Farming)",
         "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
     },{ 
         "question": "What level do you need in 10 different skills for the quest Plagues End?",
@@ -227,14 +227,14 @@
         "altQ": "Quest Image",
         "answers":[
             {"answer": "Recipe for Disaster"},
-            {"answer": "Fremmenik Trials"},
+            {"answer": "Fremennik Trials"},
             {"answer": "Swan Song"},
             {"answer": "Cabin Fever"}      
         ],
         "correct": "1",
         "imageA": "rfd.png",
         "altA": "Recipe for Disaster",
-        "msgCorrect": "It was Recipe for Disaster. This quest was released back on the 15th March 2006! It was a sequel to the first quest ever released in RuneScape and a staple in any players beginning experience, Cook's Assistant.",
+        "msgCorrect": "It was Recipe for Disaster. This quest was released back on the 15th March 2006! It was a sequel to the first quest ever released in RuneScape and a staple in any player's beginning experience, Cook's Assistant.",
         "linkURL": "https://runescape.wiki/w/Recipe_for_Disaster",      
         "linkText": "Recipe for Disaster",
         "msgWrong": "You make some interesting food in this quest"
@@ -251,7 +251,7 @@
         "correct": "4",
         "imageA": "brightfire.png",
         "altA": "Brightfire potion",
-        "msgCorrect": "It was Super antifire (4) and Prayer Renewal (4). It is one of the combination potions released with Prifddinas and require you to buy a recipe from Lady Meilyr for 600,000gp.",
+        "msgCorrect": "It was Super antifire (4) and Prayer Renewal (4). It is one of the combination potions released with Prifddinas and requires you to buy a recipe from Lady Meilyr for 600,000gp.",
         "linkURL": "https://runescape.wiki/w/Brightfire_potion#(6)",      
         "linkText": "potion",
         "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
@@ -268,7 +268,7 @@
         "correct": "2",
         "imageA": "fallymassacre",
         "altA": "Falador Massacre",
-        "msgCorrect": "It was 2006. When Cursed You was due to be the first player to achieve 99 Construction, he hosted a party in his player owned house. Upon the level up and due to the amount of messages people were booted out of his house and those who had engaged in combat activities had somehow retained the ability to attack players and in turn abused this thus dubbing this event the Falador Massacre.",
+        "msgCorrect": "It was 2006. When Cursed You was due to be the first player to achieve 99 Construction, he hosted a party in his player owned house. Upon the level up and due to the amount of messages, people were booted out of his house and those who had engaged in combat activities had somehow retained the ability to attack players and in turn abused this thus dubbing this event the Falador Massacre.",
         "linkURL": "https://runescape.fandom.com/wiki/Falador_Massacre",      
         "linkText": "Falador Massacre",
         "msgWrong": "It was on the 6th June and is known as a triple number glitch"
@@ -285,7 +285,7 @@
         "correct": "3",
         "imageA": "jagex.png",
         "altA": "Jagex",
-        "msgCorrect": "It was Cambridge. Founded in 1999, that was 22 years ago! They came up with Jagex as they wanted to be a company of **Ja**va **G**aming **Ex**perts specialzing in browser based Java games. They released RuneScape in January 2001 and it has only grown since.",
+        "msgCorrect": "It was Cambridge. Founded in 1999, that was 22 years ago! They came up with Jagex as they wanted to be a company of <b>Ja</b>va <b>G</b>aming <b>Ex</b>perts specialzing in browser based Java games. They released RuneScape in January 2001 and it has only grown since.",
         "linkURL": "https://en.wikipedia.org/wiki/Jagex",      
         "linkText": "Jagex",
         "msgWrong": "Maybe their website has this information?"
@@ -421,7 +421,7 @@
         "correct": "2",
         "imageA": "soulsplit.png",
         "altA": "Soulsplit",
-        "msgCorrect": "It was Temple at Senntisten. After completing this quest you can access to the ancient curses prayer book which contains many useful curses that are widely used in today's RuneScape, most notably the deflect prayers and superheat/light form.",
+        "msgCorrect": "It was Temple at Senntisten. After completing this quest you gain access to the ancient curses prayer book which contains many useful curses that are widely used in today's RuneScape, most notably the deflect prayers and superheat/light form.",
         "linkURL": "https://runescape.wiki/w/Soul_Split",      
         "linkText": "Soul Split",
         "msgWrong": "The skill guide ingame provides quest requirements for all content within RuneScape"

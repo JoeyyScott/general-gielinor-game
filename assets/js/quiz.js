@@ -11,7 +11,12 @@ const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const remainingCount = document.getElementById('remaining-questions');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
+const guessCorrect = new Audio('assets/sounds/correct.ogg');
+const guessIncorrect = new Audio('assets/sounds/incorrect.mp3');
+const quizCompleted = new Audio('assets/sounds/complete.ogg');
 const questionsMax = 30;
+
+// inspiration imagination innovation
 
 //Variables that'll change throughout
 let questions = [];
@@ -47,6 +52,8 @@ function quizStart() {
 function questionsLoad() {
     //checks if there are no questions left or the question count is the max amount for this instance of the game
     if (questionsRemaining.length === 0 || questionsCounter === questionsMax) {
+        quizCompleted.play();
+        quizCompleted.volume = 0.2;
         //displays finishing content
         containerQuiz.classList.add('contentHidden');
         containerFinal.classList.remove('contentHidden');
@@ -81,6 +88,8 @@ answers.forEach(answer => {
         containerQuiz.classList.add('contentHidden');
         //changes the innerHTML of the post guess message based on whether it was correct
         if (selectedAnswer === questionCurrent.correct) {
+            guessCorrect.play();
+            guessCorrect.volume = 0.2;
             //changes the innerHTML of the verdict to a random response within an array
             verdictGuess.innerHTML = `<h2>${correctResponses[Math.floor(Math.random() * correctResponses.length)].message} <i class="fas fa-smile-beam"></i></h2>`;
             responseGuess.innerHTML = `
@@ -89,6 +98,8 @@ answers.forEach(answer => {
                 <p>You can check out the Wiki for ${questionCurrent.linkText} <a href="${questionCurrent.linkURL}" target=_"blank">here</a>!</p>`
             questionsCorrect++;
         } else {
+            guessIncorrect.play();
+            guessIncorrect.volume = 0.2;
             //changes the innerHTML of the verdict to a random response within an array
             verdictGuess.innerHTML = `<h2>${incorrectResponses[Math.floor(Math.random() * incorrectResponses.length)].message} <i class="fas fa-frown"></i></h2>`;
             responseGuess.innerHTML = `<p>That is not correct! <br> Hint: ${questionCurrent.msgWrong} <i class="fas fa-smile-beam"></i></p>`;
