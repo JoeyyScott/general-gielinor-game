@@ -108,6 +108,9 @@ a:hover {
     margin: auto;
     padding: 0 20px;
 }
+.aboutModalContent h2 {
+    margin-top: 10px;
+}
 
 /* Suggest Modal */
 .suggestModalContent {
