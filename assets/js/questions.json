@@ -150,8 +150,8 @@
         "imageA": "magictree.png",
         "altA": "Magic Tree",
         "msgCorrect": "It was 25 coconuts. When you plant something in a farming patch, you can pay the farmer to look after your crops so they will not get diseased. There are exceptions to this but it is true for the majority",
-        "linkURL": "magictree.png",      
-        "linkText": "https://runescape.wiki/w/Magic_Tree_(Farming)",
+        "linkURL": "https://runescape.wiki/w/Magic_Tree_(Farming)",      
+        "linkText": "Magic Tree (Farming)",
         "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
     },{ 
         "question": "What level do you need in 10 different skills for the quest Plagues End?",
