@@ -165,10 +165,23 @@ a:hover {
     left: 3vw;
 }
 
+/* Suggestion form */
+.form-group {
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+
 /* Media Queries */
 @media only screen and (max-height: 650px) {
     .container-main {
         margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+    .aboutModalContent {
+        width: 100%;
+        height: 50%;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -185,7 +198,7 @@ a:hover {
     .button {
         font-size: 1.6rem;
     }
-    .modal-text {
+    .aboutModalText {
         font-size: 1.8rem;
     }
     .container-main {
@@ -197,6 +210,18 @@ a:hover {
     .buttonNext {
         font-size: 2.6rem;
     }
+    .form-group {
+        width: 400px;
+    }
+    .form-group label {
+        font-size: 2rem;
+    }
+    ::placeholder {
+        font-size: 1.6rem;
+    }
+    .buttonModal {
+        font-size: 2rem;
+    }
 }
 @media screen and (min-width: 992px) and (orientation: landscape) {
     h2, .nav-item {
@@ -205,7 +230,7 @@ a:hover {
     p {
         font-size: 1.8rem;
     }
-    .modal-text {
+    .aboutModalText {
         font-size: 2rem;
     }
     .container-main {
