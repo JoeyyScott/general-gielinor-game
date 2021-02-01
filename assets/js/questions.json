@@ -266,9 +266,9 @@
             {"answer": "2010"}      
         ],
         "correct": "2",
-        "imageA": "fallymassacre",
+        "imageA": "fallymassacre", 
         "altA": "Falador Massacre",
-        "msgCorrect": "It was 2006. When Cursed You was due to be the first player to achieve 99 Construction, he hosted a party in his player owned house. Upon the level up and due to the amount of messages, people were booted out of his house and those who had engaged in combat activities had somehow retained the ability to attack players and in turn abused this thus dubbing this event the Falador Massacre.",
+        "msgCorrect": "It was 2006. When a house party was hosted to celebrate the 1st level 99 Construction, players were booted from the house due to too many people and those who had engaged in combat activities had somehow retained the ability to attack others and in turn abused this thus dubbing this event the Falador Massacre.",
         "linkURL": "https://runescape.fandom.com/wiki/Falador_Massacre",      
         "linkText": "Falador Massacre",
         "msgWrong": "It was on the 6th June and is known as a triple number glitch"

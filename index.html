@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- My CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript"> (function(){ emailjs.init("user_S8ipgpvXsdHDi0mLfpNtS"); })(); </script>
 </head>
 <body>
     <header>
@@ -49,10 +51,10 @@
                         <h1 class="modal-title">Suggest a question</h1>
                     </div>
                     <div class="suggestModalBody">
-                        <form id="formFeedback" onsubmit="return suggestQuestion(this);">                    
+                        <form id="suggestForm" onsubmit="return suggestQuestion(this);">                    
                             <div class="form-group">
-                                <label for="questionForm">Question:</label>
-                                <textarea class="form-control form-control-sm" name="fieldQuestion" id="questionForm" placeholder="Enter Your Question Here" required></textarea>
+                                <label for="formQuestion">Question:</label>
+                                <textarea class="form-control form-control-sm" name="fieldQuestion" id="formQuestion" placeholder="Enter Your Question Here" required></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="answerList">Answers (see example):</label>
@@ -128,5 +130,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="assets/js/quiz.js"></script>
+    <script src="assets/js/suggestions.js"></script> 
 </body>
 </html>
