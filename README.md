@@ -70,7 +70,7 @@ E. Repeat button after quiz | 5 | 4
     + As a **user**, I want to expand my RuneScape game knowledge in an intuitve way.
     + As a **user**, I want to be able to view and use the site on any device.  
     + As a **user**, I want to see other work the site owner has created.
-    + As a **user**, I want to be able contact the site owner with any queries I have about the site.
+    + As a **user**, I want to be able contact the site owner with any questions I would like to see added.
     + As a **user**, I want to be able to navigate through the whole site smoothly.
     + As a **user**, I want to know if my guess was correct or not and why.
     + As a **user**, I want a way to initiate the game on my action.
@@ -87,7 +87,7 @@ E. Repeat button after quiz | 5 | 4
 	+ As a **site owner**, I want to create a site that provides a welcoming atmosphere to learn about RuneScape.
 	+ As a **site owner**, I want to provide the user with feedback about whether their answer is correct or not and the reasoning why after each question.
 	+ As a **site owner**, I want to create a quiz that will help users learn about the MMORPG RuneScape.
-	+ As a **site owner**, I want to include a form within a modal that can be accessed anywhere and allows the user to provide feedback.
+	+ As a **site owner**, I want to include a form within a modal that can be accessed anywhere and allows the user to suggest questions for the quiz.
 
 ### Website Structure
 
