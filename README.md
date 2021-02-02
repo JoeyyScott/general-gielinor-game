@@ -102,7 +102,7 @@ E. Repeat button after quiz | 5 | 4
 
 #### Colour Scheme
 
-![Colour Scheme](assets/images/readme/colourscheme.png)
+![Colour Scheme](readme-files/colourscheme.png)
 
 Using a combination of [coolors.co](https://coolors.co/) and [Accessible Color Generator Tool](https://learnui.design/tools/accessible-color-generator.html) I was able to create a colour scheme that fits in with RuneScape's vibe and traditional colours. 
 
@@ -119,9 +119,10 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 
 ### Wireframes
 
-|                                                              Mobile                                                            |                                                             Tablet                                                             |                                                               PC                                                               |
-| :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-| [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/assets/images/readme/wireframes/index-mobile.png) | [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/assets/images/readme/wireframes/index-mobile.png) | [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/assets/images/readme/wireframes/index-mobile.png) |
+|                                                   Mobile                                                  |                                                 Tablet                                                    |                                                 PC                                                    |
+| :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
+| [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/wireframes/index-mobile.png) | [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/wireframes/index-tablet.png) | [index.html](https://github.com/JoeyyScott/general-gielinor-game/blob/master/wireframes/index-pc.png) |
+| [Quiz Screen](https://github.com/JoeyyScott/general-gielinor-game/blob/master/wireframes/quiz-mobile.png) | [Quiz screen](https://github.com/JoeyyScott/general-gielinor-game/blob/master/wireframes/quiz-tablet.png) | [Quiz screen](https://github.com/JoeyyScott/general-gielinor-game/blob/master/wireframes/quiz-pc.png) |
 
 ### Design changes
 
