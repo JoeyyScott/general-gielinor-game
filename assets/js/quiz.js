@@ -11,6 +11,7 @@ const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const remainingCount = document.getElementById('remaining-questions');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
+const iconMusic = document.getElementById('icon-music');
 const questionsMax = 30;
 
 // Audio constants
@@ -21,8 +22,8 @@ const music = new Audio('assets/sounds/music.ogg');
 
 //Function to toggle background music
 function toggleMusic() {
-    if (music.paused === true) { console.log('im paused'); music.play(); }
-    else if (music.paused === false) { console.log('im playing'); music.pause(); }
+    if (music.paused === true) { iconMusic.classList.remove('fa-music'); iconMusic.classList.add('fa-volume-mute'); music.play(); }
+    else if (music.paused === false) { iconMusic.classList.add('fa-music'); iconMusic.classList.remove('fa-volume-mute'); music.pause(); }
 }
 
 //Variables that'll change throughout
