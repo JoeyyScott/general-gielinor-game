@@ -183,7 +183,7 @@
         "correct": "4",
         "imageA": "grandseedpod.png",
         "altA": "Grand seed pod",
-        "msgCorrect": "It was Gnome Restaurant. You can talk to Aluft Gianne Junior on the 1st floor (UK) on the western side to start this minigame. You learn about gnome cooking and deliver food to gnomes throughout RuneScape for various rewards including the Grand seed pod and the Gnome Scarf.",
+        "msgCorrect": "It was Gnome Restaurant. You can talk to Aluft Gianne Junior on the 1st floor (UK) on the western side to start this minigame. You learn about gnome cooking and deliver food to gnomes throughout RuneScape.",
         "linkURL": "https://runescape.wiki/w/Grand_seed_pod",      
         "linkText": "Grand seed pod",
         "msgWrong": "Those gnomes have big stomachs don't they?"
@@ -268,7 +268,7 @@
         "correct": "2",
         "imageA": "fallymassacre", 
         "altA": "Falador Massacre",
-        "msgCorrect": "It was 2006. When a house party was hosted to celebrate the 1st level 99 Construction, players were booted from the house due to too many people and those who had engaged in combat activities had somehow retained the ability to attack others and in turn abused this thus dubbing this event the Falador Massacre.",
+        "msgCorrect": "It was 2006. When a house party was hosted to celebrate the 1st level 99 Construction, players were booted from the POH and those who had engaged in combat activities had somehow retained the ability to attack others and in turn abused this thus dubbing this event the Falador Massacre.",
         "linkURL": "https://runescape.fandom.com/wiki/Falador_Massacre",      
         "linkText": "Falador Massacre",
         "msgWrong": "It was on the 6th June and is known as a triple number glitch"
