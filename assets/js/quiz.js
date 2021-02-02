@@ -17,11 +17,13 @@ const questionsMax = 30;
 const guessCorrect = new Audio('assets/sounds/correct.ogg');
 const guessIncorrect = new Audio('assets/sounds/incorrect.mp3');
 const quizCompleted = new Audio('assets/sounds/complete.ogg');
-const music = new Audio('assets/sounds/music.ogg'); music.volume = 0.2;
+const music = new Audio('assets/sounds/music.ogg');
 
-//Plays and loops background music on page load
-document.onload = music.play();
-music.loop = true;
+//Function to toggle background music
+function toggleMusic() {
+    if (music.paused === true) { console.log('im paused'); music.play(); }
+    else if (music.paused === false) { console.log('im playing'); music.pause(); }
+}
 
 //Variables that'll change throughout
 let questions = [];
