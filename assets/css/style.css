@@ -90,7 +90,7 @@ a:hover {
 .footerText {
     width: max-content;
     margin: auto;
-    padding: 0 5px;
+    padding: 0 20px;
 }
 
 /* About Modal */
@@ -98,7 +98,7 @@ a:hover {
     color: #ffff62;
     position: relative;
     margin: 20px 10px 0 0;
-    padding: 3px 5px 3px 5px;
+    padding: 3px 10px;
     font-size: 1.4rem;
 }
 .aboutModalContent {
