@@ -113,7 +113,7 @@
             {"answer": "2009"}      
         ],
         "correct": "2",
-        "imageA": "grandexchange",
+        "imageA": "grandexchange.png",
         "altA": "Grand Exchange",
         "msgCorrect": "It was 2007. Prior to this update the only trades that existed were player to player either through ingame or the forums. It provided a way for players to acquire items they required in an easier fashion.",
         "linkURL": "https://runescape.wiki/w/Grand_Exchange",      
@@ -223,8 +223,8 @@
         "msgWrong": "The pet interface ingame has a filter to show all pets within RuneScape and how to obtain them"
     },{ 
         "question": "What was the 100th quest to be released in RuneScape?",
-        "imageQ": "100.png",
-        "altQ": "Quest Image",
+        "imageQ": "quest.png",
+        "altQ": "Quest",
         "answers":[
             {"answer": "Recipe for Disaster"},
             {"answer": "Fremennik Trials"},
@@ -239,7 +239,7 @@
         "linkText": "Recipe for Disaster",
         "msgWrong": "You make some interesting food in this quest"
     },{
-        "question": "What ingredients do you combine with a Super antifire (4) to make a Brightfire potion?",
+        "question": "What ingredients do you combine in a crystal flask with a Super antifire (4) to make a Brightfire potion?",
         "imageQ": "brightfire.png",
         "altQ": "Brightfire potion",
         "answers":[
@@ -257,7 +257,7 @@
         "msgWrong": "The skill guide ingame provides all required levels for content within RuneScape"
     },{
         "question": "In what year was the 'Falador Massacre'?",
-        "imageQ": "fallymassacre.jpg",
+        "imageQ": "fallymassacre.png",
         "altQ": "Falador Massacre",
         "answers":[
             {"answer": "2004"},
@@ -269,7 +269,7 @@
         "imageA": "fallymassacre", 
         "altA": "Falador Massacre",
         "msgCorrect": "It was 2006. When a house party was hosted to celebrate the 1st level 99 Construction, players were booted from the POH and those who had engaged in combat activities had somehow retained the ability to attack others and in turn abused this thus dubbing this event the Falador Massacre.",
-        "linkURL": "https://runescape.fandom.com/wiki/Falador_Massacre",      
+        "linkURL": "https://runescape.wiki/w/Falador_Massacre",      
         "linkText": "Falador Massacre",
         "msgWrong": "It was on the 6th June and is known as a triple number glitch"
     },{
@@ -465,14 +465,14 @@
         "altQ": "Achievement",
         "answers":[
             {"answer": "In the last Region"},
-            {"answer": "The POP tutorial"},
+            {"answer": "Complete the tutorial"},
             {"answer": "Recruiting a captain"},
             {"answer": "Max Port Score"}      
         ],
         "correct": "2",
         "imageA": "pop.png",
         "altA": "Player Owned Ports",
-        "msgCorrect": "It was by completing the Player Owned Ports tutorial. To start, you need level 90 in one of the Ports skills (Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer or Thieving).",
+        "msgCorrect": "It was by completing the tutorial. To start, you need level 90 in one of the Ports skills (Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer or Thieving).",
         "linkURL": "https://runescape.fandom.com/wiki/Port_Life",      
         "linkText": "Port Life achievement",
         "msgWrong": "Maybe someone can help show you around?"
@@ -504,8 +504,8 @@
             {"answer": "Darkmeyer"}      
         ],
         "correct": "1",
-        "imageA": "impressing.png",
-        "altA": "Impressing the Locals",
+        "imageA": "arc.png",
+        "altA": "Arc",
         "msgCorrect": "It was the Arc. The Arc provides a wide variety of content across Fishing, Hunter, Farming, Divination and Woodcutting with some of the highest level skill nodes being found on uncharted isles.",
         "linkURL": "https://runescape.wiki/w/Impressing_the_Locals",      
         "linkText": "Impressing the Locals miniquest",
