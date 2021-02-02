@@ -239,14 +239,14 @@
         "linkText": "Recipe for Disaster",
         "msgWrong": "You make some interesting food in this quest"
     },{
-        "question": "What ingredients do you need to make a Brightfire potion?",
+        "question": "What ingredients do you combine with a Super antifire (4) to make a Brightfire potion?",
         "imageQ": "brightfire.png",
         "altQ": "Brightfire potion",
         "answers":[
-            {"answer": "Super antifire (4) and Super Restore (4)"},
-            {"answer": "Super antifire (4) and Bright potion (4)"},
-            {"answer": "Super antifire (4) and Prayer potion (4)"},
-            {"answer": "Super antifire (4) and Prayer Renewal (4)"}      
+            {"answer": "Super Restore (4)"},
+            {"answer": "Bright potion (4)"},
+            {"answer": "Prayer potion (4)"},
+            {"answer": "Prayer Renewal (4)"}      
         ],
         "correct": "4",
         "imageA": "brightfire.png",
@@ -460,14 +460,14 @@
         "linkText": "Smoke Cloud spell scroll",
         "msgWrong": "Maybe Zaros used this back in the day?"
     },{
-        "question": "How do you unlock the Port Life achievement? (POP = Player Owned Ports)",
+        "question": "How do you unlock the Port Life achievement in Player Owned Ports?",
         "imageQ": "achievement.png",
         "altQ": "Achievement",
         "answers":[
-            {"answer": "By reaching the first region in POP"},
-            {"answer": "By completing the POP tutorial"},
-            {"answer": "By unlocking your first captain in POP"},
-            {"answer": "By reaching the final region in POP"}      
+            {"answer": "In the last Region"},
+            {"answer": "The POP tutorial"},
+            {"answer": "Recruiting a captain"},
+            {"answer": "Max Port Score"}      
         ],
         "correct": "2",
         "imageA": "pop.png",
