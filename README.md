@@ -177,7 +177,7 @@ Included in the **footer** is:
 + [CSS](https://en.wikipedia.org/wiki/CSS) - Used as the main language for styling the website.
 
 ### Frameworks, libraries and programs
-+ [GIMP](https://www.gimp.org) - I used this program to design the background image and wireframes.
++ [GIMP](https://www.gimp.org) - I used this program to design the background image, wireframes and favicon image.
 + [coolors.co](https://coolors.co) - I used this tool to generate a colour scheme based on the RuneScape theme.
 + [Accessible Color Generator](https://learnui.design/tools/accessible-color-generator.html) - I used this tool in conjunction with coolors.co to provide a better colour contrast for accessibility. 
 + [Transfonter](https://transfonter.org/) - A tool I used to generate the accompanying font files for my custom RuneScape Font.
@@ -186,6 +186,8 @@ Included in the **footer** is:
 + [GitPod](https://gitpod.io) - GitPod was the online IDE (Integrated Development Engine) I used to develop this site.
 + [Git](https://git-scm.com) - Git is an open source version control system where you can commit changes to the associated Github repository and push changes to Github pages.
 + [FavIcon](https://favicon.io/) - I used this tool to convert an image I made into icon form and provide the code (stated in HTML comments) to link this icon to index.html.
++ [Audio Converter](https://online-audio-converter.com/) - I used this tool to convert my .ogg files to .mp3 for browser compability.
++ [Audio Compresser](https://www.onlineconverter.com/compress-mp3) - I used this tool to compress my music.mp3 file down to increase load times.
 
 #### [Back to top](#contents)
 
@@ -247,8 +249,17 @@ This section includes areas/sections of code and properties I was unaware of. I 
 
 ### Media
 
+#### Images
+
 + The pictures used in this site (in questions and answers) were primarily taken from the official [RuneScape Wiki](https://runescape.wiki/).
 + The Jagex logo was taking from the Wikipedia page for them [here](https://en.wikipedia.org/wiki/Jagex/).
++ The globe picture used in the map.png image was taken from [here](https://www.pngwing.com/en/free-png-ysfan).
+
+#### Sounds
+
++ The correct answer sound was taken from the official RuneScape wikipedia page for Combat Level up [here](https://runescape.wiki/w/Combat_level).
++ The incorrect answer sound was taken from [this website](https://www.myinstants.com/instant/runescape-death-tune-21319/).
++ The background music was taken from the official RuneScape wikipedia page for 2004 login screen music [here](https://runescape.wiki/w/Scape_Original).
 
 ### Acknowledgments
 
