@@ -6,6 +6,8 @@ I have created this project (Milestone project 2) as part of my Full Stack Web D
 
 General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [RuneScape](https://www.runescape.com). I have been playing this game since 2001 and have such acquired a lot of game knowledge, so I thought what better idea for a interactive game?
 
+![Am I responsive screenshot](readme-files/am-i-responsive.png)
+
 ---
 
 ## Contents
@@ -188,6 +190,7 @@ Included in the **footer** is:
 + [FavIcon](https://favicon.io/) - I used this tool to convert an image I made into icon form and provide the code (stated in HTML comments) to link this icon to index.html.
 + [Audio Converter](https://online-audio-converter.com/) - I used this tool to convert my .ogg files to .mp3 for browser compability.
 + [Audio Compresser](https://www.onlineconverter.com/compress-mp3) - I used this tool to compress my music.mp3 file down to increase load times.
++ [Am I Responsive?](http://ami.responsivedesign.is/) - I used this tool to easily display the responsiveness of my site for my README.md introduction.
 
 #### [Back to top](#contents)
 
