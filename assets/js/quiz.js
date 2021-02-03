@@ -15,10 +15,10 @@ const iconMusic = document.getElementById('icon-music');
 const questionsMax = 30;
 
 // Audio constants
-const guessCorrect = new Audio('assets/sounds/correct.ogg');
+const guessCorrect = new Audio('assets/sounds/correct.mp3');
 const guessIncorrect = new Audio('assets/sounds/incorrect.mp3');
-const quizCompleted = new Audio('assets/sounds/complete.ogg');
-const music = new Audio('assets/sounds/music.ogg');
+const quizCompleted = new Audio('assets/sounds/complete.mp3');
+const music = new Audio('assets/sounds/music.mp3');
 
 //Function to toggle background music
 function toggleMusic() {
