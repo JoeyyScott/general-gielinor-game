@@ -3,13 +3,14 @@ const buttonStart = document.getElementById('quiz-start');
 const buttonRepeat = document.getElementById('quiz-repeat');
 const buttonNext = document.getElementById('quiz-next');
 const containerWelcome = document.getElementById('container-welcome');
-const containerQuiz = document.getElementById('container-quiz')
+const containerQuiz = document.getElementById('container-quiz');
 const containerGuess  = document.getElementById('container-post-guess');
 const responseGuess = document.getElementById('post-guess-content');
 const verdictGuess = document.getElementById('post-guess-verdict');
 const containerFinal = document.getElementById('container-final');
 const answersCorrect = document.getElementById('answers-correct');
 const remainingCount = document.getElementById('remaining-questions');
+const question = document.getElementById('question');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
 const questionsMax = 2;
@@ -57,6 +58,7 @@ function quizStart() {
     questionsLoad();
 }
 
+//This function loads questions and answers into the quiz interface
 function questionsLoad() {
     //checks if there are no questions left or the question count is the max amount for this instance of the game
     if (questionsRemaining.length === 0 || questionsCounter === questionsMax) {
@@ -66,18 +68,16 @@ function questionsLoad() {
         containerQuiz.classList.add('contentHidden');
         containerFinal.classList.remove('contentHidden');
         let answerPercentage = Math.trunc((questionsCorrect / questionsMax)*100);
-        answersCorrect.innerHTML = `<h3>Your score: ${questionsCorrect} / ${questionsMax} - ${answerPercentage}%</h3>`
+        answersCorrect.innerHTML = `<h3>Your score: ${questionsCorrect} / ${questionsMax} - ${answerPercentage}%</h3>`;
         questionsCorrect = 0;
     }
-    //increase question count
     questionsCounter++;
     //sets the question to be removed to a random number from the array of remaining questions
-    questionToBeRemoved = Math.floor(Math.random() * questionsRemaining.length);
-    //sets the current question to the variable questionToBeRemoved from the away of remaining questions
+    let questionToBeRemoved = Math.floor(Math.random() * questionsRemaining.length);
+    //sets the current question to the variable questionToBeRemoved from the array of remaining questions
     questionCurrent = questionsRemaining[questionToBeRemoved];
     //sets the questions HTML for the current question
-    question.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageQ}" class="question-img" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`
-    // question.innerHTML += questionCurrent.question;
+    question.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageQ}" class="question-img" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`;
     //sets the remainingCount innerHTML to display to the user how many questions they have left
     remainingCount.innerHTML = `<p>Questions remaining: ${questionsMax - questionsCounter}</p>`;
     //credit for adapted forEach loop (See README.md for details) - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
@@ -87,6 +87,7 @@ function questionsLoad() {
 }
 
 //Credit for forEach loop functionality - See README.md for more details
+//This loop will check whenever an answer button is pressed whether it lines up to the correct answer for the current question
 answers.forEach(answer => {
     //checks to see if the user clicks any of the answer buttons
     answer.addEventListener('click', userGuess => {
@@ -102,7 +103,7 @@ answers.forEach(answer => {
             verdictGuess.innerHTML = `<h2>${correctResponses[Math.floor(Math.random() * correctResponses.length)].message} <i class="fas fa-smile-beam"></i></h2>`;
             responseGuess.innerHTML = `
                 <img src="assets/images/quiz/${questionCurrent.imageA}" class="question-img" alt="${questionCurrent.altA} Image"> <br>
-                <p>${questionCurrent.msgCorrect} You can check out the Wiki for ${questionCurrent.linkText} <a href="${questionCurrent.linkURL}" target=_"blank">here</a>!</p>`
+                <p>${questionCurrent.msgCorrect} You can check out the Wiki for ${questionCurrent.linkText} <a href="${questionCurrent.linkURL}" target=_"blank">here</a>!</p>`;
             questionsCorrect++;
         } else {
             guessIncorrect.play();
@@ -120,7 +121,7 @@ buttonNext.addEventListener('click', () => {
     containerGuess.classList.add('contentHidden');
     containerQuiz.classList.remove('contentHidden');
     questionsLoad();
-})
+});
 
 //array with correct answer messages
 const correctResponses = [
@@ -145,7 +146,7 @@ const correctResponses = [
     {message:`That rocks!`},
     {message:`!!!!!!11`},
     {message:`You're right!`}
-]
+];
 
 //array with incorrect answer messages
 const incorrectResponses = [
@@ -158,4 +159,4 @@ const incorrectResponses = [
     {message:`Close one!`},
     {message:`Aww!`},
     {message:`Not a great effort!`}
-]
+];
