@@ -13,7 +13,7 @@ const remainingCount = document.getElementById('remaining-questions');
 const question = document.getElementById('question');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
-const questionsMax = 30;
+const questionsMax = 10;
 
 // Audio constants
 const guessCorrect = new Audio('assets/sounds/correct.mp3');

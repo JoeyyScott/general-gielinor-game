@@ -68,15 +68,13 @@ E. Repeat button after quiz | 5 | 4
 - #### User goals
 
     + As a **user**, I want to understand the website's purpose on my first visit.
-    + As a **user**, I want to easily be able to use the desired function of the site.
+    + As a **user**, I want to easily be able to smoothly use all the desired function of the site.
     + As a **user**, I want to expand my RuneScape game knowledge in an intuitve way.
     + As a **user**, I want to be able to view and use the site on any device.  
     + As a **user**, I want to see other work the site owner has created.
     + As a **user**, I want to be able to contact the site owner with any questions I would like to see added.
-    + As a **user**, I want to be able to navigate through the whole site smoothly.
     + As a **user**, I want to know if my guess was correct or not and why.
     + As a **user**, I want a way to initiate the game on my action.
-    + As a **user**, I want to learn more about the game RuneScape.
     + As a **user**, I want a way to return to the home page after the quiz has ended.
     + As a **user**, I want to enjoy playing and learning in General Gielinor Game.
 
