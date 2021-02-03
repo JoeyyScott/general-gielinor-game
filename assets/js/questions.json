@@ -47,7 +47,7 @@
         "correct": "3",
         "imageA": "ned.png",
         "altA": "Ned",
-        "msgCorrect": "It was Ned. He lives in a house on the eastern side of Draynor Village, just north of the bank. You'll interact with him during Dragon Slayer quest but you can also get rope from him!",
+        "msgCorrect": "It was Ned. He lives in a house on the eastern side of Draynor Village, just north of the bank. You'll interact with him during the Dragon Slayer quest but you can also get rope from him!",
         "linkURL": "https://runescape.wiki/w/Ned",      
         "linkText": "Ned",
         "msgWrong": "You talk to this NPC during the Dragon Slayer quest"
@@ -84,7 +84,7 @@
         "msgCorrect": "It was the Museum Guard. He works in Varrock museum, on the top floor. You interact with him and ask about the mysterious cape and he'll give you a description of the cape's history. There are a lot of requirements for this cape, making it prestigious.",
         "linkURL": "https://runescape.wiki/w/Completionist_cape_(t)",      
         "linkText": "Cape",
-        "msgWrong": "Hint: They're surrounded by lots of artefacts from time gone by"
+        "msgWrong": "They're surrounded by lots of artefacts from time gone by"
     },{
         "question": "What Prayer level do you need to use the Protect from Melee prayer?",
         "imageQ": "praymelee.png",
@@ -307,7 +307,7 @@
         "linkText": "Arnold",
         "msgWrong": "I'm sure the Wise Old Man is thankful for your help fighting those trolls!"
     },{
-        "question": "In what quest do help Bob find items for Neite?",
+        "question": "In what quest do you help Bob find items for Neite?",
         "imageQ": "quest.png",
         "altQ": "Quest",
         "answers":[
@@ -319,7 +319,7 @@
         "correct": "4",
         "imageA": "tailoftwocats.png",
         "altA": "Tail of Two Cats",
-        "msgCorrect": "It was a Tail of Two Cats. During this quest you learn about the life of Bob the cat. Neite is his lover and you must find him items so he can woo her, you also complete tasks to help out Bob's owner, Unferth.",
+        "msgCorrect": "It was a Tail of Two Cats. During this quest you learn about the life of Bob the cat. Neite is his lover and you must find him items so he can woo her. You also complete tasks to help out Bob's owner, Unferth.",
         "linkURL": "https://runescape.wiki/w/A_Tail_of_Two_Cats",      
         "linkText": "Tail of Two Cats",
         "msgWrong": "You help two NPCs find love, it's furry fun!"

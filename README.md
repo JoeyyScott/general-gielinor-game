@@ -4,7 +4,7 @@
 
 I have created this project (Milestone project 2) as part of my Full Stack Web Development course with [Code Institute](https://codeinstitute.net/).
 
-General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [RuneScape](https://www.runescape.com). I have been playing this game since 2001 and have such acquired a lot of game knowledge, so I thought what better idea for a interactive game?
+General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [RuneScape](https://www.runescape.com). I have been playing this game since 2001 and have as such acquired a lot of game knowledge, so I thought what better idea for a interactive game?
 
 ![Am I responsive screenshot](readme-files/am-i-responsive.png)
 
@@ -42,7 +42,7 @@ General Gielinor Game is an interactive quiz designed to help you improve your k
 
 ### Project Goals
 
-The idea is to create an interactive general knowledge game about RuneScape an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are presented with the reasoning behind the question and why it is correct. There are wrong answers but you will not be punished for learning. It is a crucial part of understanding any concept, we are all learing everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
+The idea is to create an interactive general knowledge game about RuneScape an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are presented with the reasoning behind the question and why it is correct. There are wrong answers but you will not be punished for learning. It is a crucial part of understanding any concept, we are all learning everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
 
 ### Content Requirements
 
@@ -72,7 +72,7 @@ E. Repeat button after quiz | 5 | 4
     + As a **user**, I want to expand my RuneScape game knowledge in an intuitve way.
     + As a **user**, I want to be able to view and use the site on any device.  
     + As a **user**, I want to see other work the site owner has created.
-    + As a **user**, I want to be able contact the site owner with any questions I would like to see added.
+    + As a **user**, I want to be able to contact the site owner with any questions I would like to see added.
     + As a **user**, I want to be able to navigate through the whole site smoothly.
     + As a **user**, I want to know if my guess was correct or not and why.
     + As a **user**, I want a way to initiate the game on my action.
@@ -152,14 +152,14 @@ Included in the **main quiz** is:
 
 + **Guess response** - When the user has a guess at a question they are presented with one of two responses:
     + If their response is correct the user will have their answer reaffirmed, are presented with some supporting information and given a link to the associated RuneScape Wikipedia page.
-    + If their response is incorrect the user will be notified that their guess was incorrect and a hint as to how they might the answer to the question.
+    + If their response is incorrect the user will be notified that their guess was incorrect and a hint as to how they might find the answer to the question.
 
 + **Responsive Design** - The quiz is responsive on all screen sizes and has been designed with a mobile first approach.
     + Media queries for scaling rules across device proportions.
     + Media query for small height screens to push the main quiz container up as to avoid content overlap.
 
 Included in the **footer** is:
-+ **Suggest a question** - Opens a modal which allows user to suggest a question for the quiz, 4 associated answers and the user they wish to acredit.
++ **Suggest a question** - Opens a modal which allows user to suggest a question for the quiz, 4 associated answers and the user they wish to accredit.
     + The form functionality is handled by emailJS.
 + **Github icon** - Opens up my Github profile in a new tab for user retention.
 + **LinkedIn icon** - Opens up my LinkedIn profile in a new tab for user retention.
@@ -248,7 +248,7 @@ This section includes areas/sections of code and properties I was unaware of. I 
 
 + Custom Font CSS - Entire project uses this font and I used [Transfonter](https://transfonter.org/) to convert my TTF file and provide the other file types. It came with a prebuilt css font-face rule that I modified for my project.
 + forEach loops for answers - I wanted to include this under credits as I previously had no knowledge of this functionality. I found [this post](https://stackoverflow.com/questions/38421546/loop-dataset-chartjs-javascript) which is about looping through an array using the forEach function. I also read up on MDN web docs about the forEach function [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach). By combining these two articles and reading through various code snippets I managed to get my answers loading correctly.
-+ As stated in my Technologies section I used [Fav Icon](https://favicon.io/favicon-converter/) to convert an image I made to an icon and the website also provides the code for the ```<head>``` element to link the icon to the site.
++ As stated in my Technologies section I used [FavIcon](https://favicon.io/favicon-converter/) to convert an image I made to an icon and the website also provides the code for the ```<head>``` element to link the icon to the site.
 
 ### Media
 
@@ -270,7 +270,7 @@ The [Code Institute](https://codeinstitute.net/) slack community for their ongoi
 
 My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for all of his help throughout our project calls and feedback on my work.
 
-My family and friends who have helped me test various different versions of the quiz throughout the development process and proof reading my questions/answers along with my README.md / TESTING.md files.
+My family and friends who have helped me test various different versions of the quiz throughout the development process and proof reading my questions/answers along with my README.md/TESTING.md files.
 
 On a final note, I have enjoyed working on this project and am excited for the next stage ahead of me in this [Full Stack Web Development course](https://codeinstitute.net/full-stack-software-development-diploma/). 
 
