@@ -84,7 +84,6 @@ a:hover {
     text-shadow: 2.5px 2.5px #1E000E;
     color: #ffff62;
     margin: 5px 10px 0;
-
 }
 
 .footerText {
@@ -176,6 +175,9 @@ a:hover {
 @media only screen and (max-width: 320px) {
     .modalIcon {
         display: none;
+    }
+    .footerIcon {
+        font-size: 1.5rem;
     }
 }
 @media only screen and (max-height: 650px) {
