@@ -139,6 +139,7 @@ The header can be accessed and viewed throughout all stages of the quiz.
 Included in the **header** is: 
 
 + **Home Icon**: Provides a link to the homepage to allow the user to return there.
++ **Music Icon**: Provides a way for the user to play/pause the background music.
 + **'Find out more' button**: Allows the user to initiate a modal which provides information about the quiz and RuneScape in general.
 
 Included in the **main quiz** is:
@@ -156,10 +157,15 @@ Included in the **main quiz** is:
     + Media query for small height screens to push the main quiz container up as to avoid content overlap.
 
 Included in the **footer** is:
-+ **Suggest a question** - Opens a modal which allows user to suggest a question for the quiz and 4 associated answers.
++ **Suggest a question** - Opens a modal which allows user to suggest a question for the quiz, 4 associated answers and the user they wish to acredit.
     + The form functionality is handled by emailJS.
 + **Github icon** - Opens up my Github profile in a new tab for user retention.
 + **LinkedIn icon** - Opens up my LinkedIn profile in a new tab for user retention.
+
+### Features to be added
+
++ **Question Categories**: This would require a lot more questions to be written as well as implementation of multiple JSON files.
++ **Highscores**: This would require back end SQL knowledge and currently outside the scope of my ability.
 
 ---
 
