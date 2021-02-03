@@ -45,6 +45,23 @@ Responsiveness (website layout)
 | **Finish Screen**             |            |            |              |          |      |          |                |                 |
 | Renders as expected           |    Good    |    Good    |     Good     |   Good   | Good |   Good   |      Good      |      Good       |
 
+Notes:
+
++ Through the use of BootStrap and my own design input the site is responsive on all screen sizes that I have tested personally. There may be slight issues on certain abstract displays that might need additional media queries as I experienced minor issues in the development of the project pertaining to content being too big for the viewport.
+
+### Browser Compatibility
+
+I tested the appearance and responsiveness of the website across 5 different browsers and varying browser sizes and these are my results:
+
+|    All Pages   | Firefox | Chrome |  IE  | Edge | Opera |
+|:--------------:|:-------:|:------:|:----:|:----:|:-----:|
+| Appearance     |   Good  |  Good  | Good | Good |  Good |
+| Responsiveness |   Good  |  Good  | Good | Good |  Good |
+
+Notes:
+
++ Everything functions as expected with no issues that I could find.
+
 ### Bugs
 
 + When trying to get the answers to display correctly I was originally using a standard for loop. (`for (i=0;i<answers.length;i++)`). After a few hours of attempts of trying to get my dataSet to import and load correctly. I decided to look into other methods of providing this functionality.
