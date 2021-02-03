@@ -13,13 +13,13 @@ const remainingCount = document.getElementById('remaining-questions');
 const question = document.getElementById('question');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
-const questionsMax = 2;
+const questionsMax = 30;
 
 // Audio constants
 const guessCorrect = new Audio('assets/sounds/correct.mp3');
 const guessIncorrect = new Audio('assets/sounds/incorrect.mp3');
 const quizCompleted = new Audio('assets/sounds/complete.mp3');
-const music = new Audio('assets/sounds/music.mp3');
+const music = new Audio('assets/sounds/bgmusic.mp3');
 
 //Function to toggle background music
 function toggleMusic() {
@@ -53,7 +53,7 @@ function quizStart() {
     //Sets the questions remaining to a spread array from questions
     questionsRemaining = [...questions];
     //Sets the counter to 0 as it is the quiz start
-    questionsCounter = 30;
+    questionsCounter = 0;
     //Loads the questions into index.html
     questionsLoad();
 }
