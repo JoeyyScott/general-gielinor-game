@@ -16,8 +16,8 @@
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- emailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript"> (function(){ emailjs.init("user_S8ipgpvXsdHDi0mLfpNtS"); })(); </script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script> (function(){ emailjs.init("user_S8ipgpvXsdHDi0mLfpNtS"); })(); </script>
     <!-- Fav Icon and credit -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
@@ -113,7 +113,7 @@
             <!-- Post Guess Content -->
             <div id="container-post-guess" class="contentHidden">
                 <h2>We checked your guess and...</h2>
-                <h2 id="post-guess-verdict"></h2>
+                <div id="post-guess-verdict"></div>
                 <div id="post-guess-content"></div>
                 <p>To continue, press the button below :)</p>
                 <button id="quiz-next" class="buttonNext rsStyle">
@@ -123,7 +123,7 @@
             <!-- Finished Content -->
             <div id="container-final" class="contentHidden">
                 <h2>Grats!  <i class="fas fa-smile-beam"></i><br>You've completed the General Gielinor Game!</h2>
-                <h3>Your score: <div id="answers-correct"></div></h3>
+                <div id="answers-correct"></div>
                 <p>I hope you enjoyed yourselves in this adventure and have learnt more about RuneScape! Think you can do better next time round? If that is the case for you, press the button below to try again.</p>
                 <button id="quiz-repeat" class="buttonRepeat rsStyle">Play GGG again!</button>
             </div>

@@ -10,7 +10,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 /* End credit for Custom Font CSS */
 
 /* Quiz */
@@ -100,6 +99,7 @@ a:hover {
     padding: 1vw 2vw;
     font-size: 1.4rem;
 }
+
 .aboutModalContent {
     border-width: 5px;
     border-radius: 20px;
@@ -107,6 +107,7 @@ a:hover {
     margin: auto;
     padding: 0 20px;
 }
+
 .aboutModalContent h2 {
     margin-top: 10px;
 }
@@ -116,6 +117,7 @@ a:hover {
     width: 80%;
     margin: auto;
 }
+
 .suggestModalHeader {
     border: 0px;
 }
@@ -169,7 +171,6 @@ a:hover {
     margin-bottom: 15px;
     width: 200px;
 }
-
 
 /* Media Queries */
 @media only screen and (max-width: 320px) {

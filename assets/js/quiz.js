@@ -12,7 +12,7 @@ const answersCorrect = document.getElementById('answers-correct');
 const remainingCount = document.getElementById('remaining-questions');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
-const questionsMax = 30;
+const questionsMax = 2;
 
 // Audio constants
 const guessCorrect = new Audio('assets/sounds/correct.mp3');
@@ -52,7 +52,7 @@ function quizStart() {
     //Sets the questions remaining to a spread array from questions
     questionsRemaining = [...questions];
     //Sets the counter to 0 as it is the quiz start
-    questionsCounter = 0;
+    questionsCounter = 30;
     //Loads the questions into index.html
     questionsLoad();
 }
@@ -66,7 +66,7 @@ function questionsLoad() {
         containerQuiz.classList.add('contentHidden');
         containerFinal.classList.remove('contentHidden');
         let answerPercentage = Math.trunc((questionsCorrect / questionsMax)*100);
-        answersCorrect.innerHTML = `${questionsCorrect} / ${questionsMax} - ${answerPercentage}%`
+        answersCorrect.innerHTML = `<h3>Your score: ${questionsCorrect} / ${questionsMax} - ${answerPercentage}%</h3>`
         questionsCorrect = 0;
     }
     //increase question count
