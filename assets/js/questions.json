@@ -52,7 +52,7 @@
         "linkText": "Ned",
         "msgWrong": "You talk to this NPC during the Dragon Slayer quest"
     },{
-        "question": "What NPC in Varrock gives you breathing salts in exchange for an airtight pot during the One Small Favour quest?",
+        "question": "What NPC in Varrock swaps breathing salts for an airtight pot during the One Small Favour quest?",
         "imageQ": "breathingsalts.png",
         "altQ": "Breathing Salts",
         "answers":[
@@ -166,7 +166,7 @@
         "correct": "3",
         "imageA": "plaguesend.png",
         "altA": "Plagues End",
-        "msgCorrect": "It was 75. The skills you need are: Agility, Construction, Crafting, Dungeoneering, Herblore, Mining, Prayer, Ranged, Summoning and Woodcutting. Completion of this quest grants access to Prifddinas, which is one of the most useful unlocks in RuneScape today.",
+        "msgCorrect": "It was 75. The skills you need are: Agility, Construction, Crafting, Dungeoneering, Herblore, Mining, Prayer, Ranged, Summoning and Woodcutting. Unlocking Prifddinas is one of the most useful unlocks in RuneScape today.",
         "linkURL": "https://runescape.wiki/w/Plague%27s_End",      
         "linkText": "Plagues End",
         "msgWrong": "The Quest guide ingame provides all requirements for Quests within RuneScape"
@@ -239,7 +239,7 @@
         "linkText": "Recipe for Disaster",
         "msgWrong": "You make some interesting food in this quest"
     },{
-        "question": "What ingredients do you combine in a crystal flask with a Super antifire (4) to make a Brightfire potion?",
+        "question": "What do you mix in a crystal flask with a Super antifire (4) to make a Brightfire potion?",
         "imageQ": "brightfire.png",
         "altQ": "Brightfire potion",
         "answers":[
@@ -268,7 +268,7 @@
         "correct": "2",
         "imageA": "fallymassacre.png", 
         "altA": "Falador Massacre",
-        "msgCorrect": "It was 2006. When a house party was hosted to celebrate the 1st level 99 Construction, players were booted from the POH and those who had engaged in combat activities had somehow retained the ability to attack others and in turn abused this thus dubbing this event the Falador Massacre.",
+        "msgCorrect": "It was 2006. Players were booted from the POH where the first 99 Construction was achieved and those who had engaged in combat activities had somehow retained the ability to attack others and in turn abused this thus dubbing this event the Falador Massacre.",
         "linkURL": "https://runescape.wiki/w/Falador_Massacre",      
         "linkText": "Falador Massacre",
         "msgWrong": "It was on the 6th June and is known as a triple number glitch"

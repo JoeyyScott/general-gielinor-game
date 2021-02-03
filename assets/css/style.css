@@ -42,7 +42,7 @@ body {
 .rsStyle {
     color: #ffff62;
     background-color: #605436;
-    border: 2px solid #ffff62;
+    border: 3px solid #ffff62;
     text-shadow: 2.5px 2.5px #1E000E;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 .navIcon {
-    padding: 5px;
+    padding: 2vw;
     margin: 20px 0 0 10px;
 }
 
@@ -98,7 +98,7 @@ a:hover {
     color: #ffff62;
     position: relative;
     margin: 20px 10px 0 0;
-    padding: 3px 10px;
+    padding: 1vw 2vw;
     font-size: 1.4rem;
 }
 .aboutModalContent {
@@ -173,9 +173,14 @@ a:hover {
 
 
 /* Media Queries */
+@media only screen and (max-width: 320px) {
+    .modalIcon {
+        display: none;
+    }
+}
 @media only screen and (max-height: 650px) {
     .container-main {
-        margin-top: 30px;
+        margin-top: 0;
     }
 }
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
@@ -185,10 +190,12 @@ a:hover {
     }
 }
 @media only screen and (min-width: 768px) {
-    h2, .nav-item {
+    h2, .navItem {
         font-size: 2.4rem;
     }
-
+    h3 {
+        font-size: 2rem;
+    }
     p {
         font-size: 1.6rem;
     }
@@ -202,7 +209,7 @@ a:hover {
         font-size: 1.8rem;
     }
     .container-main {
-        margin-top: 100px;
+        margin-top: 75px;
     }
     .buttonAnswer {
         font-size: 2rem;
@@ -224,7 +231,7 @@ a:hover {
     }
 }
 @media screen and (min-width: 992px) and (orientation: landscape) {
-    h2, .nav-item {
+    h2, .navItem {
         font-size: 3rem;
     }
     p {
@@ -232,12 +239,17 @@ a:hover {
     }
     .aboutModalText {
         font-size: 2rem;
+        padding: 0.5vw 1vw;
     }
     .container-main {
         max-width: 60%;
-        /* margin-top: 100px; */
     }
     .buttonAnswer {
         font-size: 2.5rem;
+        margin: 1vh 0;
+    }
+    .navIcon {
+        padding: 1vw;
+        font-size: 2.2rem;
     }
 }
