@@ -15,6 +15,11 @@ const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
 const questionsMax = 10;
 
+//Initiating the quiz on start or repeat button being clicked
+buttonStart.addEventListener('click', quizLoad);
+buttonRepeat.addEventListener('click', quizLoad);
+iconMusic.addEventListener('click', toggleMusic);
+
 // Audio constants
 const guessCorrect = new Audio('assets/sounds/correct.mp3');
 const guessIncorrect = new Audio('assets/sounds/incorrect.mp3');
@@ -33,10 +38,6 @@ let questionCurrent = {};
 let questionsCounter;
 let questionsRemaining = [];
 let questionsCorrect = [];
-
-//Initiating the quiz on start or repeat button being clicked
-buttonStart.addEventListener('click', quizLoad);
-buttonRepeat.addEventListener('click', quizLoad);
 
 //The quizLoad function will load the questions from the json file and store them in an array "questions"
 function quizLoad() { $.getJSON('https://joeyyscott.github.io/general-gielinor-game/assets/js/questions.json', function (data) { questions = data.questions; console.log("questions: " + questions); })
