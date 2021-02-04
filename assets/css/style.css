@@ -37,6 +37,31 @@ body {
     font-family: "RuneScape UF", sans-serif;
 }
 
+/* Containers */
+.container-main {
+    padding: 10px;
+    width: 90%;
+    margin: 125px auto 0;
+}
+
+#container-quiz, #container-post-guess {
+    min-height: 250px;
+}
+
+#container-footer {
+    margin: auto;
+    width: 95vw;
+    padding: 5px;
+    position: fixed;
+    bottom: 1vh;
+    left: 3vw;
+}
+
+.blankSpace {
+    display: inline-block;
+    height: 20vh;
+}
+
 /* Core Styling */
 .rsStyle {
     color: #ffff62;
@@ -144,26 +169,6 @@ a:hover {
 
 .buttonNext {
     font-size: 1.4rem;
-}
-
-/* Containers */
-.container-main {
-    padding: 10px;
-    width: 90%;
-    margin: 125px auto 0;
-}
-
-#container-quiz, #container-post-guess {
-    min-height: 250px;
-}
-
-#container-footer {
-    margin: auto;
-    width: 95vw;
-    padding: 5px;
-    position: fixed;
-    bottom: 1vh;
-    left: 3vw;
 }
 
 /* Suggestion form */
