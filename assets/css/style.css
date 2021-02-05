@@ -157,6 +157,11 @@ a:hover {
     margin-bottom: 15px;
 }
 
+.buttonSuggest {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
 .buttonStart, .buttonRepeat, .buttonStuck {
     font-size: 2rem;
 }
@@ -246,7 +251,7 @@ a:hover {
     ::placeholder {
         font-size: 1.6rem;
     }
-    .buttonModal {
+    .buttonModal, .buttonSuggest {
         font-size: 2rem;
     }
 }
