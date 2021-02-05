@@ -250,4 +250,9 @@ Notes:
     + Upon looking around I managed to find [this post](https://www.tutorialspoint.com/How-to-reset-or-clear-a-form-using-JavaScript) which contained information about the ```.reset()``` methdo which effectively mimics what a reset button would do.
     + I added this into my code within suggestions.js and after a few tests of the suggest a question modal I determined that everything was functioning as intended.
 
++ **Looping Music** - I originally noticed this bug by pure accident as I opened my site and went back to my code. After 5 minutes or so I noticed the music had stopped. At this point I had the music auto playing on page load before I discovered Google Chrome disables autoplay and thus made a button to toggle the music.
+    + I am very new to using music functions but following my mid project call with my mentor he suggested adding in background music and that it was very little code.
+    + I was able to load in and play my music so I looked around and found [this post](https://stackoverflow.com/questions/13610638/loop-audio-with-javascript). It highlighted that the ```audio``` element has a built in ```loop``` boolean property that I added into my code and which now resides in my ```toggleMusic``` function.
+    + Upon various tests with myself, family and friends everyone reported that the music would play/pause/loop as intended.
+
 [Return to README.md](README.md).
