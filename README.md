@@ -194,6 +194,7 @@ I am not sure on the full functionality of such a feature but I wanted to at lea
 
 + [HTML](https://en.wikipedia.org/wiki/HTML) - Used as the main language for structuring the website.
 + [CSS](https://en.wikipedia.org/wiki/CSS) - Used as the main language for styling the website.
++ [JavaScript](https://www.javascript.com/) - Used as the main language for providing functionality to the quiz interface.
 
 ### Frameworks, libraries and programs
 + [GIMP](https://www.gimp.org) - I used this program to design the background image, wireframes and favicon image.
