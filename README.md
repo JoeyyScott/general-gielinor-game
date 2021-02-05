@@ -208,6 +208,8 @@ I am not sure on the full functionality of such a feature but I wanted to at lea
 + [Audio Converter](https://online-audio-converter.com/) - I used this tool to convert my .ogg files to .mp3 for browser compability.
 + [Audio Compresser](https://www.onlineconverter.com/compress-mp3) - I used this tool to compress my music.mp3 file down to increase load times.
 + [Am I Responsive?](http://ami.responsivedesign.is/) - I used this tool to easily display the responsiveness of my site for my README.md introduction.
++ [emailJS](https://www.emailjs.com/) - I used this tool to add functionality in the form of an email service to the Suggest a Question modal.
++ [jQuery](https://jquery.com/) - I used the jQuery library to provide access to a multitude of functions/methods, most notably the ```$.getJSON('');``` function which I used to load my questions in from a JSON file.
 
 #### [Back to top](#contents)
 
