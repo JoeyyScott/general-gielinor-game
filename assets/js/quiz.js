@@ -13,6 +13,8 @@ const remainingCount = document.getElementById('remaining-questions');
 const question = document.getElementById('question');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
+
+//Setting the max questions
 const questionsMax = 30;
 
 //Initiating the quiz on start or repeat button being clicked
@@ -40,7 +42,7 @@ let questionsRemaining = [];
 let questionsCorrect = [];
 
 //The quizLoad function will load the questions from the json file and store them in an array "questions"
-function quizLoad() { $.getJSON('https://joeyyscott.github.io/general-gielinor-game/assets/js/questions.json', function (data) { questions = data.questions; console.log("questions: " + questions); })
+function quizLoad() { $.getJSON('https://joeyyscott.github.io/general-gielinor-game/assets/js/questions.json', function (data) { questions = data.questions; })
     //Credit for .then function to wait for json file to be loaded before executing quiz
     .then(function() { quizStart(); });
 }
@@ -51,11 +53,9 @@ function quizStart() {
     containerFinal.classList.add('contentHidden');
     containerWelcome.classList.add('contentHidden');
     containerQuiz.classList.remove('contentHidden');
-    //Sets the questions remaining to a spread array from questions
+    //Sets the questions remaining to a spread array from questions, the counter to 0 and loads the questions
     questionsRemaining = [...questions];
-    //Sets the counter to 0 as it is the quiz start
     questionsCounter = 0;
-    //Loads the questions into index.html
     questionsLoad();
 }
 
@@ -75,11 +75,9 @@ function questionsLoad() {
     questionsCounter++;
     //sets the question to be removed to a random number from the array of remaining questions
     let questionToBeRemoved = Math.floor(Math.random() * questionsRemaining.length);
-    //sets the current question to the variable questionToBeRemoved from the array of remaining questions
+    //sets the current question to the variable questionToBeRemoved from the array of remaining questions and fills the quiz content on index.html
     questionCurrent = questionsRemaining[questionToBeRemoved];
-    //sets the questions HTML for the current question
     question.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageQ}" class="question-img" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`;
-    //sets the remainingCount innerHTML to display to the user how many questions they have left
     remainingCount.innerHTML = `<p>Questions remaining: ${questionsMax - questionsCounter}</p>`;
     //credit for adapted forEach loop (See README.md for details) - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
     answers.forEach(answer => { let i = (answer.dataset[`number`] - 1); answer.innerText = questionCurrent.answers[i].answer; });
@@ -90,17 +88,16 @@ function questionsLoad() {
 //Credit for forEach loop functionality - See README.md for more details
 //This loop will check whenever an answer button is pressed whether it lines up to the correct answer for the current question
 answers.forEach(answer => {
-    //checks to see if the user clicks any of the answer buttons
     answer.addEventListener('click', userGuess => {
-        //sets their guess to variable and shows the post guess content
+        //sets their guess to a variable and shows the post guess content
         const selectedAnswer = userGuess.target.dataset[`number`];
         containerGuess.classList.remove('contentHidden'); 
         containerQuiz.classList.add('contentHidden');
-        //changes the innerHTML of the post guess message based on whether it was correct
+        //changes the innerHTML of the post guess message based on whether it was correct and plays an appropriate sound
         if (selectedAnswer === questionCurrent.correct) {
             guessCorrect.play();
             guessCorrect.volume = 0.2;
-            //changes the innerHTML of the verdict to a random response within an array
+            //changes the innerHTML of the verdict to a random response within the correctResponses array
             verdictGuess.innerHTML = `<h2>${correctResponses[Math.floor(Math.random() * correctResponses.length)].message} <i class="fas fa-smile-beam"></i></h2>`;
             responseGuess.innerHTML = `
                 <img src="assets/images/quiz/${questionCurrent.imageA}" class="question-img" alt="${questionCurrent.altA} Image"> <br>
@@ -109,18 +106,18 @@ answers.forEach(answer => {
         } else {
             guessIncorrect.play();
             guessIncorrect.volume = 0.2;
-            //changes the innerHTML of the verdict to a random response within an array
+            //changes the innerHTML of the verdict to a random response within the incorrectResponses array
             verdictGuess.innerHTML = `<h2>${incorrectResponses[Math.floor(Math.random() * incorrectResponses.length)].message} <i class="fas fa-frown"></i></h2>`;
             responseGuess.innerHTML = `<p>That is not correct! <br> Hint: ${questionCurrent.msgWrong} <i class="fas fa-smile-beam"></i></p>`;
         }
     });
 });
 
-//Checks to see if the next button has been clicked
-//Removes the guess content, shows the quiz again and loads the next question
+//Checks to see if the next button has been clicked and removes the guess content, shows the quiz again and loads the next question
 buttonNext.addEventListener('click', () => {
     containerGuess.classList.add('contentHidden');
     containerQuiz.classList.remove('contentHidden');
+    guessIncorrect.play
     questionsLoad();
 });
 
