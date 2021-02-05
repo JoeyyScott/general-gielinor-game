@@ -186,6 +186,8 @@ I am not sure on the full functionality of such a feature but I wanted to at lea
 + **Question Categories**: This would require a lot more questions to be written as well as implementation of multiple JSON files.
 + **Highscores**: This would require back end SQL knowledge and currently outside the scope of my ability.
 
+#### [Back to top](#contents)
+
 ---
 
 ## Technologies
