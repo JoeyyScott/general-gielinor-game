@@ -67,7 +67,7 @@ Notes:
 - #### User Goals    
 
     + As a **user** I want to understand the website's purpose on my first visit.
-        + Upon loading the site the user will land on index.html and be greeted with the header "Welcome to the General Gielinor Game"
+        + Upon loading the site the user will land on index.html and be greeted with the header "Welcome to the General Gielinor Game".
         + There is a tagline that says "Want to test your RuneScape knowledge?" which tells the user the purpose of the site.
         + There is also a prompt for the user to click the "Find out more" button if they wish to find out more information.
             |                                                  index.html                                                         |
@@ -98,8 +98,8 @@ Notes:
 
     + As a **user** I want to be able to view and use the site on any device.
         + I have tested the website across multiple screen sizes and have found no issues thus far.
-        + The index page and it's associated modals provides all the functionality across multiple screen sizes.
-        + Screenshots for the main site but can be found in other tests but I've included pictures of the modal.
+        + The index page and its associated modals provide all the functionality across multiple screen sizes.
+        + Screenshots for the main site but can be found in other tests but I have included pictures of the modal.
             |                                                  index.html                                                         |
             | :-----------------------------------------------------------------------------------------------------------------: |
             | [Mobile](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user4mobile.png) |
@@ -115,9 +115,9 @@ Notes:
             | [Tablet](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user5tablet.png) |
             |     [PC](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user5pc.png)     |
 
-    + As a **user** I want to be able contact the site owner with any questions I would like to see added.
+    + As a **user** I want to be able to contact the site owner with any questions I would like to see added.
         + In the footer there is a '?' icon which opens up a suggest a question Modal that allows the user to submit their question, answer list, correct answer and user to be accredited.
-        + User Story 4 has pictures of the suggest a quesiton modal across all screen sizes. I've included pictures below of the post-submission form where the text on the button informs the user of the status of their request.
+        + User Story 4 has pictures of the suggest a question modal across all screen sizes. I have included pictures below of the post-submission form where the text on the button informs the user of the status of their request.
             |                                             Suggest a Question modal                                                |
             | :-----------------------------------------------------------------------------------------------------------------: |
             | [Mobile](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user6mobile.png) |
@@ -144,8 +144,8 @@ Notes:
             |     [PC](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user8pc.png)     |
     
     + As a **user** I want a way to return to the home page after the quiz has ended.
-        + At any point throughout the quiz, the user is able to press the Home icon the header to return back to the home page.
-        + Once the user completes all questions on their current instance of the Quiz, they will be presented with a "Play GGG again" button should they so wish to.
+        + At any point throughout the quiz, the user is able to press the Home icon in the header to return back to the home page.
+        + Once the user completes all questions on their current instance of the quiz, they will be presented with a "Play GGG again" button should they so wish to.
             |                                                     Home Button                                                     |
             | :-----------------------------------------------------------------------------------------------------------------: |
             | [Mobile](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user9mobile.png) |
@@ -153,23 +153,23 @@ Notes:
             |     [PC](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user9pc.png)     |
 
     + As a **user** I want to enjoy playing and learning in General Gielinor Game.
-        + I've designed an interactive quiz that provides visual and audio responses to the users' guesses.
-        + I've stuck with the traditional RuneScape feel with the font, colour scheme and general design which allows RuneScape players to feel more at home.
-        + I've also included a questions remaining counter as well as a score at the end (see previous user story) which conveys to the user of their progress
+        + I have designed an interactive quiz that provides visual and audio responses to the user's guesses.
+        + I have stuck with the traditional RuneScape feel with the font, colour scheme and general design which allows RuneScape players to feel more at home.
+        + I have also included a questions remaining counter as well as a score at the end (see previous user story) which conveys to the user of their progress.
         + There is also a button to Play GGG again (see previous user story) which invites the user to beat their score thus increasing the enjoyment factor of the game.
 
 - #### Site Owner Goals
 
     + As a **site owner** I want the user to be greeted with a brief introduction message and a run down on how to play the game so they can easily understand the whole website.
-        + When I load into the site I am presented with an introductory message informing the users' the site contains a quiz.
-        + I'm also directed to the "Find out more" button which tells me the purpose of the website.
+        + When I load into the site I am presented with an introductory message informing the user's the site contains a quiz.
+        + I am also directed to the "Find out more" button which tells me the purpose of the website.
         + Finally I am prompted on how to play the game by pressing the "Start Quiz" button. 
         + The pictures of the landing screen that shows this information can be found in the user story testing 1.
 
     + As a **site owner** I want any user to receive the correct information for the viewport they are currently on.
         + I have tested the website across multiple screen sizes and have found no issues thus far with content displaying or appearing incorrectly.
-        + The checklist icon does not show on extra small devices as intended and the footer icons become smaller to accomidate.
-        + Also on small screens I've used a media query to remove the majority of the top margin for the main container as screen real estate is limited here.
+        + The checklist icon does not show on extra small devices as intended and the footer icons become smaller to accommodate.
+        + Also on small screens I have used a media query to remove the majority of the top margin for the main container as screen real estate is limited here.
             |                                                       Small device queries                                                      |
             | :-----------------------------------------------------------------------------------------------------------------------------: |
             | [Small Phone](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/siteowner1small.png)    |
@@ -180,20 +180,20 @@ Notes:
         + In the footer I can see 3 self explanatory icons for Suggest a question, LinkedIn and GitHub. 
         + Both find out more and suggest a question open a modal, the links open in new tabs and the music/start/home buttons all function as intended.
   
-    + As a **site owner**  I want to include links to my GitHub and LinkedIn profile so the user can view other projects I have contributed to.
-        + In the footer there is a GitHub icon with a link that will open the developers GitHub profile up in a new tab.
+    + As a **site owner**  I want to include links to my GitHub and LinkedIn profiles so the user can view other projects I have contributed to.
+        + In the footer there are GitHub and LinkedIn icons each with a link that will open the associated profiles of the developer in a new tab.
         + From here I can see all the contributions to projects this user has made.
         + Screenshots of the footer are included in user story testing #5.
 
     + As a **site owner** I want to create an engaging, interactive experience through the quiz and site.
-       + Upon loading the site I'm given the pre quiz screen which provides a moment for me to get my bearings before the quiz.
+       + Upon loading the site I am given the pre quiz screen which provides a moment for me to get my bearings before the quiz.
         + Throughout the site the font RuneScape-UF is used which as a RuneScape player I instantly recognize thus making the environment engaging.
-        + On each question I'm presented with a question, question image, 4 possible answers and a counter showing the questions I have left to answer. This is reassuring as I'm able to see my progress at any point.
+        + On each question I am presented with a question, question image, 4 possible answers and a counter showing the questions I have left to answer. This is reassuring as I am able to see my progress at any point.
         + You can find evidence of this in user stories 3 and 7.
 
     + As a **site owner** I want to create a site that provides a welcoming atmosphere to learn about RuneScape.
         + Upon loading the site the entire feel of what I experience makes me feel welcomed. There is minimal but critical information on the landing page.
-        + There is also a Find out more modal I can activate which provides more information about the site and doesn't overload me with content.
+        + There is also a Find out more modal I can activate which provides more information about the site and does not overload me with content.
         + The home, music and footer buttons are all designed/positioned cleanly and do not intrude on the experience at all.
 
     + As a **site owner** I want to provide the user with feedback about whether their answer is correct or not and the reasoning why after each question.
@@ -204,13 +204,13 @@ Notes:
 
     + As a **site owner** I want to create a quiz that will help users learn about the MMORPG RuneScape.
         + The quiz itself is comprised of questions from multiple areas of RuneScape knowledge. This provides a varied learning experience and a building block for a bigger project.
-        + Due to the wide variety of questions I'm fairly confident most players who take the quiz may not be aware of at least some of the areas mentioned.
-        + When I guess incorrectly I'm given a hint about that piece of content which sparks the learning process as I am made more aware of this content.
+        + Due to the wide variety of questions I am fairly confident most players who take the quiz may not be aware of at least some of the areas mentioned.
+        + When I guess incorrectly I am given a hint about that piece of content which sparks the learning process as I am made more aware of this content.
 
     + As a **site owner** I want to include a form within a modal that can be accessed anywhere and allows the user to suggest questions for the quiz.
-        + I have placed a '?' icon in the footer which opens up a suggest a question Modal. This allows me to submit my question, answer list, correct answer and name I want credited.
-        + User story 4 has pictures of the suggest a quesiton modal across all screen sizes. User story 6 has pictures of the post submission screen to show a successful attempt.
-        + Once I filled out this form with dummy info I am then emailed the form info through emailJS.
+        + I have placed a '?' icon in the footer which opens up a suggest a question modal. This allows me to submit my question, answer list, correct answer and name I want credited.
+        + User story 4 has pictures of the suggest a question modal across all screen sizes. User story 6 has pictures of the post submission screen to show a successful attempt.
+        + Once I have filled out this form with dummy info I am then emailed the form info through emailJS.
             |                                                      Suggest Modal                                                       |
             | :----------------------------------------------------------------------------------------------------------------------: |
             | [Email](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/siteowneremail.png)    |
@@ -221,7 +221,7 @@ Notes:
 
     ```for (i=0;i<answers.length;i++)```
     
-    + After a few hours of attempts of trying to get my dataSet to import and load correctly. I decided to look into other methods of providing this functionality.
+    + After a few hours of attempts of trying to get my dataSet to import and load correctly, I decided to look into other methods of providing this functionality.
     + I have included within the credits section of my README.md how I went about fixing this bug using the array function forEach.
 
 + **Splice function** - When I had my questions in my quiz.js file I experienced a bug where my code was removing only the first question in the array regardless of which question was loaded as question 1.
@@ -229,8 +229,8 @@ Notes:
     
         ```questionsRemaining.splice(Math.floor(Math.random() * questionsRemaining.length), 1);```
 
-    + I asked one of my close friends who has JavaScript experience and he suggested the splice function couldn't parse through my Math code. I decided to try setting the data to a variable and splicing that instead.
-    + I took my Math formula and set a variable to that as you can see in the lines of code below.
+    + I asked one of my close friends who has JavaScript experience and he suggested the splice function could not parse through my Math code. I decided to try setting the data to a variable and splicing that instead.
+    + I took my Math formula and set a variable to that as you can see in the lines of code below:
 
         ```let questionToBeRemoved = Math.floor(Math.random() * questionsRemaining.length);```
         ```questionsRemaining.splice(questionToBeRemoved, 1);```
@@ -239,14 +239,14 @@ Notes:
 
 + **getJSON not recognized** - Following my mid project call with my mentor, we decided to use a .json file to store the questions in. This would allow for less user error when adding questions as the HTML is built in the quiz.js file. I was using the ```$.getJSON('');``` function but it was not recognized as a function when I attempted to load my site.
     + Upon a quick look around the internet I found [this post](https://stackoverflow.com/questions/40600396/jquery-issue-typeerror-getjson-is-not-a-function) which contained the answer I was looking for.
-    + It mentioned that the slim version of jQuery did not carry ```$.getJSON('');``` as a method and suggested the user use the full version of jQuery. I checked my code and I was also using the slim version, upon updating it to the full version my code worked as expected.
+    + It mentioned that the slim version of jQuery did not carry ```$.getJSON('');``` as a method and suggested the user use the full version of jQuery. I checked my code and I was also using the slim version. Upon updating it to the full version my code worked as expected.
 
 + **Code not loading JSON** - Once I was able to fix the ```$.getJSON('');``` bug my code was apparently working fine but the questions were not loading.
     + I debugged in Firefox DevTools and could see no apparent error. I know the order of my code matters and remembered the lesson about call back functions.
     + It got me thinking that maybe it was trying to load my code before the questions.JSON file had been loaded. I looked around and found [this post](https://stackoverflow.com/questions/52622056/how-to-delay-my-javascript-code-until-a-json-file-is-loaded) which included using the ```.then``` function to wait until the JSON file was loaded before running the ```quizStart()``` function.
     + Running my quiz after this change produced no errors and everything functioned as expected.
 
-+ **Clearing a form of data** - When I was adding my suggest a question feature with emailJS, upon submitting the form when I would open it up again the original information would remain. I knew I could use a reset button but did not want to include this as it would impede on the users' experience.
++ **Clearing a form of data** - When I was adding my suggest a question feature with emailJS, upon submitting the form when I would open it up again the original information would remain. I knew I could use a reset button but did not want to include this as it would impede on the user's experience.
     + Upon looking around I managed to find [this post](https://www.tutorialspoint.com/How-to-reset-or-clear-a-form-using-JavaScript) which contained information about the ```.reset()``` methdo which effectively mimics what a reset button would do.
     + I added this into my code within suggestions.js and after a few tests of the suggest a question modal I determined that everything was functioning as intended.
 

@@ -4,7 +4,7 @@
 
 I have created this project (Milestone project 2) as part of my Full Stack Web Development course with [Code Institute](https://codeinstitute.net/).
 
-General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [RuneScape](https://www.runescape.com). I have been playing this game since 2001 and have as such acquired a lot of game knowledge, so I thought what better idea for a interactive game?
+General Gielinor Game is an interactive quiz designed to help you improve your knowledge about the game [RuneScape](https://www.runescape.com). I have been playing this game since 2001 and have as such acquired a lot of game knowledge, so I thought what better idea for an interactive game?
 
 ![Am I responsive screenshot](readme-files/am-i-responsive.png)
 
@@ -42,7 +42,7 @@ General Gielinor Game is an interactive quiz designed to help you improve your k
 
 ### Project Goals
 
-The idea is to create an interactive general knowledge game about RuneScape an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are presented with the reasoning behind the question and why it is correct. There are wrong answers but you will not be punished for learning. It is a crucial part of understanding any concept, we are all learning everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
+The idea is to create an interactive general knowledge game about RuneScape, an MMORPG (Massively multiplayer online role playing game). The game will help players gain more knowledge of the game and when a correct answer is given they are presented with the reasoning behind the question and why it is correct. There are wrong answers but you will not be punished for learning. It is a crucial part of understanding any concept, we are all learning everyday, including me. As a veteran player myself, I have an abundance of Runescape knowledge and I hope to inspire players to learn more about the game.
 
 ### Content Requirements
 
@@ -68,8 +68,8 @@ E. Repeat button after quiz | 5 | 4
 - #### User goals
 
     + As a **user**, I want to understand the website's purpose on my first visit.
-    + As a **user**, I want to easily be able to smoothly use all the desired function of the site.
-    + As a **user**, I want to expand my RuneScape game knowledge in an intuitve way.
+    + As a **user**, I want to easily be able to smoothly use all the desired functions of the site.
+    + As a **user**, I want to expand my RuneScape game knowledge in an intuitive way.
     + As a **user**, I want to be able to view and use the site on any device.  
     + As a **user**, I want to see other work the site owner has created.
     + As a **user**, I want to be able to contact the site owner with any questions I would like to see added.
@@ -82,7 +82,7 @@ E. Repeat button after quiz | 5 | 4
 
 	+ As a **site owner**, I want the user to be greeted with a brief introduction message and a run down on how to play the game so they can easily understand the whole website.
 	+ As a **site owner**, I want the user to be able to intuitively navigate the entire site on their first visit.
-	+ As a **site owner**, I want to include links to my GitHub and LinkedIn profile so the user can view other projects I have contributed to.
+	+ As a **site owner**, I want to include links to my GitHub and LinkedIn profiles so the user can view other projects I have contributed to.
 	+ As a **site owner**, I want to create an engaging, interactive experience through the quiz and site. 
 	+ As a **site owner**, I want to create a site that provides a welcoming atmosphere to learn about RuneScape.
 	+ As a **site owner**, I want to provide the user with feedback about whether their answer is correct or not and the reasoning why after each question.
@@ -199,7 +199,7 @@ I am not sure on the full functionality of such a feature but I wanted to at lea
 + [JavaScript](https://www.javascript.com/) - Used as the main language for providing functionality to the quiz interface.
 
 ### Frameworks, libraries and programs
-+ [GIMP](https://www.gimp.org) - I used this program to design the background image, wireframes and favicon image.
++ [GIMP](https://www.gimp.org) - I used this programme to design the background image, wireframes and favicon image.
 + [coolors.co](https://coolors.co) - I used this tool to generate a colour scheme based on the RuneScape theme.
 + [Accessible Color Generator](https://learnui.design/tools/accessible-color-generator.html) - I used this tool in conjunction with coolors.co to provide a better colour contrast for accessibility. 
 + [Transfonter](https://transfonter.org/) - A tool I used to generate the accompanying font files for my custom RuneScape Font.
@@ -283,9 +283,9 @@ This section includes areas/sections of code and properties I was unaware of. I 
 
 #### Sounds
 
-+ The correct answer sound was taken from the official RuneScape wikipedia page for Combat Level up [here](https://runescape.wiki/w/Combat_level).
++ The correct answer sound was taken from the official RuneScape Wikipedia page for Combat Level up [here](https://runescape.wiki/w/Combat_level).
 + The incorrect answer sound was taken from [this website](https://www.myinstants.com/instant/runescape-death-tune-21319/).
-+ The background music was taken from the official RuneScape wikipedia page for 2004 login screen music [here](https://runescape.wiki/w/Scape_Original).
++ The background music was taken from the official RuneScape Wikipedia page for 2004 login screen music [here](https://runescape.wiki/w/Scape_Original).
 
 ### Acknowledgments
 
