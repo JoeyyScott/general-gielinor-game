@@ -196,6 +196,7 @@ Included in the **footer** is:
 
 ## Testing
 
+I created a separate file for the testing process which can be located [here](TESTING.md).
 
 #### [Back to top](#contents)
 

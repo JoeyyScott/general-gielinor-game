@@ -13,7 +13,7 @@ const remainingCount = document.getElementById('remaining-questions');
 const question = document.getElementById('question');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
-const questionsMax = 10;
+const questionsMax = 30;
 
 //Initiating the quiz on start or repeat button being clicked
 buttonStart.addEventListener('click', quizLoad);

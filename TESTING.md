@@ -217,5 +217,37 @@ Notes:
 
 ### Bugs
 
-+ When trying to get the answers to display correctly I was originally using a standard for loop. (`for (i=0;i<answers.length;i++)`). After a few hours of attempts of trying to get my dataSet to import and load correctly. I decided to look into other methods of providing this functionality.
++ **forEach Loop** - When trying to get the answers to display correctly I was originally using a standard for loop. 
+
+    ```for (i=0;i<answers.length;i++)```
+    
+    + After a few hours of attempts of trying to get my dataSet to import and load correctly. I decided to look into other methods of providing this functionality.
     + I have included within the credits section of my README.md how I went about fixing this bug using the array function forEach.
+
++ **Splice function** - When I had my questions in my quiz.js file I experienced a bug where my code was removing only the first question in the array regardless of which question was loaded as question 1.
+    + I was originally using this code to remove the current question from the array of remaining questions:
+    
+        ```questionsRemaining.splice(Math.floor(Math.random() * questionsRemaining.length), 1);```
+
+    + I asked one of my close friends who has JavaScript experience and he suggested the splice function couldn't parse through my Math code. I decided to try setting the data to a variable and splicing that instead.
+    + I took my Math formula and set a variable to that as you can see in the lines of code below.
+
+        ```let questionToBeRemoved = Math.floor(Math.random() * questionsRemaining.length);```
+        ```questionsRemaining.splice(questionToBeRemoved, 1);```
+
+    + Upon retesting my code with this, everything worked perfectly. I was using two questions at the time and no longer received repeat questions as it was removing the correct question each time.
+
++ **getJSON not recognized** - Following my mid project call with my mentor, we decided to use a .json file to store the questions in. This would allow for less user error when adding questions as the HTML is built in the quiz.js file. I was using the ```$.getJSON('');``` function but it was not recognized as a function when I attempted to load my site.
+    + Upon a quick look around the internet I found [this post](https://stackoverflow.com/questions/40600396/jquery-issue-typeerror-getjson-is-not-a-function) which contained the answer I was looking for.
+    + It mentioned that the slim version of jQuery did not carry ```$.getJSON('');``` as a method and suggested the user use the full version of jQuery. I checked my code and I was also using the slim version, upon updating it to the full version my code worked as expected.
+
++ **Code not loading JSON** - Once I was able to fix the ```$.getJSON('');``` bug my code was apparently working fine but the questions were not loading.
+    + I debugged in Firefox DevTools and could see no apparent error. I know the order of my code matters and remembered the lesson about call back functions.
+    + It got me thinking that maybe it was trying to load my code before the questions.JSON file had been loaded. I looked around and found [this post](https://stackoverflow.com/questions/52622056/how-to-delay-my-javascript-code-until-a-json-file-is-loaded) which included using the ```.then``` function to wait until the JSON file was loaded before running the ```quizStart()``` function.
+    + Running my quiz after this change produced no errors and everything functioned as expected.
+
++ **Clearing a form of data** - When I was adding my suggest a question feature with emailJS, upon submitting the form when I would open it up again the original information would remain. I knew I could use a reset button but did not want to include this as it would impede on the users' experience.
+    + Upon looking around I managed to find [this post](https://www.tutorialspoint.com/How-to-reset-or-clear-a-form-using-JavaScript) which contained information about the ```.reset()``` methdo which effectively mimics what a reset button would do.
+    + I added this into my code within suggestions.js and after a few tests of the suggest a question modal I determined that everything was functioning as intended.
+
+[Return to README.md](README.md).
