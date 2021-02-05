@@ -162,6 +162,25 @@ Included in the **footer** is:
 + **Github icon** - Opens up my Github profile in a new tab for user retention.
 + **LinkedIn icon** - Opens up my LinkedIn profile in a new tab for user retention.
 
+Included in the **404.html** page is:
+    
++ A message telling the user they have accessed a page which does not exist.
++ A button which is linked to index.html that prompts them to return to the site.
+
+**NOTES**:
+  
+This page was added as I was going through my project against the Assessment Handbook 2020. Upon doing so I noticed there was a section in the Distinction performance that reads "users who direct to a non-existence page or resource are redirected back to the main page without having to use the browser navigation buttons". This method was pinned in the [Code Institute's](https://codeinstitute.net/) Slack community about how to add a 404 page.
+    
+Simply add a 404.md file and place:
+```
+---
+permalink: /404.html
+---
+```
+Within the file, then add content to 404.html to redirect the user back to index.html.
+
+I am not sure on the full functionality of such a feature but I wanted to at least attempt this part of the project as I am aiming for Distinction.
+
 ### Features to be added
 
 + **Question Categories**: This would require a lot more questions to be written as well as implementation of multiple JSON files.
