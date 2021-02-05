@@ -157,7 +157,7 @@ a:hover {
     margin-bottom: 15px;
 }
 
-.buttonStart, .buttonRepeat {
+.buttonStart, .buttonRepeat, .buttonStuck {
     font-size: 2rem;
 }
 
@@ -171,10 +171,22 @@ a:hover {
     font-size: 1.4rem;
 }
 
+.buttonStuck {
+    text-decoration: none;
+    padding: 0 1%;
+}
+
 /* Suggestion form */
 .form-group {
     margin-bottom: 15px;
     width: 200px;
+}
+
+/* 404 Page */
+.messageStuck {
+    width: max-content;
+    margin: 10vh auto 0;
+    padding: 0 4% 4%;
 }
 
 /* Media Queries */
