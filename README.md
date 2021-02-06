@@ -158,7 +158,22 @@ Included in the **main quiz** is:
 
 Included in the **footer** is:
 + **Suggest a question** - Opens a modal which allows user to suggest a question for the quiz, 4 associated answers and the user they wish to accredit.
-    + The form functionality is handled by emailJS.
+    + The form functionality is handled by emailJS in the suggestions.js file. I have added many checks to prevent incorrect information being entered.
+    + Every field has a check to prevent empty and non text/number data from being added. Included below are various screenshots showcasing the validation in action.
+
+        |                                              Suggest a question Validation                                                          |
+        | :---------------------------------------------------------------------------------------------------------------------------------: | 
+        | [No data inputted](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form1.png)                     |
+        | [Non text/numbers in question](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form2.png)         |
+        | [Question input](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form3.png)                       |
+        | [Non text/numbers in Answer Correct](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form4.png)   |
+        | [Answer Correct input](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form5.png)                 |
+        | [Non text/numbers in RSN](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form6.png)              |
+        | [RSN input being too long](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form7.png)             |
+        | [RSN input](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form8.png)                            |
+        | [2 Answers, 1 space and 1 empty](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form9.png)       |
+        | [Sample correct data](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/form/form10.png)                 |
+
 + **Github icon** - Opens up my Github profile in a new tab for user retention.
 + **LinkedIn icon** - Opens up my LinkedIn profile in a new tab for user retention.
 
