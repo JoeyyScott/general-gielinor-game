@@ -126,6 +126,9 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 
 ### Design changes
 
++ **Questions Remaining** - I never intended to add this feature but after a few tests myself I felt I wanted to know this information and as such added it in.
++ **Randomized Answers** - This was in the back of my mind as I was developing this project and once I had covered everything else I was able to implement this without any problems.
+
 #### [Back to top](#contents)
 
 ---
@@ -145,7 +148,7 @@ Included in the **header** is:
 Included in the **main quiz** is:
 
 + **Multiple choice questions** - Contains up to 30 questions of which 10 will be shown throughout the quiz.
-    + Each question contains 4 answers.
+    + Each question contains 4 answers in a randomized order to avoid people learning the order and repetition.
     + The question order is randomized so users do not feel repetition.
 
 + **Guess response** - When the user has a guess at a question they are presented with one of two responses:
@@ -157,6 +160,7 @@ Included in the **main quiz** is:
     + Media query for small height screens to push the main quiz container up as to avoid content overlap.
 
 Included in the **footer** is:
+
 + **Suggest a question** - Opens a modal which allows user to suggest a question for the quiz, 4 associated answers and the user they wish to accredit.
     + The form functionality is handled by emailJS in the suggestions.js file. I have added many checks to prevent incorrect information being entered.
     + Every field has a check to prevent empty and non text/number data from being added. Included below are various screenshots showcasing the validation in action.
