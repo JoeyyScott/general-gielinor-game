@@ -16,6 +16,15 @@ I used [w3.org's validator](https://jigsaw.w3.org/css-validator/) for my CSS val
 
 + No errors were found within the document.
 
+I used [JSHint](https://jshint.com) to check the javascript files in my project to make certain they comply with coding standards and that were no syntax errors detected.
+
++ Quiz (quiz.js) - When testing my code with JSHint I was getting numerous errors about const, let and the => function. I researched it and found [this post](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const) which taught me I needed to tell JSHint what es version I was using with the following code ```/*jshint esversion: 6 */``` which fixed those errors.
+    + The only other error I was receiving was from the ```$.getJSON('');``` function as it was flagging $ as an undefined variable. Upon researching I found [this post](https://stackoverflow.com/questions/8852765/jshint-and-jquery-is-not-defined) which taught me I needed to tell JSHint that I was using jQuery with the following code ```/*globals $:false */``` which fixed those errors.
+    + After putting those two lines of code at the top of my JSHint tests, everything passed with no errors at all.
+
++ Suggest a question (suggestions.js) - I used the same two lines of code at the top of my JSHint testing for this file as I have used const, let and $ in this code. 
+    + After putting those two lines of code at the top of my JSHint tests, it only found one undefined variable (emailjs) and one unused variable (suggestQuestion).
+
 ### Responsiveness
 
 To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), [Firefox Devtools](https://developer.mozilla.org/en-US/docs/Tools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
