@@ -255,4 +255,11 @@ Notes:
     + I was able to load in and play my music so I looked around and found [this post](https://stackoverflow.com/questions/13610638/loop-audio-with-javascript). It highlighted that the ```audio``` element has a built in ```loop``` boolean property that I added into my code and which now resides in my ```toggleMusic``` function.
     + Upon various tests with myself, family and friends everyone reported that the music would play/pause/loop as intended.
 
++ **Sounds not playing in Safari** - After getting one of my friends to test the site he noticed that on Safari only the incorrect sound was playing.
+    + I instantly checked my file list and found that was the only sound file using the .mp3 format, the rest were in .ogg the original format.
+    + I used this [audio converter](https://online-audio-converter.com/) as mentioned in the Technologies section of my README.md to convert my files to .mp3 format which resolved the issue immediately.
+
++ **Regex Code for Validation** - After the final call with my mentor he suggested I use regular expressions to check whether the data entered was actual data. I originally tried to see if ```RegEx``` was a function and found ```RegExp``` and ended up trying various different methods of getting my checks to work.
+    + After a few hours researching around I found [this post](https://shiffman.net/a2z/regex/) which explained what Regex was, how it worked and was used. It is still very new to me but I have managed to get it working in this case.
+
 [Return to README.md](README.md).
