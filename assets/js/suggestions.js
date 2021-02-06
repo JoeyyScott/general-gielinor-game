@@ -7,8 +7,12 @@ const creditQuestion = document.getElementById ("questionCredit");
 const form = document.getElementById('suggestForm');
 const errorMessage = document.getElementById("messageError");
 
+// Array for storing error messages
+let errors = [];
+
 //This function sends an email using emailJS and pulls the data from my form in index.html using the .value attribute
 function suggestQuestion(suggestForm) {
+    if (errors.length === 0) {
     emailjs.send("service_yvwm4wp", "questionSuggestion", {
         "formQuestion": questionForm.value,
         "answerList": listAnswer.value,
@@ -21,8 +25,14 @@ function suggestQuestion(suggestForm) {
         //If an error occurs it will change the button text to prompt the user
         function (error) { buttonSubmit.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
     );
-    form.reset();
     return false;
+    } else {
+          for (i = 0; i < errors.length; i++) {
+            errorMessage.innerHTML = errorMessage.innerHTML + errors [i] + '<br>';
+        }
+    form.reset();
+    return false;      
+    }
 }
 
 // Credit for adapted on modal hide function
