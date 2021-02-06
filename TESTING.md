@@ -276,5 +276,6 @@ Notes:
     + I noticed this during testing as I was clicking through the questions rapidly but in an ideal user scenario they would take the time to read the outcome of their guess.
     + Nevertheless I thought about utilizing the pause function. I knew I had to reset the point at which it would play when called again and so I typed ```guessCorrect.``` and the first property offered to me was ```currentTime``` so I utilized this in my event listener for ```buttonNext```.
     + This was done so whenever a new question was called the sounds would always play on a user's guess.
+    + This same logic was also applied to the sound that plays when the quiz is completed so now if you press 'Play GGG again' quickly it will pause and reset the sound to increase user experience.
     
 [Return to README.md](README.md).
