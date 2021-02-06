@@ -1,12 +1,11 @@
 // Constants for form data
-const closeSuggest = document.getElementById('suggestClose');
 const questionForm = document.getElementById("formQuestion");
 const listAnswer = document.getElementById("answerList");
 const correctAnswer = document.getElementById("answerCorrect");
 const creditQuestion = document.getElementById ("questionCredit");
 const form = document.getElementById('suggestForm');
 const errorMessage = document.getElementById("messageError");
-
+const submitButton = document.getElementById('buttonSubmit');
 
 //This function sends an email using emailJS and pulls the data from my form in index.html using the .value attribute
 function suggestQuestion(suggestForm) {
@@ -25,24 +24,34 @@ function suggestQuestion(suggestForm) {
     if (!emptyCorrect) { if (!RegExp("^[a-zA-Z0-9]+\\S").test(correctAnswer.value)) { errors.push("Correct must be text/numbers"); } }
     if (!emptyCredit) { if (!RegExp("^[a-zA-Z0-9]+\\S").test(creditQuestion.value)) { errors.push("RSN must be text/numbers"); } }
     if (!emptyCredit) { if (creditQuestion.value.length > 13) { errors.push ("RSN is a maximum of 12 characters"); } }
+    // If empty answers doesn't exist it will check the string using / as a seperate to make sure there is 4 answers
+    if (!emptyAnswers) { if (listAnswer.value.split('/').length !== 4) { errors.push('Use / to seperate answers'); } else { 
+        let userAnswers = listAnswer.value.split('/');
+        //for loop to check if the length of each answer doesn't contain 0 or invalid characters and throws an appropriate error message with answer number included 
+        for (let i = 0; i < userAnswers.length; i++) { 
+            if (userAnswers[i].length === 0) { errors.push(`Please enter answer ${i+1}`); }
+            else if (!RegExp("^[a-zA-Z0-9]+\\S").test(userAnswers[i])) { errors.push(`Answer ${i+1} needs text/numbers`); } } 
+        }
+    
+    }
     //if it passes all checks, remove all error messages from messageError div
     $("#messageError").empty();
     if (errors.length === 0) {
-    emailjs.send("service_yvwm4wp", "questionSuggestion", {
-        "formQuestion": questionForm.value,
-        "answerList": listAnswer.value,
-        "answerCorrect": correctAnswer.value,
-        "questionCredit": creditQuestion.value
+        emailjs.send("service_yvwm4wp", "questionSuggestion", {
+            "formQuestion": questionForm.value,
+            "answerList": listAnswer.value,
+            "answerCorrect": correctAnswer.value,
+            "questionCredit": creditQuestion.value
     })
     .then(
         //If a successful response occurs it will change the button text to convey to the user it was successful
-        function (response) { buttonSubmit.innerHTML = `Thank you <i class="fas fa-smile-beam"></i>`; form.reset(); },
+        function (response) { submitButton.innerHTML = `Thank you <i class="fas fa-smile-beam"></i>`; form.reset(); },
         //If an error occurs it will change the button text to prompt the user
-        function (error) { buttonSubmit.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
+        function (error) { submitButton.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
     );
     return false;
     } else {
-          for (i = 0; i < errors.length; i++) {
+          for (let i = 0; i < errors.length; i++) {
             errorMessage.innerHTML = errorMessage.innerHTML + errors [i] + '<br>';
         }
     return false;      
@@ -50,4 +59,4 @@ function suggestQuestion(suggestForm) {
 }
 
 // Credit for adapted on modal hide function
-$('#suggestModal').on('hide.bs.modal', function () { buttonSubmit.innerHTML = `Submit your question <i class="fas fa-check-circle"></i>`; });  
+$('#suggestModal').on('hide.bs.modal', function () { submitButton.innerHTML = `Submit your question <i class="fas fa-check-circle"></i>`; });  

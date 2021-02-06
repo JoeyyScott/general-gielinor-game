@@ -117,7 +117,6 @@ answers.forEach(answer => {
 buttonNext.addEventListener('click', () => {
     containerGuess.classList.add('contentHidden');
     containerQuiz.classList.remove('contentHidden');
-    guessIncorrect.play
     questionsLoad();
 });
 
