@@ -79,8 +79,13 @@ function questionsLoad() {
     questionCurrent = questionsRemaining[questionToBeRemoved];
     question.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageQ}" class="question-img" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`;
     remainingCount.innerHTML = `<p>Questions remaining: ${questionsMax - questionsCounter}</p>`;
-    //credit for adapted forEach loop (See README.md for details) - Used to iterate through the answers dataSet and set the innerText of each answer button to the correct text
-    answers.forEach(answer => { let i = (answer.dataset[`number`] - 1); answer.innerText = questionCurrent.answers[i].answer; });
+    //credit for adapted forEach loop (See README.md for details) - Used to randomize answer order by setting the innerText of each answer button to a random answer within the answers array for questionCurrent
+    answers.forEach(answer => { 
+        let addedAnswer = Math.floor(Math.random() * questionCurrent.answers.length);
+        answerToBeAdded = questionCurrent.answers[addedAnswer]; answer.innerText = answerToBeAdded.answer;
+        //It then removes that answer from the available list using the same logic as selecting the current question until no answers remain
+        questionCurrent.answers.splice(addedAnswer, 1);
+    });
     //removes current question from the array of remaining questions
     questionsRemaining.splice(questionToBeRemoved, 1);
 }
