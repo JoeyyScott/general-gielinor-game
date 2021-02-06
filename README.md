@@ -213,6 +213,7 @@ I am not sure on the full functionality of such a feature but I wanted to at lea
 + [Am I Responsive?](http://ami.responsivedesign.is/) - I used this tool to easily display the responsiveness of my site for my README.md introduction.
 + [emailJS](https://www.emailjs.com/) - I used this tool to add functionality in the form of an email service to the Suggest a Question modal.
 + [jQuery](https://jquery.com/) - I used the jQuery library to provide access to a multitude of functions/methods, most notably the ```$.getJSON('');``` function which I used to load my questions in from a JSON file.
++ [Regexr](https://regexr.com/) - I used this tool to test different RegEx syntax to help with my form valdiation.
 
 #### [Back to top](#contents)
 

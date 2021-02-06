@@ -21,7 +21,7 @@ function suggestQuestion(suggestForm) {
     let emptyCredit = (creditQuestion.value ===  null || creditQuestion.value === "");
     if (emptyCredit) { errors.push("Please enter a username to credit"); }
     if (!emptyQuestion) { if (questionForm.value.length < 10) { errors.push ("Question character minimum is 10"); } }
-    if (!emptyQuestion) { if (!RegExp("^[a-zA-Z0-9]").test(questionForm.value)) { errors.push("Question must be text/numbers."); } }
+    if (!emptyQuestion) { if (!RegExp("^[a-zA-Z0-9]+\S").test(questionForm.value)) { errors.push("Question must be text/numbers."); } }
     //if it passes all checks, remove all error messages from messageError div
     $("#messageError").empty();
     if (errors.length === 0) {

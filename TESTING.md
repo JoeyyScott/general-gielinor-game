@@ -261,5 +261,5 @@ Notes:
 
 + **Regex Code for Validation** - After the final call with my mentor he suggested I use regular expressions to check whether the data entered was actual data. I originally tried to see if ```RegEx``` was a function and found ```RegExp``` and ended up trying various different methods of getting my checks to work.
     + After a few hours researching around I found [this post](https://shiffman.net/a2z/regex/) which explained what Regex was, how it worked and was used. It is still very new to me but I have managed to get it working in this case.
-
+    + I tried a few more tests and decided to look around for a resource on Regex and found [this tool](https://regexr.com/) which was instrumental in helping me test and lookup what different syntax did and thus I was able to adapt my RegEx.
 [Return to README.md](README.md).
