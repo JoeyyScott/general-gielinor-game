@@ -21,7 +21,7 @@ function suggestQuestion(suggestForm) {
     })
     .then(
         //If a successful response occurs it will change the button text to convey to the user it was successful
-        function (response) { buttonSubmit.innerHTML = `Thanks for your question <i class="fas fa-smile-beam"></i>`; },
+        function (response) { buttonSubmit.innerHTML = `Thanks for your question <i class="fas fa-smile-beam"></i>`; form.reset(); },
         //If an error occurs it will change the button text to prompt the user
         function (error) { buttonSubmit.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
     );
@@ -30,7 +30,6 @@ function suggestQuestion(suggestForm) {
           for (i = 0; i < errors.length; i++) {
             errorMessage.innerHTML = errorMessage.innerHTML + errors [i] + '<br>';
         }
-    form.reset();
     return false;      
     }
 }
