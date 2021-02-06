@@ -14,6 +14,12 @@ function suggestQuestion(suggestForm) {
     let errors = [];
     let emptyQuestion = (questionForm.value === null || questionForm.value === "");
     if (emptyQuestion) { errors.push("Please enter a question"); }
+    let emptyAnswers = (listAnswer.value === null || listAnswer.value === "");
+    if (emptyAnswers) { errors.push("Please enter the available answers"); }
+    let emptyCorrect = (correctAnswer.value ===  null || correctAnswer.value === "");
+    if (emptyCorrect) { errors.push("Please enter the correct answer"); }
+    let emptyCredit = (creditQuestion.value ===  null || creditQuestion.value === "");
+    if (emptyCredit) { errors.push("Please enter a username to credit"); }
     //if it passes all checks, remove all error messages from messageError div
     $("#messageError").empty();
     if (errors.length === 0) {
@@ -25,7 +31,7 @@ function suggestQuestion(suggestForm) {
     })
     .then(
         //If a successful response occurs it will change the button text to convey to the user it was successful
-        function (response) { buttonSubmit.innerHTML = `Thanks for your question <i class="fas fa-smile-beam"></i>`; form.reset(); },
+        function (response) { buttonSubmit.innerHTML = `Thank you <i class="fas fa-smile-beam"></i>`; form.reset(); },
         //If an error occurs it will change the button text to prompt the user
         function (error) { buttonSubmit.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
     );
