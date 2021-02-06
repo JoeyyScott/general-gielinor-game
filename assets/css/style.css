@@ -259,6 +259,9 @@ a:hover {
     .buttonModal, .buttonSuggest {
         font-size: 2rem;
     }
+    #messageError {
+        font-size: 2rem;
+    }
 }
 @media screen and (min-width: 992px) and (orientation: landscape) {
     h2, .navItem {

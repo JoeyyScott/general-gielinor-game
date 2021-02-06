@@ -20,6 +20,7 @@ function suggestQuestion(suggestForm) {
     if (emptyCorrect) { errors.push("Please enter the correct answer"); }
     let emptyCredit = (creditQuestion.value ===  null || creditQuestion.value === "");
     if (emptyCredit) { errors.push("Please enter a username to credit"); }
+    if (!emptyQuestion) { if (questionForm.value.length < 10) { errors.push ("Question character minimum is 10"); } }
     //if it passes all checks, remove all error messages from messageError div
     $("#messageError").empty();
     if (errors.length === 0) {
