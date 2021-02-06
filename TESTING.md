@@ -263,4 +263,9 @@ Notes:
     + After a few hours researching around I found [this post](https://shiffman.net/a2z/regex/) which explained what Regex was, how it worked and was used. It is still very new to me but I have managed to get it working in this case.
     + I tried a few more tests and decided to look around for a resource on Regex and found [this tool](https://regexr.com/) which was instrumental in helping me test and lookup what different syntax did and thus I was able to adapt my RegEx.
 
++ **Sounds not playing** - This bug only occured when a new question was loaded and guessed before the previous sound for the guess had finished playing.
+    + I noticed this during testing as I was cicking through the questions rapidly but in an ideal user scenario they would take the time to read the outcome of their guess.
+    + Nevertheless I thought about utilizing the pause function. I knew I had to reset the point at which it would play when called again and so I typed ```guessCorrect.``` and the first propety offered to me was ```currentTime``` so I utilized this in my event listener for buttonNext.
+    + This was done so whenever a new question was called the sounds would always play on a user's guess.
+    
 [Return to README.md](README.md).
