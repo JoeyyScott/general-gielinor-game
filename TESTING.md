@@ -85,9 +85,9 @@ Notes:
             | [Tablet](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user1tablet.png) |
             |     [PC](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user1pc.png)     |
 
-    + As a **user** I want easily to be able to smoothly use all the desired function of the site.
+    + As a **user** I want easily to be able to smoothly use all the desired functions of the site.
         + Upon loading the site, the user can clearly see there are many buttons that provide functionality.
-        + These include; Start quiz, Find out more, toggle music, return to Home, suggest a question and LinkedIn/GitHub links.
+        + These include: Start quiz, Find out more, toggle music, return to Home, suggest a question and LinkedIn/GitHub links.
         + Both the find out more and suggest a question will pop up modals which makes the site simple to use and the links open in a seperate tab for user retention.
             |                                                  index.html                                                         |
             | :-----------------------------------------------------------------------------------------------------------------: |
@@ -95,7 +95,7 @@ Notes:
             | [Tablet](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user2tablet.png) |
             |     [PC](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user2pc.png)     |
 
-    + As a **user** I want to expand my RuneScape game knowledge in an intuitve way.
+    + As a **user** I want to expand my RuneScape game knowledge in an intuitive way.
         + Upon loading the site the user is greeted with the pre quiz screen which provides a moment for them to compose themselves before the quiz.
         + Throughout the site the font RuneScape-UF is used which intuitively speaks to the users as RuneScape players because it draws on their knowledge of the font to promote learning.
         + On each question the user is presented with a picture for that question as well as a count of the remaining questions.
@@ -125,7 +125,7 @@ Notes:
             |     [PC](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user5pc.png)     |
 
     + As a **user** I want to be able to contact the site owner with any questions I would like to see added.
-        + In the footer there is a '?' icon which opens up a suggest a question Modal that allows the user to submit their question, answer list, correct answer and user to be accredited.
+        + In the footer there is a '?' icon which opens up a suggest a question modal that allows the user to submit their question, answer list, correct answer and user to be accredited.
         + User Story 4 has pictures of the suggest a question modal across all screen sizes. I have included pictures below of the post-submission form where the text on the button informs the user of the status of their request.
             |                                             Suggest a Question modal                                                |
             | :-----------------------------------------------------------------------------------------------------------------: |
@@ -170,10 +170,10 @@ Notes:
 - #### Site Owner Goals
 
     + As a **site owner** I want the user to be greeted with a brief introduction message and a run down on how to play the game so they can easily understand the whole website.
-        + When I load into the site I am presented with an introductory message informing the user's the site contains a quiz.
+        + When I load into the site I am presented with an introductory message informing the user the site contains a quiz.
         + I am also directed to the "Find out more" button which tells me the purpose of the website.
         + Finally I am prompted on how to play the game by pressing the "Start Quiz" button. 
-        + The pictures of the landing screen that shows this information can be found in the user story testing 1.
+        + The pictures of the landing screen that show this information can be found in the user story testing 1.
 
     + As a **site owner** I want any user to receive the correct information for the viewport they are currently on.
         + I have tested the website across multiple screen sizes and have found no issues thus far with content displaying or appearing incorrectly.
@@ -208,7 +208,7 @@ Notes:
     + As a **site owner** I want to provide the user with feedback about whether their answer is correct or not and the reasoning why after each question.
         + Upon making a guess I am presented with the post guess screen. This provides information pertaining to the outcome of their guess.
         + I will receive a randomly selected correct/incorrent message plus supporting information/reasoning if correct and a hint if incorrect. The array of responses keeps the outcomes fresh and engaging.
-        + I will also hear a sound playing when I make a guess that is different for each outcome.
+        + I will also hear a different sound playing based on the outcome of my guess.
         + I will also hear a sound upon reaching the scoreboard screen at the end of the quiz.
 
     + As a **site owner** I want to create a quiz that will help users learn about the MMORPG RuneScape.
@@ -219,7 +219,7 @@ Notes:
     + As a **site owner** I want to include a form within a modal that can be accessed anywhere and allows the user to suggest questions for the quiz.
         + I have placed a '?' icon in the footer which opens up a suggest a question modal. This allows me to submit my question, answer list, correct answer and name I want credited.
         + User story 4 has pictures of the suggest a question modal across all screen sizes. User story 6 has pictures of the post submission screen to show a successful attempt.
-        + Once I have filled out this form with dummy info I am then emailed the form info through emailJS.
+        + Once I have filled out this form with dummy information I am then emailed the form information through emailJS.
             |                                                      Suggest Modal                                                       |
             | :----------------------------------------------------------------------------------------------------------------------: |
             | [Email](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/siteowneremail.png)    |
@@ -231,7 +231,7 @@ Notes:
     ```for (i=0;i<answers.length;i++)```
     
     + After a few hours of attempts of trying to get my dataSet to import and load correctly, I decided to look into other methods of providing this functionality.
-    + I have included within the credits section of my README.md how I went about fixing this bug using the array function forEach.
+    + I have included within the credits section of my README.md how I went about fixing this bug using the array function ```forEach```.
 
 + **Splice function** - When I had my questions in my quiz.js file I experienced a bug where my code was removing only the first question in the array regardless of which question was loaded as question 1.
     + I was originally using this code to remove the current question from the array of remaining questions:
@@ -256,7 +256,7 @@ Notes:
     + Running my quiz after this change produced no errors and everything functioned as expected.
 
 + **Clearing a form of data** - When I was adding my suggest a question feature with emailJS, upon submitting the form when I would open it up again the original information would remain. I knew I could use a reset button but did not want to include this as it would impede on the user's experience.
-    + Upon looking around I managed to find [this post](https://www.tutorialspoint.com/How-to-reset-or-clear-a-form-using-JavaScript) which contained information about the ```.reset()``` methdo which effectively mimics what a reset button would do.
+    + Upon looking around I managed to find [this post](https://www.tutorialspoint.com/How-to-reset-or-clear-a-form-using-JavaScript) which contained information about the ```.reset()``` method which effectively mimics what a reset button would do.
     + I added this into my code within suggestions.js and after a few tests of the suggest a question modal I determined that everything was functioning as intended.
 
 + **Looping Music** - I originally noticed this bug by pure accident as I opened my site and went back to my code. After 5 minutes or so I noticed the music had stopped. At this point I had the music auto playing on page load before I discovered Google Chrome disables autoplay and thus made a button to toggle the music.
@@ -273,8 +273,8 @@ Notes:
     + I tried a few more tests and decided to look around for a resource on Regex and found [this tool](https://regexr.com/) which was instrumental in helping me test and lookup what different syntax did and thus I was able to adapt my RegEx.
 
 + **Sounds not playing** - This bug only occured when a new question was loaded and guessed before the previous sound for the guess had finished playing.
-    + I noticed this during testing as I was cicking through the questions rapidly but in an ideal user scenario they would take the time to read the outcome of their guess.
-    + Nevertheless I thought about utilizing the pause function. I knew I had to reset the point at which it would play when called again and so I typed ```guessCorrect.``` and the first propety offered to me was ```currentTime``` so I utilized this in my event listener for buttonNext.
+    + I noticed this during testing as I was clicking through the questions rapidly but in an ideal user scenario they would take the time to read the outcome of their guess.
+    + Nevertheless I thought about utilizing the pause function. I knew I had to reset the point at which it would play when called again and so I typed ```guessCorrect.``` and the first propety offered to me was ```currentTime``` so I utilized this in my event listener for ```buttonNext```.
     + This was done so whenever a new question was called the sounds would always play on a user's guess.
     
 [Return to README.md](README.md).
