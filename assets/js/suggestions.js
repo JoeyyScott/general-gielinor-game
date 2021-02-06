@@ -24,6 +24,7 @@ function suggestQuestion(suggestForm) {
     if (!emptyQuestion) { if (!RegExp("^[a-zA-Z0-9]+\\S").test(questionForm.value)) { errors.push("Question must be text/numbers."); } }
     if (!emptyCorrect) { if (!RegExp("^[a-zA-Z0-9]+\\S").test(correctAnswer.value)) { errors.push("Correct must be text/numbers"); } }
     if (!emptyCredit) { if (!RegExp("^[a-zA-Z0-9]+\\S").test(creditQuestion.value)) { errors.push("RSN must be text/numbers"); } }
+    if (!emptyCredit) { if (creditQuestion.value.length > 13) { errors.push ("RSN is a maximum of 12 characters"); } }
     //if it passes all checks, remove all error messages from messageError div
     $("#messageError").empty();
     if (errors.length === 0) {
