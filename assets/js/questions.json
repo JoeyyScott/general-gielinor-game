@@ -10,7 +10,7 @@
             {"answer": "Java"},
             {"answer": "mIRC"}      
         ],
-        "correct": "3",
+        "correct": "Java",
         "imageA": "java.png",
         "altA": "Java",
         "msgCorrect": "It was Java. The Gower brothers originally created RuneScape Classic all the way back in 2001! The game is alive today and is celebrating 20 years of being around, how incredible is that?",
@@ -27,7 +27,7 @@
             {"answer": "35"},
             {"answer": "45"}      
         ],
-        "correct": "3",
+        "correct": "35",
         "imageA": "raw-tuna.png",
         "altA": "Raw Tuna",
         "msgCorrect": "It is level 35. You can fish them at 55 Fishing without a harpoon if you have unlocked the Barbarian ways of barehanded fishing! Either way you'll get 80 Fishing experience!",
@@ -44,7 +44,7 @@
             {"answer": "Ned"},
             {"answer": "Aggie"}      
         ],
-        "correct": "3",
+        "correct": "Ned",
         "imageA": "ned.png",
         "altA": "Ned",
         "msgCorrect": "It was Ned. He lives in a house on the eastern side of Draynor Village, just north of the bank. You'll interact with him during the Dragon Slayer quest but you can also get rope from him!",
@@ -61,7 +61,7 @@
             {"answer": "Horvik"},
             {"answer": "Apothecary"}      
         ],
-        "correct": "4",
+        "correct": "Apothecary",
         "imageA": "apothecary.png",
         "altA": "Apothecary",
         "msgCorrect": "It was the Apothecary. He works in a building south west of Varrock Centre, just south of the bank. You'll interact with him during One Small Favour but also in Dimension of Disaster: Curse of Arrav.",
@@ -78,7 +78,7 @@
             {"answer": "Elen Anterth"},
             {"answer": "Wizard Sedridor"}      
         ],
-        "correct": "2",
+        "correct": "Museum Guard",
         "imageA": "trimcomp.png",
         "altA": "Trimmed Completionist Cape",
         "msgCorrect": "It was the Museum Guard. He works in Varrock museum, on the top floor. You interact with him and ask about the mysterious cape and he'll give you a description of the cape's history. There are a lot of requirements for this cape, making it prestigious.",
@@ -95,7 +95,7 @@
             {"answer": "37"},
             {"answer": "43"}      
         ],
-        "correct": "4",
+        "correct": "43",
         "imageA": "praymelee.png",
         "altA": "Pray Melee",
         "msgCorrect": "It was 43. Back in the day protection prayers granted 100% protection from that style, now they provide a 50% reduction to the hit. Despite this protection prayers are still widely used in RuneScape PVM today.",
@@ -112,7 +112,7 @@
             {"answer": "2008"},
             {"answer": "2009"}      
         ],
-        "correct": "2",
+        "correct": "2007",
         "imageA": "grandexchange.png",
         "altA": "Grand Exchange",
         "msgCorrect": "It was 2007. Prior to this update the only trades that existed were player to player either through ingame or the forums. It provided a way for players to acquire items they required in an easier fashion.",
@@ -129,7 +129,7 @@
             {"answer": "ALS"},
             {"answer": "AKS"}      
         ],
-        "correct": "3",
+        "correct": "ALS",
         "imageA": "fairyring.png",
         "altA": "Fairy ring",
         "msgCorrect": "It was ALS. To access the Fairy ring network you must start A Fairy Tale II - Cure A Queen and it provides a fantastic way of getting around the RuneScape map",
@@ -146,7 +146,7 @@
             {"answer": "25 Coconuts"},
             {"answer": "25 Kandarin Hops"}      
         ],
-        "correct": "3",
+        "correct": "25 Coconuts",
         "imageA": "magictree.png",
         "altA": "Magic Tree",
         "msgCorrect": "It was 25 coconuts. When you plant something in a farming patch, you can pay the farmer to look after your crops so they will not get diseased. There are exceptions to this but it is true for the majority",
@@ -163,7 +163,7 @@
             {"answer": "75"},
             {"answer": "80"}      
         ],
-        "correct": "3",
+        "correct": "75",
         "imageA": "plaguesend.png",
         "altA": "Plagues End",
         "msgCorrect": "It was 75. The skills you need are: Agility, Construction, Crafting, Dungeoneering, Herblore, Mining, Prayer, Ranged, Summoning and Woodcutting. Unlocking Prifddinas is one of the most useful unlocks in RuneScape today.",
@@ -180,7 +180,7 @@
             {"answer": "Vinesweeper"},
             {"answer": "Gnome Restaurant"}      
         ],
-        "correct": "4",
+        "correct": "Gnome Restaurant",
         "imageA": "grandseedpod.png",
         "altA": "Grand seed pod",
         "msgCorrect": "It was Gnome Restaurant. You can talk to Aluft Gianne Junior on the 1st floor (UK) on the western side to start this minigame. You learn about gnome cooking and deliver food to gnomes throughout RuneScape.",
@@ -197,7 +197,7 @@
             {"answer": "1 Law 1 Air 1 Water"},
             {"answer": "1 Law 3 Air 1 Earth"}      
         ],
-        "correct": "1",
+        "correct": "2 Law 2 Fire",
         "imageA": "trollheimtelly.png",
         "altA": "Trollheim Teleport",
         "msgCorrect": "It was 2 Law 2 Fire. You unlock this teleport after completing Eadgar's Ruse quest. It will teleport you to the centre of Trollheim and is used for herb runs and questing.",
@@ -214,7 +214,7 @@
             {"answer": "Brains"},
             {"answer": "Sifu"}      
         ],
-        "correct": "2",
+        "correct": "Baby Yaga's House",
         "imageA": "babyyagashouse.png",
         "altA": "Baby Yaga's House",
         "msgCorrect": "It was Baby Yaga's House. You unlock this skilling pet whilst training Construction. Some activities do not award the chance to roll for the pet such as protean planks and Royal Battleship kits.",
@@ -231,7 +231,7 @@
             {"answer": "Swan Song"},
             {"answer": "Cabin Fever"}      
         ],
-        "correct": "1",
+        "correct": "Recipe for Disaster",
         "imageA": "rfd.png",
         "altA": "Recipe for Disaster",
         "msgCorrect": "It was Recipe for Disaster. This quest was released back on the 15th March 2006! It was a sequel to the first quest ever released in RuneScape and a staple in any player's beginning experience, Cook's Assistant.",
@@ -248,7 +248,7 @@
             {"answer": "Prayer potion (4)"},
             {"answer": "Prayer Renewal (4)"}      
         ],
-        "correct": "4",
+        "correct": "Prayer Renewal (4)",
         "imageA": "brightfire.png",
         "altA": "Brightfire potion",
         "msgCorrect": "It was Super antifire (4) and Prayer Renewal (4). It is one of the combination potions released with Prifddinas and requires you to buy a recipe from Lady Meilyr for 600,000gp.",
@@ -265,7 +265,7 @@
             {"answer": "2008"},
             {"answer": "2010"}      
         ],
-        "correct": "2",
+        "correct": "2006",
         "imageA": "fallymassacre.png", 
         "altA": "Falador Massacre",
         "msgCorrect": "It was 2006. Players were booted from the POH where the first 99 Construction was achieved and those who had engaged in combat activities had somehow retained the ability to attack others and in turn abused this thus dubbing this event the Falador Massacre.",
@@ -282,7 +282,7 @@
             {"answer": "Cambridge"},
             {"answer": "London"}      
         ],
-        "correct": "3",
+        "correct": "Cambridge",
         "imageA": "jagex.png",
         "altA": "Jagex",
         "msgCorrect": "It was Cambridge. Founded in 1999, that was 22 years ago! They came up with Jagex as they wanted to be a company of <b>Ja</b>va <b>G</b>aming <b>Ex</b>perts specialzing in browser based Java games. They released RuneScape in January 2001 and it has only grown since.",
@@ -299,7 +299,7 @@
             {"answer": "A Tail of Two Cats"},
             {"answer": "Cook's Assistant"}      
         ],
-        "correct": "1",
+        "correct": "Swan Song",
         "imageA": "arnold.png",
         "altA": "Arnold",
         "msgCorrect": "It was Arnold Lydspor. During Swan Song you help the Piscatoris Fishing Colony and its inhabitants fight off the sea troll invasion, among which is Arnold Lydspor who ends up being a bank and general store after the quest.",
@@ -316,7 +316,7 @@
             {"answer": "Gertrude's Cat"},
             {"answer": "A Tail of Two Cats"}      
         ],
-        "correct": "4",
+        "correct": "A Tail of Two Cats",
         "imageA": "tailoftwocats.png",
         "altA": "Tail of Two Cats",
         "msgCorrect": "It was a Tail of Two Cats. During this quest you learn about the life of Bob the cat. Neite is his lover and you must find him items so he can woo her. You also complete tasks to help out Bob's owner, Unferth.",
@@ -333,7 +333,7 @@
             {"answer": "Invention"},
             {"answer": "Farming"}      
         ],
-        "correct": "3",
+        "correct": "Invention",
         "imageA": "invention.png",
         "altA": "Invention",
         "msgCorrect": "It was Invention. To even unlock this skill you require level 80 in Divination, Smithing and Crafting. You can then start the Invention tutorial north of Falador in the Invention Guild.",
@@ -350,7 +350,7 @@
             {"answer": "68"},
             {"answer": "81"}      
         ],
-        "correct": "3",
+        "correct": "68",
         "imageA": "fishingguild.png",
         "altA": "Fishing Guild",
         "msgCorrect": "It was 68. Once you have this Fishing level you can enter the guild north of the Ardougne lodestone. It provides a multitude of Fishing locations and access to the Deep Sea Fishing platform.",
@@ -367,7 +367,7 @@
             {"answer": "70"},
             {"answer": "80"}      
         ],
-        "correct": "2",
+        "correct": "60",
         "imageA": "yewtree.png",
         "altA": "Yew Tree",
         "msgCorrect": "It was 60. Yews can be found in multiple locations around the world of Gielinor, most notably west of Catherby bank, south of Edgeville bank and in the Crwys district of Prifddinas.",
@@ -384,7 +384,7 @@
             {"answer": "King's Ransom"},
             {"answer": "Defender of Varrock"}      
         ],
-        "correct": "1",
+        "correct": "Merlin's Crystal",
         "imageA": "excalibur.png",
         "altA": "Excalibur",
         "msgCorrect": "It was Merlin's Crystal. This is a quest in which you work with King Arthur to help free Merlin who, like all amazing magicians is stuck inside a crystal.",
@@ -401,7 +401,7 @@
             {"answer": "Desert"},
             {"answer": "Morytania"}      
         ],
-        "correct": "4",
+        "correct": "Morytania",
         "imageA": "darkmeyer.png",
         "altA": "Darkmeyer",
         "msgCorrect": "It was Morytania. After the Branches of Darkmeyer, you have access to this city and have access to the Blisterwood tree which can be used to create weapons which can damage vampyres.",
@@ -418,7 +418,7 @@
             {"answer": "Lunar Diplomacy"},
             {"answer": "One of a Kind"}      
         ],
-        "correct": "2",
+        "correct": "Temple at Senntisten",
         "imageA": "soulsplit.png",
         "altA": "Soulsplit",
         "msgCorrect": "It was Temple at Senntisten. After completing this quest you gain access to the ancient curses prayer book which contains many useful curses that are widely used in today's RuneScape, most notably the deflect prayers and superheat/light form.",
@@ -435,7 +435,7 @@
             {"answer": "Sorcerer's Tower"},
             {"answer": "Artisans' Workshop"}      
         ],
-        "correct": "1",
+        "correct": "Wizards' Tower",
         "imageA": "wizardstower.png",
         "altA": "Wizards' Tower",
         "msgCorrect": "It was Wizards' Tower. You speak to these wizards and others in multiple quests including Rune Mysteries, Rune Memories and Imp Catcher.",
@@ -452,7 +452,7 @@
             {"answer": "Infernal Source"},
             {"answer": "Kharid-Et"}      
         ],
-        "correct": "4",
+        "correct": "Kharid-Et",
         "imageA": "smokecloud.png",
         "altA": "Smoke Cloud spell scroll",
         "msgCorrect": "It was Kharid-Et. It is found whilst excavating Culinarum debris. It can be excavated and restored at level 100 Archaeology.",
@@ -469,7 +469,7 @@
             {"answer": "Recruiting a captain"},
             {"answer": "Max Port Score"}      
         ],
-        "correct": "2",
+        "correct": "Complete the tutorial",
         "imageA": "pop.png",
         "altA": "Player Owned Ports",
         "msgCorrect": "It was by completing the tutorial. To start, you need level 90 in one of the Port skills (Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer or Thieving).",
@@ -486,7 +486,7 @@
             {"answer": "A node in Runespan"},
             {"answer": "A Portal to use"}      
         ],
-        "correct": "3",
+        "correct": "A node in Runespan",
         "imageA": "jumper.png",
         "altA": "Jumper",
         "msgCorrect": "It was a node in Runespan. They require 54 Runecrafting as you receive law runes when siphoning from them. They appear on the upper floor and rarely on the middle floor.",
@@ -503,7 +503,7 @@
             {"answer": "Prifddinas"},
             {"answer": "Darkmeyer"}      
         ],
-        "correct": "1",
+        "correct": "The Arc",
         "imageA": "arc.png",
         "altA": "Arc",
         "msgCorrect": "It was the Arc. The Arc provides a wide variety of content across Fishing, Hunter, Farming, Divination and Woodcutting with some of the highest level skill nodes being found on uncharted isles.",

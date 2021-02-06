@@ -42,7 +42,7 @@ let questionsRemaining = [];
 let questionsCorrect = [];
 
 //The quizLoad function will load the questions from the json file and store them in an array "questions"
-function quizLoad() { $.getJSON('https://joeyyscott.github.io/general-gielinor-game/assets/js/questions.json', function (data) { questions = data.questions; })
+function quizLoad() { $.getJSON('assets/js/questions.json', function (data) { questions = data.questions; })
     //Credit for .then function to wait for json file to be loaded before executing quiz
     .then(function() { quizStart(); });
 }
@@ -90,7 +90,7 @@ function questionsLoad() {
 answers.forEach(answer => {
     answer.addEventListener('click', userGuess => {
         //sets their guess to a variable and shows the post guess content
-        const selectedAnswer = userGuess.target.dataset[`number`];
+        const selectedAnswer = userGuess.target.innerText;
         containerGuess.classList.remove('contentHidden'); 
         containerQuiz.classList.add('contentHidden');
         //changes the innerHTML of the post guess message based on whether it was correct and plays an appropriate sound
