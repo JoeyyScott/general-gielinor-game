@@ -15,7 +15,7 @@ const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
 
 //Setting the max questions
-const questionsMax = 2;
+const questionsMax = 30;
 
 //Initiating the quiz on start or repeat button being clicked
 buttonStart.addEventListener('click', quizLoad);
@@ -62,12 +62,9 @@ function quizStart() {
 //This function loads questions and answers into the quiz interface
 function questionsLoad() {
     //checks if there are no questions left or the question count is the max amount for this instance of the game
-    if (questionsRemaining.length === 0 || questionsCounter === questionsMax) {
-        quizCompleted.play();
-        quizCompleted.volume = 0.2;
+    if (questionsRemaining.length === 0 || questionsCounter === questionsMax) { quizCompleted.play(); quizCompleted.volume = 0.2;
         //displays finishing content
-        containerQuiz.classList.add('contentHidden');
-        containerFinal.classList.remove('contentHidden');
+        containerQuiz.classList.add('contentHidden'); containerFinal.classList.remove('contentHidden');
         let answerPercentage = Math.trunc((questionsCorrect / questionsMax)*100);
         answersCorrect.innerHTML = `<h3>Your score: ${questionsCorrect} / ${questionsMax} - ${answerPercentage}%</h3>`;
         questionsCorrect = 0;
