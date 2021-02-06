@@ -262,7 +262,7 @@ Notes:
 + **Looping Music** - I originally noticed this bug by pure accident as I opened my site and went back to my code. After 5 minutes or so I noticed the music had stopped. At this point I had the music auto playing on page load before I discovered Google Chrome disables autoplay and thus made a button to toggle the music.
     + I am very new to using music functions but following my mid project call with my mentor he suggested adding in background music and that it was very little code.
     + I was able to load in and play my music so I looked around and found [this post](https://stackoverflow.com/questions/13610638/loop-audio-with-javascript). It highlighted that the ```audio``` element has a built in ```loop``` boolean property that I added into my code and which now resides in my ```toggleMusic``` function.
-    + Upon various tests with myself, family and friends everyone reported that the music would play/pause/loop as intended.
+    + Upon various tests with myself, family and friends, the feedback I received that the music would play/pause/loop as intended.
 
 + **Sounds not playing in Safari** - After getting one of my friends to test the site he noticed that on Safari only the incorrect sound was playing.
     + I instantly checked my file list and found that was the only sound file using the .mp3 format, the rest were in .ogg the original format.
@@ -272,9 +272,9 @@ Notes:
     + After a few hours researching around I found [this post](https://shiffman.net/a2z/regex/) which explained what Regex was, how it worked and was used. It is still very new to me but I have managed to get it working in this case.
     + I tried a few more tests and decided to look around for a resource on Regex and found [this tool](https://regexr.com/) which was instrumental in helping me test and lookup what different syntax did and thus I was able to adapt my RegEx.
 
-+ **Sounds not playing** - This bug only occured when a new question was loaded and guessed before the previous sound for the guess had finished playing.
++ **Sounds not playing** - This bug only occured when a new question was loaded and guessed before the sound for the previous guess had finished playing.
     + I noticed this during testing as I was clicking through the questions rapidly but in an ideal user scenario they would take the time to read the outcome of their guess.
-    + Nevertheless I thought about utilizing the pause function. I knew I had to reset the point at which it would play when called again and so I typed ```guessCorrect.``` and the first propety offered to me was ```currentTime``` so I utilized this in my event listener for ```buttonNext```.
+    + Nevertheless I thought about utilizing the pause function. I knew I had to reset the point at which it would play when called again and so I typed ```guessCorrect.``` and the first property offered to me was ```currentTime``` so I utilized this in my event listener for ```buttonNext```.
     + This was done so whenever a new question was called the sounds would always play on a user's guess.
     
 [Return to README.md](README.md).
