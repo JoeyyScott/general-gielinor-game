@@ -15,11 +15,11 @@ const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
 
 //Setting the max questions
-const questionsMax = 30;
+const questionsMax = 2;
 
 //Initiating the quiz on start or repeat button being clicked
 buttonStart.addEventListener('click', quizLoad);
-buttonRepeat.addEventListener('click', quizLoad);
+buttonRepeat.addEventListener('click', () => { quizCompleted.pause(); quizCompleted.currentTime = 0; quizLoad(); });
 iconMusic.addEventListener('click', toggleMusic);
 
 // Audio constants
@@ -72,6 +72,8 @@ function questionsLoad() {
         answersCorrect.innerHTML = `<h3>Your score: ${questionsCorrect} / ${questionsMax} - ${answerPercentage}%</h3>`;
         questionsCorrect = 0;
     }
+    if (questionsCounter === questionsMax - 1) { buttonNext.innerHTML = `Check your score <i class="fas fa-chevron-circle-right"></i>`; }
+    else { buttonNext.innerHTML = `Proceed with quiz <i class="fas fa-chevron-circle-right"></i>`; }
     questionsCounter++;
     //sets the question to be removed to a random number from the array of remaining questions
     let questionToBeRemoved = Math.floor(Math.random() * questionsRemaining.length);
