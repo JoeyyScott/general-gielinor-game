@@ -121,8 +121,8 @@ a:hover {
     color: #ffff62;
     position: relative;
     margin: 20px 10px 0 0;
-    padding: 1vw 2vw;
-    font-size: 1.4rem;
+    padding: 5px 10px;
+    font-size: 1.2rem;
 }
 
 .aboutModalContent {
@@ -183,7 +183,7 @@ a:hover {
 
 /* Suggestion form */
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     width: 200px;
 }
 
@@ -192,6 +192,11 @@ a:hover {
     width: max-content;
     margin: 10vh auto 0;
     padding: 0 4% 4%;
+}
+
+/* Error Message */
+#messageError {
+    padding-bottom: 1%;
 }
 
 /* Media Queries */
