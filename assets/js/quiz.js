@@ -115,6 +115,8 @@ answers.forEach(answer => {
 
 //Checks to see if the next button has been clicked and removes the guess content, shows the quiz again and loads the next question
 buttonNext.addEventListener('click', () => {
+    guessCorrect.pause(); guessCorrect.currentTime = 0;
+    guessIncorrect.pause(); guessIncorrect.currentTime = 0;
     containerGuess.classList.add('contentHidden');
     containerQuiz.classList.remove('contentHidden');
     questionsLoad();
