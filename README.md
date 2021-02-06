@@ -154,6 +154,7 @@ Included in the **main quiz** is:
 + **Guess response** - When the user has a guess at a question they are presented with one of two responses:
     + If their response is correct the user will have their answer reaffirmed, are presented with some supporting information and given a link to the associated RuneScape Wikipedia page.
     + If their response is incorrect the user will be notified that their guess was incorrect and a hint as to how they might find the answer to the question.
+    + Once there are no questions left the buttonNext text will change. This was suggested to me by a tester and was simple to implement.
 
 + **Responsive Design** - The quiz is responsive on all screen sizes and has been designed with a mobile first approach.
     + Media queries for scaling rules across device proportions.
