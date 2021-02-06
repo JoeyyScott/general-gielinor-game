@@ -7,11 +7,15 @@ const creditQuestion = document.getElementById ("questionCredit");
 const form = document.getElementById('suggestForm');
 const errorMessage = document.getElementById("messageError");
 
-// Array for storing error messages
-let errors = [];
 
 //This function sends an email using emailJS and pulls the data from my form in index.html using the .value attribute
 function suggestQuestion(suggestForm) {
+    // Array for storing error messages
+    let errors = [];
+    let emptyQuestion = (questionForm.value === null || questionForm.value === "");
+    if (emptyQuestion) { errors.push("Please enter a question"); }
+    //if it passes all checks, remove all error messages from messageError div
+    $("#messageError").empty();
     if (errors.length === 0) {
     emailjs.send("service_yvwm4wp", "questionSuggestion", {
         "formQuestion": questionForm.value,
