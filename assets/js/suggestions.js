@@ -1,3 +1,5 @@
+const closeSuggest = document.getElementById('suggestClose');
+
 //This function sends an email using emailJS and pulls the data from my form in index.html using the .value attribute
 function suggestQuestion(suggestForm) {
     emailjs.send("service_yvwm4wp", "questionSuggestion", {
@@ -15,3 +17,6 @@ function suggestQuestion(suggestForm) {
     document.getElementById('suggestForm').reset();
     return false;
 }
+
+// Credit for adapted on modal hide function
+$('#suggestModal').on('hide.bs.modal', function () { buttonSubmit.innerHTML = `Submit your question <i class="fas fa-check-circle"></i>`; });  

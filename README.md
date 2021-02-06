@@ -272,6 +272,11 @@ This section includes areas/sections of code and properties I was unaware of. I 
 + Custom Font CSS - Entire project uses this font and I used [Transfonter](https://transfonter.org/) to convert my TTF file and provide the other file types. It came with a prebuilt css font-face rule that I modified for my project.
 + forEach loops for answers - I wanted to include this under credits as I previously had no knowledge of this functionality. I found [this post](https://stackoverflow.com/questions/38421546/loop-dataset-chartjs-javascript) which is about looping through an array using the forEach function. I also read up on MDN web docs about the forEach function [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach). By combining these two articles and reading through various code snippets I managed to get my answers loading correctly.
 + As stated in my Technologies section I used [FavIcon](https://favicon.io/favicon-converter/) to convert an image I made to an icon and the website also provides the code for the ```<head>``` element to link the icon to the site.
++ Modal Hide Event - When working on my suggest a question feature, I noticed that the button text from post submission didn't change after submission. I began thinking about how I would achieve such an effect and decided to look for "on modal close JavaScript" and managed to find [this post](https://stackoverflow.com/questions/8363802/bind-a-function-to-twitter-bootstrap-modal-close).
+    + It included this code snippet:
+
+        ```$('#myModal').on('hidden.bs.modal', function () { console.log('Fired when hide event has finished!'); });```
+    + I adapted this code to change the text of my button and have included a comment where this is in my suggestions.js file.
 
 ### Media
 
