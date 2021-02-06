@@ -30,7 +30,7 @@ const music = new Audio('assets/sounds/bgmusic.mp3');
 
 //Function to toggle background music
 function toggleMusic() {
-    if (music.paused === true) { iconMusic.classList.remove('fa-music'); iconMusic.classList.add('fa-volume-mute'); music.play(); music.loop = true; }
+    if (music.paused === true) { iconMusic.classList.remove('fa-music'); iconMusic.classList.add('fa-volume-mute'); music.play(); music.volume = 0.1; music.loop = true; }
     else if (music.paused === false) { iconMusic.classList.add('fa-music'); iconMusic.classList.remove('fa-volume-mute'); music.pause(); }
 }
 
