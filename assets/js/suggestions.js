@@ -32,7 +32,6 @@ function suggestQuestion(suggestForm) {
             if (userAnswers[i].length === 0) { errors.push(`Please enter answer ${i+1}`); }
             else if (!RegExp("^[a-zA-Z0-9]+\\S").test(userAnswers[i])) { errors.push(`Answer ${i+1} needs text/numbers`); } } 
         }
-    
     }
     //if it passes all checks, remove all error messages from messageError div
     $("#messageError").empty();
@@ -44,9 +43,8 @@ function suggestQuestion(suggestForm) {
             "questionCredit": creditQuestion.value
     })
     .then(
-        //If a successful response occurs it will change the button text to convey to the user it was successful
+        //Changes the submitButton text to convey to the user if their submission was successful or not
         function (response) { submitButton.innerHTML = `Thank you <i class="fas fa-smile-beam"></i>`; form.reset(); },
-        //If an error occurs it will change the button text to prompt the user
         function (error) { submitButton.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
     );
     return false;

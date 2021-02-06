@@ -278,8 +278,14 @@ This section includes areas/sections of code and properties I was unaware of. I 
 
         ```$('#myModal').on('hidden.bs.modal', function () { console.log('Fired when hide event has finished!'); });```
     + I adapted this code to change the text of my button and have included a comment where this is in my suggestions.js file.
++ CSS overscroll - Upon requesting a peer code review a user within the [Code Institute](https://codeinstitute.net/) Slack community mentioned that when scrolling to the bottom of the site, most of the footer content would disappear.
+    + I did some research on the subject as I have faced similar issues before, I managed to find [this article](https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/) which taught me about the css ```overscroll-behaviour``` property which when used solved my issue.
 
 ### Media
+
+#### Font
+
++ The font used throughout this site is from [here](https://www.dafont.com/runescape-uf.font) and is a player generated font file based on the RuneScape font.
 
 #### Images
 
