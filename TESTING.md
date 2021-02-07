@@ -26,6 +26,9 @@ I used [JSHint](https://jshint.com) to check the javascript files in my project 
     + After putting those two lines of code at the top of my JSHint tests, it only found one undefined variable (emailjs) and one unused variable (suggestQuestion).
     + After removing all inline JavaScript I only receive the error message about emailjs being an undefined variable.
 
++ Combining files into quiz.js - After combining the code into one file to avoid unnecessary server requests I received one error about answerToBeAdded being an undefined variable so I defined it with my other let variables to produce only the error about emailjs being an undefined variable.
+    + I consulted with a few members of the [Code Institute](https://codeinstitute.net/) Slack community about this and I have found out it is not an error, it is that jsHint does not recognize it as it is defined in the index.html file. As such my code passed with no errors.
+
 ### Responsiveness
 
 To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), [Firefox Devtools](https://developer.mozilla.org/en-US/docs/Tools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
