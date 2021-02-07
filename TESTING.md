@@ -245,10 +245,13 @@ Notes:
             + The incorrect message showed with a randomly selected response and a sad face.
             + The hint for the question answered would display underneath.
             + Button to proceed with the quiz.
+    + Upon clicking the Proceed with quiz button the next question would load correctly.
     + Upon answering the last question in the quiz the Proceed with quiz button text will change to Check your score.
     + Upon clicking the Check your score the finishing content showed as intended:
         + The quiz complete sound would play.
         + The finished content screen would show displaying the user's score and percentage.
+        + The Play GGG again button would display
+    + Upon clicking the Play GGG again button it would launch another instance of the quiz correctly.
 
 + index.html was tested that:
     + Navigation to internal/external pages were linked correctly.
