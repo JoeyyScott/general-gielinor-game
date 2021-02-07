@@ -185,10 +185,8 @@ function suggestQuestion() {
         function (error) { submitButton.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
     );
     return false;
-    } else {
-          for (let i = 0; i < errors.length; i++) {
-            errorMessage.innerHTML = errorMessage.innerHTML + errors [i] + '<br>';
-        }
+    // Fills the errorMessage innerHTML with all the errors within the errors array
+    } else { for (let i = 0; i < errors.length; i++) { errorMessage.innerHTML = errorMessage.innerHTML + errors [i] + '<br>'; }
     return false;      
     }
 }
