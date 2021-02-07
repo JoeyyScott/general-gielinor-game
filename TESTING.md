@@ -112,7 +112,7 @@ Notes:
     + As a **user** I want to be able to view and use the site on any device.
         + I have tested the website across multiple screen sizes and have found no issues thus far.
         + The index page and its associated modals provide all the functionality across multiple screen sizes.
-        + Screenshots for the main site but can be found in other tests but I have included pictures of the modal.
+        + Screenshots for the main site can be found in other tests but I have included pictures of the modal.
             |                                                  index.html                                                         |
             | :-----------------------------------------------------------------------------------------------------------------: |
             | [Mobile](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/user4mobile.png) |
@@ -210,7 +210,7 @@ Notes:
         + The home, music and footer buttons are all designed/positioned cleanly and do not intrude on the experience at all.
 
     + As a **site owner** I want to provide the user with feedback about whether their answer is correct or not and the reasoning why after each question.
-        + Upon making a guess I am presented with the post guess screen. This provides information pertaining to the outcome of their guess.
+        + Upon making a guess I am presented with the post guess screen. This provides information pertaining to the outcome of my guess.
         + I will receive a randomly selected correct/incorrent message plus supporting information/reasoning if correct and a hint if incorrect. The array of responses keeps the outcomes fresh and engaging.
         + I will also hear a different sound playing based on the outcome of my guess.
         + I will also hear a sound upon reaching the scoreboard screen at the end of the quiz.
@@ -266,7 +266,7 @@ Notes:
 + **Looping Music** - I originally noticed this bug by pure accident as I opened my site and went back to my code. After 5 minutes or so I noticed the music had stopped. At this point I had the music auto playing on page load before I discovered Google Chrome disables autoplay and thus made a button to toggle the music.
     + I am very new to using music functions but following my mid project call with my mentor he suggested adding in background music and that it was very little code.
     + I was able to load in and play my music so I looked around and found [this post](https://stackoverflow.com/questions/13610638/loop-audio-with-javascript). It highlighted that the ```audio``` element has a built in ```loop``` boolean property that I added into my code and which now resides in my ```toggleMusic``` function.
-    + Upon various tests with myself, family and friends, the feedback I received that the music would play/pause/loop as intended.
+    + Upon various tests with myself, family and friends, the feedback I received was that the music would play/pause/loop as intended.
 
 + **Sounds not playing in Safari** - After getting one of my friends to test the site he noticed that on Safari only the incorrect sound was playing.
     + I instantly checked my file list and found that was the only sound file using the .mp3 format, the rest were in .ogg the original format.
