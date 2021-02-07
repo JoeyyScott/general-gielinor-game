@@ -40,7 +40,7 @@ let correctResponses = [];
 let incorrectResponses = [];
 
 //Setting the max questions
-const questionsMax = 30;
+const questionsMax = 10;
 
 //Event listeners for initiating the quiz on start or repeat button being clicked and toggling the music
 buttonStart.addEventListener('click', quizLoad);

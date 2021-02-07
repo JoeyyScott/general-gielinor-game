@@ -128,7 +128,10 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 
 + **Questions Remaining** - I never intended to add this feature but after a few tests myself I felt I wanted to know this information and as such added it in.
 + **Randomized Answers** - This was in the back of my mind as I was developing this project and once I had covered everything else I was able to implement this without any problems.
-
++ **Toggle Music** - I added music in as a result of a call with my mentor. He informed me it was relatively easy and felt it would increase the overall experience of the site.
+    + I read in the Assessment Handbook 2020 for the Distinction performance of this project that "the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions". 
+    + I originally had the music auto playing but as I am aiming for Distinction I felt providing a button for the user to toggle it would ultimately hit this criteria and provide the best user experience.
+    
 #### [Back to top](#contents)
 
 ---
