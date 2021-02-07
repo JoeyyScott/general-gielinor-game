@@ -102,7 +102,7 @@ function questionsLoad() {
     let questionToBeRemoved = Math.floor(Math.random() * questionsRemaining.length);
     //sets the current question to the variable questionToBeRemoved from the array of remaining questions and fills the quiz content on index.html
     questionCurrent = questionsRemaining[questionToBeRemoved];
-    question.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageQ}" class="question-img" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`;
+    question.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageQ}" class="questionImg" alt="${questionCurrent.altQ} Image"> <br> <h2>${questionCurrent.question}</h2>`;
     remainingCount.innerHTML = `<p>Questions remaining: ${questionsMax - questionsCounter}</p>`;
     //credit for adapted forEach loop (See README.md for details) - Used to randomize answer order by setting the innerText of each answer button to a random answer within the answers array for questionCurrent
     answers.forEach(answer => { 
@@ -129,7 +129,7 @@ answers.forEach(answer => {
             guessCorrect.volume = 0.2;
             //changes the innerHTML of the verdict to a random response within the correctResponses array
             verdictGuess.innerHTML = `<h2>${correctResponses[Math.floor(Math.random() * correctResponses.length)].message} <i class="fas fa-smile-beam"></i></h2>`;
-            responseGuess.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageA}" class="question-img" alt="${questionCurrent.altA} Image"> <br>
+            responseGuess.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageA}" class="questionImg" alt="${questionCurrent.altA} Image"> <br>
             <p>${questionCurrent.msgCorrect} You can check out the Wiki for ${questionCurrent.linkText} <a href="${questionCurrent.linkURL}" target=_"blank">here</a>!</p>`;
             questionsCorrect++;
         } else {

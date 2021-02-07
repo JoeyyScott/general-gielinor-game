@@ -17,11 +17,7 @@
     display: none;
 }
 
-.question-mark {
-    font-size: 3rem;
-}
-
-.question-img {
+.questionImg {
     height: 6vh;
 }
 
