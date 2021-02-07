@@ -131,7 +131,7 @@ To keep with the intended RuneScape style I have picked a singular font (RuneSca
 + **Toggle Music** - I added music in as a result of a call with my mentor. He informed me it was relatively easy and felt it would increase the overall experience of the site.
     + I read in the Assessment Handbook 2020 for the Distinction performance of this project that "the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions". 
     + I originally had the music auto playing but as I am aiming for Distinction I felt providing a button for the user to toggle it would ultimately hit this criteria and provide the best user experience.
-    
+
 #### [Back to top](#contents)
 
 ---
@@ -295,6 +295,7 @@ This section includes areas/sections of code and properties I was unaware of. I 
 
 + Custom Font CSS - Entire project uses this font and I used [Transfonter](https://transfonter.org/) to convert my TTF file and provide the other file types. It came with a prebuilt css font-face rule that I modified for my project.
 + forEach loops for answers - I wanted to include this under credits as I previously had no knowledge of this functionality. I found [this post](https://stackoverflow.com/questions/38421546/loop-dataset-chartjs-javascript) which is about looping through an array using the forEach function. I also read up on MDN web docs about the forEach function [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach). By combining these two articles and reading through various code snippets I managed to get my answers loading correctly.
++ emailJS - The code I used in quiz.js is an adapted version of the code we covered in the Interactive FrontEnd developement module as part of the [Full Stack Web Development course](https://codeinstitute.net/full-stack-software-development-diploma/).
 + As stated in my Technologies section I used [FavIcon](https://favicon.io/favicon-converter/) to convert an image I made to an icon and the website also provides the code for the ```<head>``` element to link the icon to the site.
 + Modal Hide Event - When working on my suggest a question feature, I noticed that the button text from post submission didn't change after submission. I began thinking about how I would achieve such an effect and decided to look for "on modal close JavaScript" and managed to find [this post](https://stackoverflow.com/questions/8363802/bind-a-function-to-twitter-bootstrap-modal-close).
     + It included this code snippet:

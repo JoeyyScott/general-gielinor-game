@@ -170,9 +170,10 @@ function suggestQuestion() {
             else if (!RegExp("^[a-zA-Z0-9]+\\S").test(userAnswers[i])) { errors.push(`Answer ${i+1} needs text/numbers`); } } 
         }
     }
-    //if it passes all checks, remove all error messages from messageError div
+    //if it passes all checks, remove all error messages from messageError div and send email
     $("#messageError").empty();
     if (errors.length === 0) {
+        // Credit for emailJS send function
         emailjs.send("service_yvwm4wp", "questionSuggestion", {
             "formQuestion": questionForm.value,
             "answerList": listAnswer.value,
@@ -184,6 +185,7 @@ function suggestQuestion() {
         function (response) { submitButton.innerHTML = `Thank you <i class="fas fa-smile-beam"></i>`; form.reset(); },
         function (error) { submitButton.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
     );
+    //End credit for emailJS send function
     return false;
     // Fills the errorMessage innerHTML with all the errors within the errors array
     } else { for (let i = 0; i < errors.length; i++) { errorMessage.innerHTML = errorMessage.innerHTML + errors [i] + '<br>'; }
