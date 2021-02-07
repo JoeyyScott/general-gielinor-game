@@ -344,7 +344,7 @@ My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/
 
 My family and friends who have helped me test various different versions of the quiz throughout the development process and proof reading my questions/answers along with my README.md/TESTING.md files.
 
-On a final note, I have enjoyed working on this project and am excited for the next stage ahead of me in this [Full Stack Web Development course](https://codeinstitute.net/full-stack-software-development-diploma/). 
+On a final note, I have enjoyed working on this project as it has taught me many new areas of coding along the way of which I am thankful for. I enjoyed this project more than Milestone 1 as it pushed me to learn and compile an interactive web application. I am thoroughly excited for the next stage ahead of me in this [Full Stack Web Development course](https://codeinstitute.net/full-stack-software-development-diploma/). 
 
 #### [Back to top](#contents)
 
