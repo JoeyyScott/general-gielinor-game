@@ -62,7 +62,7 @@ $( "#suggestForm" ).submit(function( event ) { event.preventDefault(); suggestQu
 // Credit for adapted on modal hide function
 $('#suggestModal').on('hide.bs.modal', function () { submitButton.innerHTML = `Submit your question <i class="fas fa-check-circle"></i>`; });  
 
-//This function loads responses from the json file and returns an object literal of both arrays - Credit for object literal (see README.md for details)
+//This function loads responses from the json file and sets the two arrays for correct and incorrect responses
 function responsesLoad() { $.getJSON('assets/js/responses.json', function (data) { correctResponses = data.correct; incorrectResponses = data.incorrect; });}
 
 //The quizLoad function will load the questions from the json file and store them in an array "questions"
@@ -71,7 +71,7 @@ function quizLoad() { $.getJSON('assets/js/questions.json', function (data) { qu
     .then(function() { quizStart(); });
 }
 
-//The quizStart function will show the questions 
+//The quizStart function will display the correct content, set the counter and load the questions/responses
 function quizStart() {
     //Hides welcome/final and displays quiz containers
     containerFinal.classList.add('contentHidden');
