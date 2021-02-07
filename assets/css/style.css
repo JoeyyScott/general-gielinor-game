@@ -76,6 +76,16 @@ p {
     font-size: 0.95rem;
 }
 
+a {
+    color: #1E000E;
+    text-shadow: 2.5px 2.5px #ffff62;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffff62;
+}
+
 /* Nav */
 .navItem {
     color: #ffff62;
@@ -86,10 +96,6 @@ p {
 .navIcon {
     padding: 2vw;
     margin: 20px 0 0 10px;
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 /* Footer */
