@@ -18,7 +18,7 @@ const iconMusic = document.getElementById('icon-music');
 const guessCorrect = new Audio('assets/sounds/correct.mp3');
 const guessIncorrect = new Audio('assets/sounds/incorrect.mp3');
 const quizCompleted = new Audio('assets/sounds/complete.mp3');
-const music = new Audio('assets/sounds/bgmusic.mp3');
+const music = new Audio('assets/sounds/musicbg.mp3');
 
 // Constants for form data and content in index.html
 const questionForm = document.getElementById("formQuestion");
