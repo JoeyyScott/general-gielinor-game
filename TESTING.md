@@ -228,6 +228,39 @@ Notes:
             | :----------------------------------------------------------------------------------------------------------------------: |
             | [Email](https://github.com/JoeyyScott/general-gielinor-game/blob/master/readme-files/user-stories/siteowneremail.png)    |
 
+### Additional Testing
+
++ As the quiz will ask you 10 questions but consists of 30, throughout the development of this project I tested that my project consistently met the following criteria:
+    + All questions displayed the correct message, image, alt text equivalent and available answers for the current question.
+        + Questions remaining count was displaying correctly.
+    + Upon selecting an answer the post guess content showed as intended:
+        + On a correct answer:
+            + The sound for a correct answer would play.
+            + The correct message showed with a randomly selected response and a smiley face.
+            + The message, URL and name for URL would display underneath.
+            + URLs would open in a new tab.
+            + Button to proceed with the quiz.
+        + On an incorrect answer:
+            + The sound for an incorrect answer would play.
+            + The incorrect message showed with a randomly selected response and a sad face.
+            + The hint for the question answered would display underneath.
+            + Button to proceed with the quiz.
+    + Upon answering the last question in the quiz the Proceed with quiz button text will change to Check your score.
+    + Upon clicking the Check your score the finishing content showed as intended:
+        + The quiz complete sound would play.
+        + The finished content screen would show displaying the user's score and percentage.
+
++ index.html was tested that:
+    + Navigation to internal/external pages were linked correctly.
+        + External links opened in a new tab.
+    + Both modals open and close on button input and clicking/pressing outside the modal area.
+        + The suggest a question form validation functions as intended (see Features section in README.md for details).
+    + Background image loads correctly.
+    + Toggle music button functions as intended.
+        + Plays/pauses music.
+        + Changes font awesome icon based on status of music.
+    + The home button returns the user to the homepage.
+
 ### Bugs
 
 + **forEach Loop** - When trying to get the answers to display correctly I was originally using a standard for loop. 
