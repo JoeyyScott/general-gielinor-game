@@ -24,6 +24,7 @@ I used [JSHint](https://jshint.com) to check the javascript files in my project 
 
 + Suggest a question (suggestions.js) - I used the same two lines of code at the top of my JSHint testing for this file as I have used const, let and $ in this code. 
     + After putting those two lines of code at the top of my JSHint tests, it only found one undefined variable (emailjs) and one unused variable (suggestQuestion).
+    + After removing all inline JavaScript I only receive the error message about emailjs being an undefined variable.
 
 ### Responsiveness
 

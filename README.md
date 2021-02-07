@@ -300,6 +300,11 @@ This section includes areas/sections of code and properties I was unaware of. I 
     + I adapted this code to change the text of my button and have included a comment where this is in my suggestions.js file.
 + CSS overscroll - Upon requesting a peer code review a user within the [Code Institute](https://codeinstitute.net/) Slack community mentioned that when scrolling to the bottom of the site, most of the footer content would disappear.
     + I did some research on the subject as I have faced similar issues before, I managed to find [this article](https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/) which taught me about the css ```overscroll-behaviour``` property which when used solved my issue.
++ submit listener in jQuery - When I was testing my code in JSHint it was telling me suggestQuestion was an unused variable. I wanted to solve this so I set out to find a way to remove all inline JavaScript.
+    + I tried using ```buttonSubmit.addEventListener('submit', () => { suggestQuestion(); });``` as my code but could not get it to work. I did some research and found [this post](https://api.jquery.com/submit/#submit-handler) which contained the following code:
+
+        ```$( "#target" ).submit(function( event ) { alert( "Handler for .submit() called." ); event.preventDefault(); });```
+    + I adapted this code to check when the submit function on the suggestForm was activated and learned out the ```.preventDefault()``` method which makes it so only my code runs and this solved my issue within JSHint.
 
 ### Media
 
