@@ -181,7 +181,7 @@ Notes:
         + When I load into the site I am presented with an introductory message informing the user the site contains a quiz.
         + I am also directed to the "Find out more" button which tells me the purpose of the website.
         + Finally I am prompted on how to play the game by pressing the "Start Quiz" button. 
-        + The pictures of the landing screen that show this information can be found in the user story testing #1.
+        + The pictures of the landing screen showing this information can be found in the user story testing #1.
 
     + As a **site owner** I want any user to receive the correct information for the viewport they are currently on.
         + I have tested the website across multiple screen sizes and have found no issues thus far with content displaying or appearing incorrectly.
