@@ -78,7 +78,7 @@ p {
 
 a {
     color: #1E000E;
-    text-shadow: 2px 2px #ffff62;
+    text-shadow: none;
 }
 
 a:hover {
