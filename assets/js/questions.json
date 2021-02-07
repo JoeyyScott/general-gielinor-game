@@ -19,7 +19,7 @@
         "msgWrong": "This information exists on the internet, it might be closer than you think"
     },{
         "question": "What fishing level do you need to catch raw tuna with a harpoon?",
-        "imageQ": "raw-tuna.png",
+        "imageQ": "rawtuna.png",
         "altQ": "Raw Tuna",
         "answers":[
             {"answer": "15"},
