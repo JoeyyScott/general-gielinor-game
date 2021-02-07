@@ -14,25 +14,20 @@ const question = document.getElementById('question');
 const answers = Array.from(document.getElementsByClassName('buttonAnswer'));
 const iconMusic = document.getElementById('icon-music');
 
-//Setting the max questions
-const questionsMax = 30;
-
-//Initiating the quiz on start or repeat button being clicked
-buttonStart.addEventListener('click', quizLoad);
-buttonRepeat.addEventListener('click', () => { quizCompleted.pause(); quizCompleted.currentTime = 0; quizLoad(); });
-iconMusic.addEventListener('click', toggleMusic);
-
 // Audio constants
 const guessCorrect = new Audio('assets/sounds/correct.mp3');
 const guessIncorrect = new Audio('assets/sounds/incorrect.mp3');
 const quizCompleted = new Audio('assets/sounds/complete.mp3');
 const music = new Audio('assets/sounds/bgmusic.mp3');
 
-//Function to toggle background music
-function toggleMusic() {
-    if (music.paused === true) { iconMusic.classList.remove('fa-music'); iconMusic.classList.add('fa-volume-mute'); music.play(); music.volume = 0.1; music.loop = true; }
-    else if (music.paused === false) { iconMusic.classList.add('fa-music'); iconMusic.classList.remove('fa-volume-mute'); music.pause(); }
-}
+// Constants for form data and content in index.html
+const questionForm = document.getElementById("formQuestion");
+const listAnswer = document.getElementById("answerList");
+const correctAnswer = document.getElementById("answerCorrect");
+const creditQuestion = document.getElementById ("questionCredit");
+const form = document.getElementById('suggestForm');
+const errorMessage = document.getElementById("messageError");
+const submitButton = document.getElementById('buttonSubmit');
 
 //Variables that'll change throughout
 let questions = [];
@@ -40,6 +35,29 @@ let questionCurrent = {};
 let questionsCounter;
 let questionsRemaining = [];
 let questionsCorrect = [];
+
+//Setting the max questions
+const questionsMax = 30;
+
+//Event listeners for initiating the quiz on start or repeat button being clicked and toggling the music
+buttonStart.addEventListener('click', quizLoad);
+buttonRepeat.addEventListener('click', () => { quizCompleted.pause(); quizCompleted.currentTime = 0; quizLoad(); });
+iconMusic.addEventListener('click', toggleMusic);
+
+//Checks to see if the next button has been clicked and removes the guess content, shows the quiz again and loads the next question and pauses/resets current sounds to prevent overlap
+buttonNext.addEventListener('click', () => {
+    guessCorrect.pause(); guessCorrect.currentTime = 0;
+    guessIncorrect.pause(); guessIncorrect.currentTime = 0;
+    containerGuess.classList.add('contentHidden');
+    containerQuiz.classList.remove('contentHidden');
+    questionsLoad();
+});
+
+//Credit for submit event listener to detect form submission
+$( "#suggestForm" ).submit(function( event ) { event.preventDefault(); suggestQuestion(this); });
+
+// Credit for adapted on modal hide function
+$('#suggestModal').on('hide.bs.modal', function () { submitButton.innerHTML = `Submit your question <i class="fas fa-check-circle"></i>`; });  
 
 //The quizLoad function will load the questions from the json file and store them in an array "questions"
 function quizLoad() { $.getJSON('assets/js/questions.json', function (data) { questions = data.questions; })
@@ -69,6 +87,7 @@ function questionsLoad() {
         answersCorrect.innerHTML = `<h3>Your score: ${questionsCorrect} / ${questionsMax} - ${answerPercentage}%</h3>`;
         questionsCorrect = 0;
     }
+    //checks if the user is on their final question and appropriately changes the inner text of buttonNext
     if (questionsCounter === questionsMax - 1) { buttonNext.innerHTML = `Check your score <i class="fas fa-chevron-circle-right"></i>`; }
     else { buttonNext.innerHTML = `Proceed with quiz <i class="fas fa-chevron-circle-right"></i>`; }
     questionsCounter++;
@@ -103,9 +122,8 @@ answers.forEach(answer => {
             guessCorrect.volume = 0.2;
             //changes the innerHTML of the verdict to a random response within the correctResponses array
             verdictGuess.innerHTML = `<h2>${correctResponses[Math.floor(Math.random() * correctResponses.length)].message} <i class="fas fa-smile-beam"></i></h2>`;
-            responseGuess.innerHTML = `
-                <img src="assets/images/quiz/${questionCurrent.imageA}" class="question-img" alt="${questionCurrent.altA} Image"> <br>
-                <p>${questionCurrent.msgCorrect} You can check out the Wiki for ${questionCurrent.linkText} <a href="${questionCurrent.linkURL}" target=_"blank">here</a>!</p>`;
+            responseGuess.innerHTML = `<img src="assets/images/quiz/${questionCurrent.imageA}" class="question-img" alt="${questionCurrent.altA} Image"> <br>
+            <p>${questionCurrent.msgCorrect} You can check out the Wiki for ${questionCurrent.linkText} <a href="${questionCurrent.linkURL}" target=_"blank">here</a>!</p>`;
             questionsCorrect++;
         } else {
             guessIncorrect.play();
@@ -117,14 +135,56 @@ answers.forEach(answer => {
     });
 });
 
-//Checks to see if the next button has been clicked and removes the guess content, shows the quiz again and loads the next question
-buttonNext.addEventListener('click', () => {
-    guessCorrect.pause(); guessCorrect.currentTime = 0;
-    guessIncorrect.pause(); guessIncorrect.currentTime = 0;
-    containerGuess.classList.add('contentHidden');
-    containerQuiz.classList.remove('contentHidden');
-    questionsLoad();
-});
+//This function will toggle background music
+function toggleMusic() {
+    if (music.paused === true) { iconMusic.classList.remove('fa-music'); iconMusic.classList.add('fa-volume-mute'); music.play(); music.volume = 0.1; music.loop = true; }
+    else if (music.paused === false) { iconMusic.classList.add('fa-music'); iconMusic.classList.remove('fa-volume-mute'); music.pause(); }
+}
+
+//This function sends an email using emailJS and pulls the data from my form in index.html using the .value attribute
+function suggestQuestion() {
+    // Array for storing error messages
+    let errors = [];
+    let emptyQuestion = (questionForm.value === null || questionForm.value === ""); if (emptyQuestion) { errors.push("Please enter a question"); }
+    let emptyAnswers = (listAnswer.value === null || listAnswer.value === ""); if (emptyAnswers) { errors.push("Please enter the available answers"); }
+    let emptyCorrect = (correctAnswer.value ===  null || correctAnswer.value === ""); if (emptyCorrect) { errors.push("Please enter the correct answer"); }
+    let emptyCredit = (creditQuestion.value ===  null || creditQuestion.value === ""); if (emptyCredit) { errors.push("Please enter a username to credit"); }
+    if (!emptyQuestion) { if (questionForm.value.length < 10) { errors.push ("Question character minimum is 10"); } }
+    if (!emptyQuestion) { if (!RegExp("^[a-zA-Z0-9]+\\S").test(questionForm.value)) { errors.push("Question must be text/numbers."); } }
+    if (!emptyCorrect) { if (!RegExp("^[a-zA-Z0-9]+\\S").test(correctAnswer.value)) { errors.push("Correct must be text/numbers"); } }
+    if (!emptyCredit) { if (!RegExp("^[a-zA-Z0-9]+\\S").test(creditQuestion.value)) { errors.push("RSN must be text/numbers"); } }
+    if (!emptyCredit) { if (creditQuestion.value.length > 13) { errors.push ("RSN is a maximum of 12 characters"); } }
+    // If empty answers doesn't exist it will check the string using / as a seperate to make sure there is 4 answers
+    if (!emptyAnswers) { if (listAnswer.value.split('/').length !== 4) { errors.push('Use / to seperate answers'); } else { 
+        let userAnswers = listAnswer.value.split('/');
+        //for loop to check if the length of each answer doesn't contain 0 or invalid characters and throws an appropriate error message with answer number included 
+        for (let i = 0; i < userAnswers.length; i++) { 
+            if (userAnswers[i].length === 0) { errors.push(`Please enter answer ${i+1}`); }
+            else if (!RegExp("^[a-zA-Z0-9]+\\S").test(userAnswers[i])) { errors.push(`Answer ${i+1} needs text/numbers`); } } 
+        }
+    }
+    //if it passes all checks, remove all error messages from messageError div
+    $("#messageError").empty();
+    if (errors.length === 0) {
+        emailjs.send("service_yvwm4wp", "questionSuggestion", {
+            "formQuestion": questionForm.value,
+            "answerList": listAnswer.value,
+            "answerCorrect": correctAnswer.value,
+            "questionCredit": creditQuestion.value
+    })
+    .then(
+        //Changes the submitButton text to convey to the user if their submission was successful or not
+        function (response) { submitButton.innerHTML = `Thank you <i class="fas fa-smile-beam"></i>`; form.reset(); },
+        function (error) { submitButton.innerHTML = `Please Try Again <i class="fas fa-frown"></i>`; }
+    );
+    return false;
+    } else {
+          for (let i = 0; i < errors.length; i++) {
+            errorMessage.innerHTML = errorMessage.innerHTML + errors [i] + '<br>';
+        }
+    return false;      
+    }
+}
 
 //array with correct answer messages
 const correctResponses = [
