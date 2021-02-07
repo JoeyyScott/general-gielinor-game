@@ -315,6 +315,9 @@ This section includes areas/sections of code and properties I was unaware of. I 
 #### Font
 
 + The font used throughout this site is from [here](https://www.dafont.com/runescape-uf.font) and is a player generated font file based on the RuneScape font.
+    + Note: For the File Structure area of the distinction section on the Assessment Handbook 2020 it states "files are named consistently and descriptively, without spaces or capitalisation to allow for cross-platform compatibility".
+    + These are the only files in my entire project that are capitalized. It occured when I used [Transfonter](https://transfonter.org/) to compile my custom font CSS I tried to renaming the files/sources to lowercase but ran into multiple errors on the .SVG file.
+    + I currently do not have the knowledge on how to make this lowercase so I thought it best to include this note as I am aiming for a distinction.
 
 #### Images
 
