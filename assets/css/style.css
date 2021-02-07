@@ -59,11 +59,6 @@ body {
     left: 3vw;
 }
 
-.blankSpace {
-    display: inline-block;
-    height: 20vh;
-}
-
 /* Core Styling */
 .rsStyle {
     color: #ffff62;
