@@ -78,12 +78,11 @@ p {
 
 a {
     color: #1E000E;
-    text-shadow: 2.5px 2.5px #ffff62;
+    text-shadow: 2px 2px #ffff62;
 }
 
 a:hover {
     text-decoration: none;
-    color: #ffff62;
 }
 
 /* Nav */
