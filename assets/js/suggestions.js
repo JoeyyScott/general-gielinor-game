@@ -7,8 +7,14 @@ const form = document.getElementById('suggestForm');
 const errorMessage = document.getElementById("messageError");
 const submitButton = document.getElementById('buttonSubmit');
 
+//Credit for submit event listener to detect form submission
+$( "#suggestForm" ).submit(function( event ) {
+  event.preventDefault();
+  suggestQuestion(this);
+});
+
 //This function sends an email using emailJS and pulls the data from my form in index.html using the .value attribute
-function suggestQuestion(suggestForm) {
+function suggestQuestion() {
     // Array for storing error messages
     let errors = [];
     let emptyQuestion = (questionForm.value === null || questionForm.value === "");
