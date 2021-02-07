@@ -66,10 +66,10 @@ Notes:
 
 I tested the appearance and responsiveness of the website across 5 different browsers and varying browser sizes and these are my results:
 
-|    All Pages   | Firefox | Chrome |  IE  | Edge | Opera |
-|:--------------:|:-------:|:------:|:----:|:----:|:-----:|
-| Appearance     |   Good  |  Good  | Good | Good |  Good |
-| Responsiveness |   Good  |  Good  | Good | Good |  Good |
+|    All Pages   | Firefox | Chrome |  IE  | Edge | Opera | Safari |
+|:--------------:|:-------:|:------:|:----:|:----:|:-----:|:------:|
+| Appearance     |   Good  |  Good  | Good | Good |  Good |  Good  |
+| Responsiveness |   Good  |  Good  | Good | Good |  Good |  Good  |
 
 Notes:
 
