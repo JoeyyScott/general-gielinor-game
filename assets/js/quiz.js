@@ -37,6 +37,7 @@ let questionsRemaining = [];
 let questionsCorrect = [];
 let answerToBeAdded = [];
 let correctResponses = [];
+let incorrectResponses = [];
 
 //Setting the max questions
 const questionsMax = 30;
