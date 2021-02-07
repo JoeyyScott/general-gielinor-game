@@ -1,0 +1,35 @@
+{
+    "correct":[
+    {"message":"GG!"},
+    {"message":"Wahey!"},
+    {"message":"w00t!"},
+    {"message":"Grats!"},
+    {"message":"Congrats!"},
+    {"message":"Congratulations!"},
+    {"message":"Well done!"},
+    {"message":"Great job!"},
+    {"message":"Valiant effort!"},
+    {"message":"Kudos!"},
+    {"message":"Squeck yeah!"},
+    {"message":"Woohoo!"},
+    {"message":"Yay!"},
+    {"message":"Awesome!"},
+    {"message":"Sweet!"},
+    {"message":"Holy Saradomin!"},
+    {"message":"Unholy Zamorak!"},
+    {"message":"Praise Guthix!"},
+    {"message":"That rocks!"},
+    {"message":"!!!!!!11"},
+    {"message":"You're right!"}
+    ],
+    "incorrect":[
+    {"message":"Uh-Oh!"},
+    {"message":"Oh no!"},
+    {"message":"Savage!"},
+    {"message":"RIP!"},
+    {"message":"Sad times!"},
+    {"message":"You're wrong!"},
+    {"message":"Close one!"},
+    {"message":"Aww!"},
+    {"message":"Not a great effort!"}]
+}

@@ -36,6 +36,7 @@ let questionsCounter;
 let questionsRemaining = [];
 let questionsCorrect = [];
 let answerToBeAdded = [];
+let correctResponses = [];
 
 //Setting the max questions
 const questionsMax = 30;
@@ -60,6 +61,9 @@ $( "#suggestForm" ).submit(function( event ) { event.preventDefault(); suggestQu
 // Credit for adapted on modal hide function
 $('#suggestModal').on('hide.bs.modal', function () { submitButton.innerHTML = `Submit your question <i class="fas fa-check-circle"></i>`; });  
 
+//This function loads responses from the json file and returns an object literal of both arrays - Credit for object literal (see README.md for details)
+function responsesLoad() { $.getJSON('assets/js/responses.json', function (data) { correctResponses = data.correct; })}
+
 //The quizLoad function will load the questions from the json file and store them in an array "questions"
 function quizLoad() { $.getJSON('assets/js/questions.json', function (data) { questions = data.questions; })
     //Credit for .then function to wait for json file to be loaded before executing quiz
@@ -76,6 +80,7 @@ function quizStart() {
     questionsRemaining = [...questions];
     questionsCounter = 0;
     questionsLoad();
+    responsesLoad();
 }
 
 //This function loads questions and answers into the quiz interface
@@ -130,7 +135,7 @@ answers.forEach(answer => {
             guessIncorrect.play();
             guessIncorrect.volume = 0.2;
             //changes the innerHTML of the verdict to a random response within the incorrectResponses array
-            verdictGuess.innerHTML = `<h2>${incorrectResponses[Math.floor(Math.random() * incorrectResponses.length)].message} <i class="fas fa-frown"></i></h2>`;
+            verdictGuess.innerHTML = `<h2>Incorrect <i class="fas fa-frown"></i></h2>`;
             responseGuess.innerHTML = `<p>That is not correct! <br> Hint: ${questionCurrent.msgWrong} <i class="fas fa-smile-beam"></i></p>`;
         }
     });
@@ -186,41 +191,3 @@ function suggestQuestion() {
     return false;      
     }
 }
-
-//array with correct answer messages
-const correctResponses = [
-    {message:`GG!`},
-    {message:`Wahey!`},
-    {message:`w00t!`},
-    {message:`Grats!`},
-    {message:`Congrats!`},
-    {message:`Congratulations!`},
-    {message:`Well done!`},
-    {message:`Great job!`},
-    {message:`Valiant effort!`},
-    {message:`Kudos!`},
-    {message:`Squeck yeah!`},
-    {message:`Woohoo!`},
-    {message:`Yay!`},
-    {message:`Awesome!`},
-    {message:`Sweet!`},
-    {message:`Holy Saradomin!`},
-    {message:`Unholy Zamorak!`},
-    {message:`Praise Guthix!`},
-    {message:`That rocks!`},
-    {message:`!!!!!!11`},
-    {message:`You're right!`}
-];
-
-//array with incorrect answer messages
-const incorrectResponses = [
-    {message:`Uh-Oh!`},
-    {message:`Oh no!`},
-    {message:`Savage!`},
-    {message:`RIP!`},
-    {message:`Sad times!`},
-    {message:`You're wrong!`},
-    {message:`Close one!`},
-    {message:`Aww!`},
-    {message:`Not a great effort!`}
-];
