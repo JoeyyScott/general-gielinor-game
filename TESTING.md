@@ -6,13 +6,17 @@ I used [w3.org's validator](https://validator.w3.org/) for my HTML validation ch
 
 + Home page (index.html)
 
-    ![Home Page Validation](readme-files/html-test.png)
+    ![Home Page Validation](readme-files/testing/html-test.png)
+
++ 404 page (404.html)
+
+    ![404 Page Validation](readme-files/testing/404-test.png)
 
 I used [w3.org's validator](https://jigsaw.w3.org/css-validator/) for my CSS validation checks.
 
 + CSS (style.css)
 
-    ![CSS Validation](readme-files/css-test.png)
+    ![CSS Validation](readme-files/testing/css-test.png)
 
 + No errors were found within the document.
 
