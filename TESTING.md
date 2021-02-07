@@ -68,7 +68,7 @@ Notes:
 
 ### Browser Compatibility
 
-I tested the appearance and responsiveness of the website across 5 different browsers and varying browser sizes and these are my results:
+I tested the appearance and responsiveness of the website across 6 different browsers and varying browser sizes and these are my results:
 
 |    All Pages   | Firefox | Chrome |  IE  | Edge | Opera | Safari |
 |:--------------:|:-------:|:------:|:----:|:----:|:-----:|:------:|
