@@ -60,7 +60,7 @@ Opportunity/Problem | Importance | Viability/Feasibility
 A. Information on why answers are correct | 5 | 5
 B. Game instructions | 5 | 5
 C. Game start button | 5 | 4
-D. Different themes of questions | 5 | 2
+D. Different themes of questions | 3 | 2
 E. Repeat button after quiz | 5 | 4
 
 ### User stories
