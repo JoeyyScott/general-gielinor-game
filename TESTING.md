@@ -234,7 +234,7 @@ Notes:
 
 ### Additional Testing
 
-+ As the quiz will ask you 10 questions but consists of 30, throughout the development of this project I tested that my project consistently met the following criteria:
++ As the quiz will ask you 10 questions but consists of 30, throughout the project's development I tested that it consistently met the following criteria:
     + All questions displayed the correct message, image, alt text equivalent and available answers for the current question.
         + Questions remaining count was displaying correctly.
     + Upon selecting an answer the post guess content showed as intended:
@@ -254,7 +254,7 @@ Notes:
     + Upon clicking the Check your score the finishing content showed as intended:
         + The quiz complete sound would play.
         + The finished content screen would show displaying the user's score and percentage.
-        + The Play GGG again button would display
+        + The Play GGG again button would display.
     + Upon clicking the Play GGG again button it would launch another instance of the quiz correctly.
 
 + index.html was tested that:
@@ -265,7 +265,7 @@ Notes:
     + Background image loads correctly.
     + Toggle music button functions as intended.
         + Plays/pauses music.
-        + Changes font awesome icon based on status of music.
+        + Changes font awesome icon based on music status.
     + The home button returns the user to the homepage.
 
 ### Bugs

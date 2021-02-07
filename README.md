@@ -106,7 +106,7 @@ E. Repeat button after quiz | 5 | 4
 
 Using a combination of [coolors.co](https://coolors.co/) and [Accessible Color Generator Tool](https://learnui.design/tools/accessible-color-generator.html) I was able to create a colour scheme that fits in with RuneScape's vibe and traditional colours. I wanted to use a small amount of colours to keep the design simple, as I feel that is what drew the majority of players to try RuneScape in the first place. The colours will remain the same throughout the quiz and the user will be given feedback of their actions in the form of different content/responses showing and sounds playing.
 
-I tested my colour contrasts against the AAA guidelines using [this tool](https://learnui.design/tools/accessible-color-generator.html) as mentioned in my technologies section. I have included a picture to below as proof:
+I tested my colour contrasts against the AAA guidelines using [this tool](https://learnui.design/tools/accessible-color-generator.html) as mentioned in my technologies section. I have included a picture below as proof:
 
 ![Accessible Colours](readme-files/aaa-guidelines.png)
 
@@ -321,7 +321,7 @@ This section includes areas/sections of code and properties I was unaware of. I 
 
 + The font used throughout this site is from [here](https://www.dafont.com/runescape-uf.font) and is a player generated font file based on the RuneScape font.
     + Note: For the File Structure area of the distinction section on the Assessment Handbook 2020 it states "files are named consistently and descriptively, without spaces or capitalisation to allow for cross-platform compatibility".
-    + These are the only files in my entire project that are capitalized. It occured when I used [Transfonter](https://transfonter.org/) to compile my custom font CSS I tried to renaming the files/sources to lowercase but ran into multiple errors on the .SVG file.
+    + These are the only files in my entire project that are capitalized. It occured when I used [Transfonter](https://transfonter.org/) to compile my custom font CSS. I tried renaming the files/sources to lowercase but ran into multiple errors on the .SVG file.
     + I currently do not have the knowledge on how to make this lowercase so I thought it best to include this note as I am aiming for a distinction.
 
 #### Images
