@@ -181,7 +181,7 @@ Notes:
         + When I load into the site I am presented with an introductory message informing the user the site contains a quiz.
         + I am also directed to the "Find out more" button which tells me the purpose of the website.
         + Finally I am prompted on how to play the game by pressing the "Start Quiz" button. 
-        + The pictures of the landing screen that show this information can be found in the user story testing 1.
+        + The pictures of the landing screen that show this information can be found in the user story testing #1.
 
     + As a **site owner** I want any user to receive the correct information for the viewport they are currently on.
         + I have tested the website across multiple screen sizes and have found no issues thus far with content displaying or appearing incorrectly.
@@ -196,7 +196,8 @@ Notes:
         + Upon loading the site I am presented with buttons for Start quiz, Find out more, Toggle music and return to Home.
         + In the footer I can see 3 self explanatory icons for Suggest a question, LinkedIn and GitHub. 
         + Both find out more and suggest a question open a modal, the links open in new tabs and the music/start/home buttons all function as intended.
-  
+        + You can find evidence of this in user story testing #1.
+
     + As a **site owner**  I want to include links to my GitHub and LinkedIn profiles so the user can view other projects I have contributed to.
         + In the footer there are GitHub and LinkedIn icons each with a link that will open the associated profiles of the developer in a new tab.
         + From here I can see all the contributions to projects this user has made.
@@ -206,23 +207,26 @@ Notes:
        + Upon loading the site I am given the pre quiz screen which provides a moment for me to get my bearings before the quiz.
         + Throughout the site the font RuneScape-UF is used which as a RuneScape player I instantly recognize thus making the environment engaging.
         + On each question I am presented with a question, question image, 4 possible answers and a counter showing the questions I have left to answer. This is reassuring as I am able to see my progress at any point.
-        + You can find evidence of this in user stories 3 and 7.
+        + You can find evidence of this in user story testing #3 and #7.
 
     + As a **site owner** I want to create a site that provides a welcoming atmosphere to learn about RuneScape.
         + Upon loading the site the entire feel of what I experience makes me feel welcomed. There is minimal but critical information on the landing page.
         + There is also a Find out more modal I can activate which provides more information about the site and does not overload me with content.
         + The home, music and footer buttons are all designed/positioned cleanly and do not intrude on the experience at all.
+        + You can find evidence of this in user story testing #1.
 
     + As a **site owner** I want to provide the user with feedback about whether their answer is correct or not and the reasoning why after each question.
         + Upon making a guess I am presented with the post guess screen. This provides information pertaining to the outcome of my guess.
         + I will receive a randomly selected correct/incorrent message plus supporting information/reasoning if correct and a hint if incorrect. The array of responses keeps the outcomes fresh and engaging.
         + I will also hear a different sound playing based on the outcome of my guess.
         + I will also hear a sound upon reaching the scoreboard screen at the end of the quiz.
+        + You can find evidence of this in user story #7.
 
     + As a **site owner** I want to create a quiz that will help users learn about the MMORPG RuneScape.
         + The quiz itself is comprised of questions from multiple areas of RuneScape knowledge. This provides a varied learning experience and a building block for a bigger project.
         + Due to the wide variety of questions I am fairly confident most players who take the quiz may not be aware of at least some of the areas mentioned.
         + When I guess incorrectly I am given a hint about that piece of content which sparks the learning process as I am made more aware of this content.
+        + You can find evidence of how incorrect guesses are handled in user story #7.
 
     + As a **site owner** I want to include a form within a modal that can be accessed anywhere and allows the user to suggest questions for the quiz.
         + I have placed a '?' icon in the footer which opens up a suggest a question modal. This allows me to submit my question, answer list, correct answer and name I want credited.
