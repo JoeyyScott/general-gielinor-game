@@ -104,7 +104,7 @@ E. Repeat button after quiz | 5 | 4
 
 ![Colour Scheme](readme-files/colourscheme.png)
 
-Using a combination of [coolors.co](https://coolors.co/) and [Accessible Color Generator Tool](https://learnui.design/tools/accessible-color-generator.html) I was able to create a colour scheme that fits in with RuneScape's vibe and traditional colours. 
+Using a combination of [coolors.co](https://coolors.co/) and [Accessible Color Generator Tool](https://learnui.design/tools/accessible-color-generator.html) I was able to create a colour scheme that fits in with RuneScape's vibe and traditional colours. I wanted to use a small amount of colours to keep the design simple, as I feel that is what drew the majority of players to try RuneScape in the first place. The colours will remain the same throughout the quiz and the user will be given feedback of their actions in the form of different content/responses showing and sounds playing.
 
 #### Images
 
